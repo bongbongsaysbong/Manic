@@ -22,7 +22,8 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   __User Credits:__<br/>
   VisiVersa - Main Programmer<br/>
   ElBones - Artist, Brainstorming<br/>
-  CreeperMagnet_ - Miscellaneous code<br/>
+  CreeperMagnet_ - Miscellaneous Code<br/>
+  the der discohund - [Shader Code](https://github.com/HalbFettKaese/)<br/>
   chlo - [Respite Music Disc](https://www.youtube.com/watch?v=G-pl_pN_okU)<br/>
   
   __Libraries:__<br/>

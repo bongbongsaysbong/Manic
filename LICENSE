@@ -1,21 +1,47 @@
-MIT License
-
+This license describes the terms of usage across Insomniacs projects. These terms may be subject to change at any time.
 Copyright (c) 2022 Visi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+|=================|
+| PERMITTED USAGE |
+|=================|
+We are really lenient with our projects, and we trust you to do the right thing. This means that you are entitled to:
+- use and enjoy our content freely.
+- host our content on multiplayer servers.
+- view and use excerpts of our code, so long as credit is provided.
+- modify our code for personal use.
+- include our projects in any personal modpacks or on multiplayer servers with other content.
+- take inspiration from our projects or even create similar projects, so long as the idea is transformative.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+|==================|
+| PROHIBITED USAGE |
+|==================|
+Unless you are specifically given permission from us, please do not:
+- republish, reupload or otherwise reuse our model and texture assets.
+- republish, reupload or otherwise redistribute our projects.
+     * you may reupload a resource pack on a hosting site for server usage.
+     * you may redistribute a resource pack to server members.
+     * should you make retextures or other asset changes, those are also permitted to reupload; however, said reuploads must not contain our assets.
+- include our projects in any publicly uploaded modpack or "datapack-pack."
+     * we do make exceptions for this, but you must consult with us first.
+- directly profit off of our projects in any way.
+- use our projects as a part of promotion for any paid material.
+- create indirect links to our projects; this means that links cannot redirect you multiple times in one click.
+- directly copy ideas and themeing; of course, inspiration is okay, we take plenty ourselves, but it's fairly obvious when something is copied.
+If you are in doubt of something, or simply want permission for usage, please ask us!
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+|========|
+| CREDIT |
+|========|
+If any of the following apply:
+- your project is directly inspired by seeing ours, taking core mechanics, themes or ideas,
+- you are redistributing our projects or assets in any way,
+- you are creating a resource pack that includes our work (i.e. asset changes),
+- you have received permission from us to include our projects in a modpack or "datapack-pack,"
+then you must give proper credit.
+
+Proper credit includes:
+- a link to the following GitHub page: https://github.com/VisiVersa
+- a mention of the relevant project(s),
+- optionally, what specifically has been used.
+
+Hope you enjoy!

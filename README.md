@@ -52,9 +52,15 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   This is an issue caused by mods or datapacks that unlock all recipe advancements, notably VanillaTweaks and Quark (though Quark's can be configured off). This is due to how datapacks handle custom recipes.<br/>
   
   __This feature is broken__<br/>
-  Some server or plugin software may cause issues with our datapacks. This notoriously includes Paper, Spigot, Bukkit, Paper and Purpur. You can try to mess around with the config files, but it's recommended to use Vanilla or Fabric, and sometimes Forge with varying results.<br/>
-  
-  __List of custom commands__<br/>
+  Some server or plugin software may cause issues with our datapacks. This notoriously includes Paper, Spigot, Bukkit, Paper and Purpur. You can try to mess around with the config files, but it's recommended to use Vanilla or Fabric, and sometimes Forge with varying results.<br/><br/>
+
+</details>
+
+<details>
+  <summary>
+    💻 Commands 💻
+  </summary>
+
   ➼ gamerules: /function manic:commands/gamerules<br/>
   ➼ spawning items: /loot give @s loot manic:items/...<br/>
   ➼ spawning mobs: /function manic:commands/summon/...<br/>

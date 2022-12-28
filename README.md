@@ -6,7 +6,7 @@
 
 Go insane and fight stronger, spookier monsters. Shall you be brave enough, you may be rewarded graciously in the dark arts...
 
-Manic is a magic datapack for Minecraft that allows you to delve into insanity. Insanity brings stronger monsters with unique, challenging behaviour, but a handful of rewards, new blocks, new items, new mechanics and more. Explore what lurks across reality with your trusty Grimoire, fight off nasty undead monsters with the Corpsebloom, use its Corpse Sap to recover sanity or power all sorts of new items, create anirrum and charonite, unbreakable diamond and netherite alternatives that eat your sanity, commit rituals to do your bidding, and a whole lot more.
+Manic is a magic datapack for Minecraft that allows you to delve into insanity. Insanity brings stronger monsters with unique, challenging behaviour, but a handful of rewards, new blocks, new items, new mechanics and more. Explore what lurks across reality with your trusty grimoire, fight off nasty undead monsters with the corpsebloom, use its corpse sap to recover sanity or power all sorts of new items, create anirrum and charonite, unbreakable diamond and netherite alternatives that eat your sanity, commit rituals to do your bidding, and a whole lot more.
 
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)

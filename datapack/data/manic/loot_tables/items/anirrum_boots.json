@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:68,display:{color:12772060},Unbreakable:1b,CustomModelData:8360000,manic:{charonite_modified:0b,id:\"anirrum_boots\",tool:\"anirrum\"},AttributeModifiers:[{Amount:2.0d,Slot:\"feet\",AttributeName:\"minecraft:generic.armor_toughness\",Name:\"minecraft:generic.armor_toughness\",Operation:0,UUID:[I;8,3,6,5]},{Amount:3.0d,Slot:\"feet\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;7,3,6,5]}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.anirrum_boots",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:block/corpsegourd",
+		"particle": "manic:block/corpsegourd"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [8, 0, -7],
+			"to": [8, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"east": {"uv": [0, 6, 4.5, 10], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"west": {"uv": [4.5, 6, 0, 10], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 4], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -10.4, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{item_immunity:1b},manic:{charonite_modified:1b,id:\"charonite_sword\"}}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "item.manic.charonite_sword",
+      "italic": false
+    }
+  }
+]

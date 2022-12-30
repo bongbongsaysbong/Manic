@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/1.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "aA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/2.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "bB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/3.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "cC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/4.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "dD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/5.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "eE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/6.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "fF"
+      ]
+    }
+  ]
+}

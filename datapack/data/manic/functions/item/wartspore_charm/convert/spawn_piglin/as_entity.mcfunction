@@ -1,0 +1,9 @@
+data modify entity @s IsBaby set from storage manic:storage root.temp.piglin_data.IsBaby
+data modify entity @s ArmorItems set from storage manic:storage root.temp.piglin_data.ArmorItems
+data modify entity @s HandItems set from storage manic:storage root.temp.piglin_data.HandItems
+data modify entity @s ArmorDropChances set from storage manic:storage root.temp.piglin_data.ArmorDropChances
+data modify entity @s Inventory set from storage manic:storage root.temp.piglin_data.Inventory
+data modify entity @s LeftHanded set from storage manic:storage root.temp.piglin_data.LeftHanded
+data modify entity @s CanPickUpLoot set from storage manic:storage root.temp.piglin_data.CanPickUpLoot
+data modify entity @s Rotation set from storage manic:storage root.temp.piglin_data.Rotation
+data modify entity @s Pos set from storage manic:storage root.temp.piglin_data.Pos

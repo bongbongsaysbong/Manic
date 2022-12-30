@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/revenant/charge",
+	"textures": {
+		"0": "manic:entity/revenant/charge_hurt"
+	}
+}

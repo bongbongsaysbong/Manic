@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{Lock:\"§manic.deepslate_altar\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:block/deepslate_altar/click"
+  }
+}

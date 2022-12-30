@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{item_immunity:1b},manic:{charonite_modified:1b,id:\"charonite_leggings\"},CustomModelData:8360001,AttributeModifiers:[],display:{color:3423547}}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "item.manic.charonite_leggings",
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "name": "minecraft:generic.knockback_resistance",
+        "amount": 0.1,
+        "operation": "addition",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "addition",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "addition",
+        "slot": "legs"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:location/dimension/the_nether"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:location/dimension/bracken/dormis"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:location/dimension/expansion/venus"
+    }
+  ]
+}

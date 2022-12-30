@@ -1,0 +1,101 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:block/corpsebloom/corpsebloom",
+		"particle": "manic:block/corpsebloom/corpsebloom"
+	},
+	"elements": [
+		{
+			"name": "Bud",
+			"from": [4, -4, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 7, 12, 9], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [8, 7, 10, 9], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [14, 7, 16, 9], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12, 7, 14, 9], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [10, 5, 12, 7], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [12, 5, 14, 7], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Cross",
+			"from": [3, 4, 8],
+			"to": [13, 28, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 10, 10, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [10, 10, 7.5, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Cross",
+			"from": [8, 4, 3],
+			"to": [8, 28, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"east": {"uv": [5, 10, 7.5, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [7.5, 10, 5, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Petals",
+			"from": [-1, 12, 2],
+			"to": [17, 30, 2],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 4.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.5, 0, 0, 4.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Disk",
+			"from": [5, 18, 1],
+			"to": [11, 24, 4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 4]},
+			"faces": {
+				"north": {"uv": [1.5, 4.5, 3, 6], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 6, 1.5, 6.75], "rotation": 90, "texture": "#0", "tintindex": 0},
+				"south": {"uv": [3, 4.5, 4.5, 6], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3, 6, 4.5, 6.75], "rotation": 270, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.5, 6, 6, 6.75], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.5, 6, 3, 6.75], "rotation": 180, "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -6, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	},
+	"groups": [
+		{
+			"name": "Flower",
+			"origin": [8, 4, 8],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "Stem",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [1, 2]
+				},
+				{
+					"name": "Flower Head",
+					"origin": [8, 4, 8],
+					"color": 0,
+					"children": [3, 4]
+				}
+			]
+		}
+	]
+}

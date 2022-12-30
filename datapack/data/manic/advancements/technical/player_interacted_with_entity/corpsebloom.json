@@ -1,0 +1,74 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "feed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh",
+            "minecraft:bone",
+            "minecraft:structure_block",
+            "minecraft:porkchop"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.dummy": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.corpsebloom\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "bottle": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.dummy": 3
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.corpsebloom\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "feed",
+      "bottle"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:block/corpsebloom/interact/raycast_start"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "items": [
+              "minecraft:diamond_helmet",
+              "minecraft:netherite_helmet"
+            ],
+            "nbt": "{manic:{tool:\"anirrum\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "chest": {
+            "items": [
+              "minecraft:diamond_chestplate",
+              "minecraft:netherite_chestplate"
+            ],
+            "nbt": "{manic:{tool:\"anirrum\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "items": [
+              "minecraft:diamond_leggings",
+              "minecraft:netherite_leggings"
+            ],
+            "nbt": "{manic:{tool:\"anirrum\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": [
+              "minecraft:diamond_boots",
+              "minecraft:netherite_boots"
+            ],
+            "nbt": "{manic:{tool:\"anirrum\"}}"
+          }
+        }
+      }
+    }
+  ]
+}

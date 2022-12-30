@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:diamond_axe",
+          "minecraft:netherite_axe"
+        ],
+        "count": {
+          "min": 1
+        },
+        "nbt": "{manic:{curse:\"insanity\"}}"
+      }
+    }
+  }
+}

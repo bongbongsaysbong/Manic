@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 2
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/buried.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/unlock_1.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/unlock_2.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/unlock_3.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/unlock_4.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/unknown/deeply_buried.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua005"
+      ]
+    }
+  ]
+}

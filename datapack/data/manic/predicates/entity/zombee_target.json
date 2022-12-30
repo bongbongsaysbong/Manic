@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/snare/default"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"manic.entity.snareable\"]}"
+      }
+    }
+  ]
+}

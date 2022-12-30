@@ -1,0 +1,21 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{manic:{id:\"anirrum_helmet\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/anirrum/helmet/unequip/main"
+  }
+}

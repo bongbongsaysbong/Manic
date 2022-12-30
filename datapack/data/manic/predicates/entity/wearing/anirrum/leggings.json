@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "items": [
+          "minecraft:diamond_leggings",
+          "minecraft:netherite_leggings"
+        ],
+        "nbt": "{manic:{tool:\"anirrum\"}}"
+      }
+    }
+  }
+}

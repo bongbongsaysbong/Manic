@@ -1,0 +1,31 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ],
+              "nbt": "{manic:{id:\"charonite_chestplate\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ],
+            "nbt": "{manic:{id:\"charonite_chestplate\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/charonite/chestplate/equip"
+  }
+}

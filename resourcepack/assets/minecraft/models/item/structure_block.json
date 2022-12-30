@@ -1,0 +1,107 @@
+{
+	"parent": "minecraft:block/structure_block",
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8360000
+		},
+		"model": "manic:null"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360001
+		},
+		"model": "manic:item/spectre_drop/necroplasm"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360002
+		},
+		"model": "manic:item/spectre_drop/reticulum"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360003
+		},
+		"model": "manic:item/spectre_drop/lysosome"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360004
+		},
+		"model": "manic:item/spectre_drop/vacuuole"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360005
+		},
+		"model": "manic:item/moonstone"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360006
+		},
+		"model": "manic:item/sunstone"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360007
+		},
+		"model": "manic:item/anima_shackles"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360008
+		},
+		"model": "manic:item/bound_anima_shackles"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360009
+		},
+		"model": "manic:item/mad_eye"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360010
+		},
+		"model": "manic:item/oozing_nucleus"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360011
+		},
+		"model": "manic:entity/wormhole/large"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360012
+		},
+		"model": "manic:item/voidstone"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360013
+		},
+		"model": "manic:item/anirrum/anirrum_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360014
+		},
+		"model": "manic:item/elderskin/elderskin"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360015
+		},
+		"model": "manic:item/elderskin/elderskin_inlay"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360016
+		},
+		"model": "manic:item/mad_eye"
+	  }
+	]
+}

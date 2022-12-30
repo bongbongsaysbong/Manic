@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/piglin_monk/head",
+	"textures": {
+		"0": "manic:entity/piglin_monk/base_hurt"
+	}
+}

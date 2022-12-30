@@ -1,0 +1,45 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/mirage_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/revenant_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/eidolon_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/spook_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/necromorph_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/grinn_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/siren_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/sorrowhead_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/lockjaw_nametag"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/nametag/corpsecreep_nametag"
+    }
+  ]
+}

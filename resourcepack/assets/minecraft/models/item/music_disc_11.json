@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_11"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8360000
+      },
+      "model": "manic:item/music_disc_respite"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "manic:block/base",
+  "textures": {
+    "particle": "manic:block/deepslate_altar/active/bottom",
+    "north": "manic:block/deepslate_altar/active/side",
+    "south": "manic:block/deepslate_altar/active/side",
+    "east": "manic:block/deepslate_altar/active/side",
+    "west": "manic:block/deepslate_altar/active/side",
+    "up": "manic:block/deepslate_altar/active/top",
+    "down": "manic:block/deepslate_altar/active/bottom"
+  }
+}

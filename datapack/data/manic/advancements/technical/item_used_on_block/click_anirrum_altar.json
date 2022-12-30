@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "top": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{Lock:\"§manic.anirrum_altar\\\\uF001\"}"
+          }
+        }
+      }
+    },
+    "bottom": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{Lock:\"§manic.anirrum_altar\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "top",
+      "bottom"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:block/anirrum_altar/click"
+  }
+}

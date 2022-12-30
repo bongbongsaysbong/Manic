@@ -1,0 +1,56 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "armor_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_helmet",
+            "minecraft:netherite_chestplate",
+            "minecraft:netherite_leggings",
+            "minecraft:netherite_boots"
+          ],
+          "nbt": "{manic:{tool:\"anirrum\"}}"
+        },
+        "entity": {
+          "type": "minecraft:armor_stand"
+        }
+      }
+    },
+    "entity": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "#nucleus:preset/wears_equipment"
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_helmet",
+            "minecraft:netherite_chestplate",
+            "minecraft:netherite_leggings",
+            "minecraft:netherite_boots"
+          ],
+          "nbt": "{manic:{tool:\"anirrum\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "armor_stand",
+      "entity"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:item/anirrum/equip_entity"
+  }
+}

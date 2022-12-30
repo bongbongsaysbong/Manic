@@ -1,0 +1,226 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/empty1x1.png",
+        "ascent": -32768,
+        "height": 155,
+        "chars": [
+          "S"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/bar_empty.png",
+        "ascent": -70,
+        "height": 9,
+        "chars": [
+          "0"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/bar_full.png",
+        "ascent": -70,
+        "height": 9,
+        "chars": [
+          "1"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/bar_lunacy.png",
+        "ascent": -70,
+        "height": 9,
+        "chars": [
+          "2"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_shut.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "A"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_shut_down1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "B"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_shut_down2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "C"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_shut_up1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "D"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_shut_up2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "E"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_mid.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "F"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_mid_down1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "G"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_mid_down2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "H"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_mid_up1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "I"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_mid_up2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "J"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_open.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "K"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_open_down1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "L"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_open_down2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "M"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_open_up1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "N"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_open_up2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "O"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_lunacy.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "P"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_lunacy_down1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "Q"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_lunacy_down2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "R"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_lunacy_up1.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "T"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:gui/sanity/eyeball_lunacy_up2.png",
+        "ascent": -70,
+        "height": 22,
+        "chars": [
+          "W"
+        ]
+      }
+    ]
+  }

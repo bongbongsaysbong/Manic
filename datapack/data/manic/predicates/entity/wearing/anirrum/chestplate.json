@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "items": [
+          "minecraft:diamond_chestplate",
+          "minecraft:netherite_chestplate"
+        ],
+        "nbt": "{manic:{tool:\"anirrum\"}}"
+      }
+    }
+  }
+}

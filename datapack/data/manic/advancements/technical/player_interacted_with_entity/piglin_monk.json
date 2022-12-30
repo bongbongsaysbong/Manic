@@ -1,0 +1,36 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:structure_block",
+            "minecraft:phantom_membrane"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.piglin_monk\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.dummy": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/piglin_monk/interact/raycast_start"
+  }
+}

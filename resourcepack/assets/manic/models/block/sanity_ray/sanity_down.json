@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "manic:block/sanity_ray/trail_sanity",
+		"particle": "manic:block/sanity_ray/trail_sanity"
+	},
+	"elements": [
+		{
+			"name": "Big",
+			"from": [1, 0, 1],
+			"to": [15, 0, 15],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 5, 9]},
+			"faces": {
+				"up": {"uv": [7.5, 0.5, 0.5, 7.5], "texture": "#0"},
+				"down": {"uv": [0.5, 0.5, 7.5, 7.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Medium",
+			"from": [3, 5, 3],
+			"to": [13, 5, 13],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 5, 9]},
+			"faces": {
+				"up": {"uv": [5.5, 8, 0.5, 13], "texture": "#0"},
+				"down": {"uv": [0.5, 8, 5.5, 13], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Small",
+			"from": [5, 10, 5],
+			"to": [11, 10, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 5, 9]},
+			"faces": {
+				"up": {"uv": [11, 0.5, 8, 3.5], "texture": "#0"},
+				"down": {"uv": [8, 0.5, 11, 3.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -9.7, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -5, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	}
+}

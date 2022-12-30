@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.33
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  {
+    "condition": "minecraft:time_check",
+    "value": {
+      "min": 15000,
+      "max": 15200
+    },
+    "period": 24000
+  }
+]

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/siren/charge",
+	"textures": {
+		"0": "manic:entity/siren/charge_hurt"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/necromorph/sprint",
+	"textures": {
+		"0": "manic:entity/necromorph/sprint_hurt"
+	}
+}

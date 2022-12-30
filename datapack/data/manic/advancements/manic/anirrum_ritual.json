@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser",
+      "nbt": "{CustomModelData:8360006}"
+    },
+    "title": {
+      "translate": "advancements.manic.anirrum_ritual"
+    },
+    "description": {
+      "translate": "advancements.manic.anirrum_ritual.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/deepslate_ritual",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

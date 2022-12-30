@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/siren/spawn_hands",
+	"textures": {
+		"0": "manic:entity/siren/spawn_hands_hurt"
+	}
+}

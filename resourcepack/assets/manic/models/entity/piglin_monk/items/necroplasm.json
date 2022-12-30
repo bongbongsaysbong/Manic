@@ -1,0 +1,272 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:entity/piglin_monk/base",
+		"1": "manic:item/necroplasm",
+		"particle": "manic:entity/piglin_monk/base"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [4, 12, 6],
+			"to": [12, 24, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [5, 4.975, 7, 7.975], "texture": "#0"},
+				"east": {"uv": [4, 4.975, 5, 7.975], "texture": "#0"},
+				"south": {"uv": [8, 4.975, 10, 7.975], "texture": "#0"},
+				"west": {"uv": [7, 4.975, 8, 7.975], "texture": "#0"},
+				"up": {"uv": [7, 4.975, 5, 3.975], "texture": "#0"},
+				"down": {"uv": [9, 3.975, 7, 4.975], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Arm1",
+			"from": [0, 12, 6],
+			"to": [4, 24, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [4, 23, 8]},
+			"faces": {
+				"north": {"uv": [9, 13, 10, 16], "texture": "#0"},
+				"east": {"uv": [8, 13, 9, 16], "texture": "#0"},
+				"south": {"uv": [11, 13, 12, 16], "texture": "#0"},
+				"west": {"uv": [10, 13, 11, 16], "texture": "#0"},
+				"up": {"uv": [10, 13, 9, 12], "texture": "#0"},
+				"down": {"uv": [11, 12, 10, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Arm0",
+			"from": [12, 12, 6],
+			"to": [16, 24, 10],
+			"rotation": {"angle": 45, "axis": "x", "origin": [12, 23, 8]},
+			"faces": {
+				"north": {"uv": [11, 5, 12, 8], "texture": "#0"},
+				"east": {"uv": [10, 5, 11, 8], "texture": "#0"},
+				"south": {"uv": [13, 5, 14, 8], "texture": "#0"},
+				"west": {"uv": [12, 5, 13, 8], "texture": "#0"},
+				"up": {"uv": [12, 5, 11, 4], "texture": "#0"},
+				"down": {"uv": [13, 4, 12, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leg0",
+			"from": [8, 0, 6],
+			"to": [12, 12, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [10, 11, 8]},
+			"faces": {
+				"north": {"uv": [1, 5, 2, 8], "texture": "#0"},
+				"east": {"uv": [0, 5, 1, 8], "texture": "#0"},
+				"south": {"uv": [3, 5, 4, 8], "texture": "#0"},
+				"west": {"uv": [2, 5, 3, 8], "texture": "#0"},
+				"up": {"uv": [2, 5, 1, 4], "texture": "#0"},
+				"down": {"uv": [3, 4, 2, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leg1",
+			"from": [4, 0, 6],
+			"to": [8, 12, 10],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 11, 8]},
+			"faces": {
+				"north": {"uv": [6, 13, 5, 16], "texture": "#0"},
+				"east": {"uv": [7, 13, 6, 16], "texture": "#0"},
+				"south": {"uv": [8, 13, 7, 16], "texture": "#0"},
+				"west": {"uv": [5, 13, 4, 16], "texture": "#0"},
+				"up": {"uv": [5, 13, 6, 12], "texture": "#0"},
+				"down": {"uv": [6, 12, 7, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "necroplasm_0",
+			"from": [14, 18.5, 5],
+			"to": [15, 24, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [8, 13, 10, 2], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [9, 2, 10, 13], "texture": "#1"},
+				"south": {"uv": [8, 2, 10, 13], "texture": "#1"},
+				"west": {"uv": [8, 2, 9, 13], "texture": "#1"},
+				"up": {"uv": [10, 2, 8, 3], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [8, 12, 10, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_1",
+			"from": [12, 18.5, 5],
+			"to": [14, 23.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [4, 13, 8, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [7, 3, 8, 13], "texture": "#1"},
+				"south": {"uv": [4, 3, 8, 13], "texture": "#1"},
+				"west": {"uv": [4, 3, 5, 13], "texture": "#1"},
+				"up": {"uv": [8, 3, 4, 4], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [4, 12, 8, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_2",
+			"from": [15, 18.5, 5],
+			"to": [15.5, 23.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [10, 13, 11, 3], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [10, 3, 11, 13], "texture": "#1"},
+				"south": {"uv": [10, 3, 11, 13], "texture": "#1"},
+				"west": {"uv": [10, 3, 11, 13], "texture": "#1"},
+				"up": {"uv": [11, 3, 10, 4], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [10, 12, 11, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_3",
+			"from": [11.5, 19, 5],
+			"to": [12, 23, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [3, 12, 4, 4], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [3, 4, 4, 12], "texture": "#1"},
+				"south": {"uv": [3, 4, 4, 12], "texture": "#1"},
+				"west": {"uv": [3, 4, 4, 12], "texture": "#1"},
+				"up": {"uv": [4, 4, 3, 5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [3, 11, 4, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_4",
+			"from": [15.5, 18.5, 5],
+			"to": [16, 23, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [11, 13, 12, 4], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [11, 4, 12, 13], "texture": "#1"},
+				"south": {"uv": [11, 4, 12, 13], "texture": "#1"},
+				"west": {"uv": [11, 4, 12, 13], "texture": "#1"},
+				"up": {"uv": [12, 4, 11, 5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [11, 12, 12, 13], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_5",
+			"from": [16, 19, 5],
+			"to": [16.5, 22.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [12, 12, 13, 5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [12, 5, 13, 12], "texture": "#1"},
+				"south": {"uv": [12, 5, 13, 12], "texture": "#1"},
+				"west": {"uv": [12, 5, 13, 12], "texture": "#1"},
+				"up": {"uv": [13, 5, 12, 6], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [12, 11, 13, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_6",
+			"from": [16.5, 19, 5],
+			"to": [17, 22, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [13, 12, 14, 6], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [13, 6, 14, 12], "texture": "#1"},
+				"south": {"uv": [13, 6, 14, 12], "texture": "#1"},
+				"west": {"uv": [13, 6, 14, 12], "texture": "#1"},
+				"up": {"uv": [14, 6, 13, 7], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [13, 11, 14, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_7",
+			"from": [11, 19, 5],
+			"to": [11.5, 21.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [2, 12, 3, 7], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [2, 7, 3, 12], "texture": "#1"},
+				"south": {"uv": [2, 7, 3, 12], "texture": "#1"},
+				"west": {"uv": [2, 7, 3, 12], "texture": "#1"},
+				"up": {"uv": [3, 7, 2, 8], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [2, 11, 3, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_8",
+			"from": [10.5, 19.5, 5],
+			"to": [11, 21, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [1, 11, 2, 8], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [1, 8, 2, 11], "texture": "#1"},
+				"south": {"uv": [1, 8, 2, 11], "texture": "#1"},
+				"west": {"uv": [1, 8, 2, 11], "texture": "#1"},
+				"up": {"uv": [2, 8, 1, 9], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1, 10, 2, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_9",
+			"from": [17, 19.5, 5],
+			"to": [17.5, 20.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [14, 11, 15, 9], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [14, 9, 15, 11], "texture": "#1"},
+				"south": {"uv": [14, 9, 15, 11], "texture": "#1"},
+				"west": {"uv": [14, 9, 15, 11], "texture": "#1"},
+				"up": {"uv": [15, 9, 14, 10], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [14, 10, 15, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "necroplasm_10",
+			"from": [12.5, 18, 5],
+			"to": [14.5, 18.5, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, 4, 4]},
+			"faces": {
+				"north": {"uv": [5, 14, 9, 13], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [8, 13, 9, 14], "texture": "#1"},
+				"south": {"uv": [5, 13, 9, 14], "texture": "#1"},
+				"west": {"uv": [5, 13, 6, 14], "texture": "#1"},
+				"up": {"uv": [9, 13, 5, 14], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [5, 13, 9, 14], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -8, -6],
+			"scale": [1.05, 1.05, 1.05]
+		},
+		"head": {
+			"translation": [0, -28, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "Arms",
+			"origin": [12, 23, 8],
+			"color": 0,
+			"children": [1, 2]
+		},
+		{
+			"name": "Legs",
+			"origin": [6, 11, 8],
+			"color": 0,
+			"children": [3, 4]
+		},
+		{
+			"name": "necroplasm",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+		}
+	]
+}

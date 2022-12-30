@@ -1,0 +1,244 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          " ": 4
+        }
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/a.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "A"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/b.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "B"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/c.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "C"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/d.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "D"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/e.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "E"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/f.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "F"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/g.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "G"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/h.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "H"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/i.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "I"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/j.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "J"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/k.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "K"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/l.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "L"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/m.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "M"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/n.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "N"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/o.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "O"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/p.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "P"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/q.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "Q"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/r.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "R"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/s.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "S"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/t.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "T"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/u.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "U"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/v.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "V"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/w.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "W"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/x.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "X"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/y.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "Y"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "manic:font/grimspeak/z.png",
+        "ascent": 8,
+        "height": 8,
+        "chars": [
+          "Z"
+        ]
+      }
+    ]
+  }

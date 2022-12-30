@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.manic.anima_shackles.lore",
+        "with": [
+          {
+            "nbt": "root.temp.shackle_lore.dimension",
+            "storage": "manic:storage",
+            "interpret": true
+          },
+          {
+            "nbt": "root.temp.shackle_lore.pos[0]",
+            "storage": "manic:storage"
+          },
+          {
+            "nbt": "root.temp.shackle_lore.pos[1]",
+            "storage": "manic:storage"
+          },
+          {
+            "nbt": "root.temp.shackle_lore.pos[2]",
+            "storage": "manic:storage"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.manic",
+        "color": "#106050",
+        "italic": true
+      }
+    ],
+    "replace": true
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8360016}"
+    },
+    "title": {
+      "translate": "advancements.manic.root"
+    },
+    "description": {
+      "translate": "advancements.manic.root.description"
+    },
+    "background": "manic:textures/gui/advancement.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"grimoire\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

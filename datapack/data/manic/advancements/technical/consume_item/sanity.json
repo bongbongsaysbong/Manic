@@ -1,0 +1,117 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "very_bad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "manic:sanity/very_bad"
+        }
+      }
+    },
+    "very_bad_nbt": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"very_bad\"}}"
+        }
+      }
+    },
+    "bad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "manic:sanity/bad"
+        }
+      }
+    },
+    "bad_nbt": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"bad\"}}"
+        }
+      }
+    },
+    "neutral": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "manic:sanity/neutral"
+        }
+      }
+    },
+    "neutral_nbt": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"neutral\"}}"
+        }
+      }
+    },
+    "good": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "manic:sanity/good"
+        }
+      }
+    },
+    "good_nbt": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"good\"}}"
+        }
+      }
+    },
+    "very_good": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "manic:sanity/very_good"
+        }
+      }
+    },
+    "very_good_nbt": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"very_good\"}}"
+        }
+      }
+    },
+    "ignore": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "nucleus:edible",
+          "nbt": "{manic:{sanity:\"ignore\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "very_bad",
+      "bad",
+      "neutral",
+      "good",
+      "very_good",
+      "very_bad_nbt",
+      "bad_nbt",
+      "neutral_nbt",
+      "good_nbt",
+      "very_good_nbt",
+      "ignore"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:item/consume/sanity/main"
+  }
+}

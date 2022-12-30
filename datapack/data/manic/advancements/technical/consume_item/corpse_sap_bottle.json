@@ -1,0 +1,19 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{manic:{id:\"corpse_sap_bottle\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/consume/corpse_sap_bottle"
+  }
+}

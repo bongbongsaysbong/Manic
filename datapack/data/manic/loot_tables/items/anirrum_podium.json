@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"manic:anirrum_podium\"}}}}]},CustomModelData:8360010,manic:{id:\"anirrum_podium\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.manic.anirrum_podium",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dispenser"
+        }
+      ]
+    }
+  ]
+}

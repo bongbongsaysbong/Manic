@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/player/initiate"
+  },
+  "parent": "manic:technical/root"
+}

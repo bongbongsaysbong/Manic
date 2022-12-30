@@ -1,0 +1,206 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8360003}"
+    },
+    "title": {
+      "translate": "advancements.manic.kill_all_spectres"
+    },
+    "description": {
+      "translate": "advancements.manic.kill_all_spectres.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/kill_spectre",
+  "criteria": {
+    "phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:phantom",
+              "nbt": "{Tags:[\"manic.phantom\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "spook": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"manic.spook\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "revenant": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"manic.revenant\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "mirage": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:drowned",
+              "nbt": "{Tags:[\"manic.mirage\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "eidolon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.eidolon\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "sorrowhead": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.sorrowhead\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "necromorph": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[\"manic.necromorph\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "grinn": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[\"manic.grinn\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "siren": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:drowned",
+              "nbt": "{Tags:[\"manic.siren\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "lockjaw": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[\"manic.lockjaw\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "phantom"
+    ],
+    [
+      "spook"
+    ],
+    [
+      "revenant"
+    ],
+    [
+      "mirage"
+    ],
+    [
+      "eidolon"
+    ],
+    [
+      "sorrowhead"
+    ],
+    [
+      "necromorph"
+    ],
+    [
+      "grinn"
+    ],
+    [
+      "siren"
+    ],
+    [
+      "lockjaw"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

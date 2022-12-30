@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/grinn/summon",
+	"textures": {
+		"0": "manic:entity/grinn/summon_hurt"
+	}
+}

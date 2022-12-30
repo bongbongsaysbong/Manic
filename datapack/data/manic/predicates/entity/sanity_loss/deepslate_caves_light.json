@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "manic:location/deepslate_caves"
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "manic:location/light_level/low_light"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "manic:entity/effects/night_vision"
+      }
+    ]
+  }
+]

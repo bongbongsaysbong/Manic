@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/lockjaw/bite",
+	"textures": {
+		"0": "manic:entity/lockjaw/bite_hurt"
+	}
+}

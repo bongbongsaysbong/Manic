@@ -1,0 +1,56 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{Lock:\"§manic.anirrum_altar\\\\uF001\"}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrier"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:dispenser"
+            ],
+            "nbt": "{Lock:\"§manic.anirrum_altar\\\\uF001\"}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrier"
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

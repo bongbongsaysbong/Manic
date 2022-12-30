@@ -1,0 +1,31 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "manic:location/dimension/overworld"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "manic:location/light_level/low_light"
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "manic:location/light_level/moonlight"
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "manic:location/caves"
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "manic:location/deepslate_caves"
+    }
+  }
+]

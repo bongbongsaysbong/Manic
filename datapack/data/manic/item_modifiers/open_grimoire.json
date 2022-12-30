@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{manic:{grimoire_state:1},CustomModelData:8360001}"
+  }
+]

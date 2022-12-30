@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": [
+          "minecraft:diamond_helmet",
+          "minecraft:netherite_helmet"
+        ],
+        "nbt": "{manic:{tool:\"anirrum\"}}"
+      }
+    }
+  }
+}

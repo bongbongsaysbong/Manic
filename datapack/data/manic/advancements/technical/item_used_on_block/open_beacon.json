@@ -1,0 +1,20 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:beacon"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:block/beacon/marker_spawning/raycast_start"
+  }
+}

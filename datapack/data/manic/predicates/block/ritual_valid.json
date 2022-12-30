@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 2,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 3,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 4,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 5,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  }
+]

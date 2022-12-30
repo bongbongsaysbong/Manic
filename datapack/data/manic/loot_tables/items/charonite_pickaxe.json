@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360000,nucleus:{item_immunity:1b},manic:{id:\"anirrum_pickaxe\",tool:\"anirrum\",charonite_modified:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.charonite_pickaxe",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

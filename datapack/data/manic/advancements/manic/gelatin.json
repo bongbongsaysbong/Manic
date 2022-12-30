@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread",
+      "nbt": "{CustomModelData:8360000}"
+    },
+    "title": {
+      "translate": "advancements.manic.gelatin"
+    },
+    "description": {
+      "translate": "advancements.manic.gelatin.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/corpsepitcher",
+  "criteria": {
+    "thick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"thick_gelatin\"}}"
+        }
+      }
+    },
+    "wispy": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"wispy_gelatin\"}}"
+        }
+      }
+    },
+    "wet": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"wet_gelatin\"}}"
+        }
+      }
+    },
+    "spectre": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"spectre_gelatin\"}}"
+        }
+      }
+    },
+    "gooey": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"gooey_gelatin\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "thick"
+    ],
+    [
+      "wispy"
+    ],
+    [
+      "wet"
+    ],
+    [
+      "spectre"
+    ],
+    [
+      "gooey"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

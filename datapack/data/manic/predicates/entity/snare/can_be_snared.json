@@ -1,0 +1,40 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "tag": "manic:placement_valid/corpsebloom"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "manic:placement_valid/corpsebloom"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "manic:entity/snare/default"
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"manic.entity.snareable\"]}"
+        }
+      }
+    ]
+  }
+]

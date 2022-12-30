@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "manic:gameplay/trades/piglin_monk_bartering/common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:gameplay/trades/piglin_monk_bartering/uncommon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "manic:gameplay/trades/piglin_monk_bartering/rare"
+        }
+      ]
+    }
+  ]
+}

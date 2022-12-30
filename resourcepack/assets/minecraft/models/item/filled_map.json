@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "item/filled_map",
+      "layer1": "item/filled_map_markings"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 8360000
+        },
+        "model": "manic:item/occult_explorer_map/main"
+      }
+    ]
+}

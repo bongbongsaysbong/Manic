@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/piglin_monk/idle",
+	"textures": {
+		"0": "manic:entity/piglin_monk/idle_hurt"
+	}
+}

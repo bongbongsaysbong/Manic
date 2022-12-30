@@ -1,0 +1,17 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"manic.spook\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/spook/attack"
+  }
+}

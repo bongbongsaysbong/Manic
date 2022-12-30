@@ -1,0 +1,73 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/anirrum_podium.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "aA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/anirrum_altar.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "bB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/time_ritual.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "cC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/weather_ritual.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "dD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/livestock_ritual.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "eE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/piglin_monk.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "fF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/return.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "zZ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:beacon"
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:block/beacon/marker_spawning/scan"
+  }
+}

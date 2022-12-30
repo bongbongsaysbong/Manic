@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{manic:{id:\"grimoire\",grimoire_state:0},nucleus:{item_immunity:1b,soulbound:1b},CustomModelData:8360000,RepairCost:999,Unbreakable:1b,HideFlags:4}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.grimoire",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "item.manic.grimoire.description.cycle",
+                  "color": "#A8C2A8",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#7CC17C"}
+                  ]
+                },
+                {
+                  "translate": "item.manic.grimoire.description.select",
+                  "color": "#A8C2A8",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#7CC17C"},
+                    {"keybind":"key.use","color":"#7CC17C"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

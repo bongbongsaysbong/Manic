@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "manic:occult_idol/grassy",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 315593556,
+    "spread_type": "triangular",
+    "spacing": 40,
+    "separation": 20
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8360003}"
+    },
+    "title": {
+      "translate": "advancements.manic.all_corpseplants"
+    },
+    "description": {
+      "translate": "advancements.manic.all_corpseplants.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/corpsebloom",
+  "criteria": {
+    "corpsebloom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpsebloom_seeds\"}}"
+          }
+        ]
+      }
+    },
+    "corpsegourd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpsegourd_seeds\"}}"
+          }
+        ]
+      }
+    },
+    "corpsepitcher": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpsepitcher_twig\"}}"
+          }
+        ]
+      }
+    },
+    "corpsethorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpsethorn_tuna\"}}"
+          }
+        ]
+      }
+    },
+    "corpseflute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpseflute\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "corpsebloom"
+    ],
+    [
+      "corpsegourd"
+    ],
+    [
+      "corpsepitcher"
+    ],
+    [
+      "corpsethorn"
+    ],
+    [
+      "corpseflute"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

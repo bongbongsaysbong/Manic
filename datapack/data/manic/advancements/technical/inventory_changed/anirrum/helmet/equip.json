@@ -1,0 +1,31 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:diamond_helmet"
+              ],
+              "nbt": "{manic:{id:\"anirrum_helmet\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ],
+            "nbt": "{manic:{id:\"anirrum_helmet\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/anirrum/helmet/equip"
+  }
+}

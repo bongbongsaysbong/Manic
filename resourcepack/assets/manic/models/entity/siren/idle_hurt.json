@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/siren/idle",
+	"textures": {
+		"0": "manic:entity/siren/idle_hurt"
+	}
+}

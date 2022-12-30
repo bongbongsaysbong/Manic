@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "manic:location/dimension/overworld"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "manic:location/light_level/moonlight"
+  }
+]

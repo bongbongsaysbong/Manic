@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "tag": "manic:tool_click_action",
+        "count": {
+          "min": 1
+        }
+      }
+    }
+  }
+}

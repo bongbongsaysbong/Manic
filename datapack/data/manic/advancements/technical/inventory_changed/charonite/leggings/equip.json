@@ -1,0 +1,31 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "legs": {
+              "items": [
+                "minecraft:netherite_leggings"
+              ],
+              "nbt": "{manic:{id:\"charonite_leggings\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ],
+            "nbt": "{manic:{id:\"charonite_leggings\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/charonite/leggings/equip"
+  }
+}

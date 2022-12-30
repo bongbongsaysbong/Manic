@@ -1,0 +1,226 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 2
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/front.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/podium.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/altar.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/sanity.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/insomniac.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/blight_mold.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/corpsebloom.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/corpsepitcher.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/anirrum.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/stop_illness.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/hunger.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/anirrum_podium.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/anirrum_altar.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/time_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/weather_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/livestock_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/piglin_monk.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/gelatin.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/tickspeed_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/warp_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/mine_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/sharing_ritual.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/elderskin.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/lunacy.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua023"
+      ]
+    }
+  ]
+}

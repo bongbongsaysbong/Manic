@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/holding/sanity_reducing/anirrum/shovel_offhand"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/holding/sanity_reducing/insanity_curse/shovel_offhand"
+    }
+  ]
+}

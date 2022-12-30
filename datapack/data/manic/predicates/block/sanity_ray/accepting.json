@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:block/sanity_ray/corpsegourd"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:block/sanity_ray/corpsepitcher"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:block/sanity_ray/corpsethorn"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:block/sanity_ray/anirrum_altar"
+    }
+  ]
+}

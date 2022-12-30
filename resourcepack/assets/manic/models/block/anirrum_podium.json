@@ -1,0 +1,7 @@
+{
+  "parent": "manic:block/deepslate_podium",
+  "textures": {
+    "0": "manic:block/anirrum_podium",
+    "particle": "manic:block/anirrum_altar/particles"
+  }
+}

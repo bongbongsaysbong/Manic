@@ -1,0 +1,19 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"thick_gelatin\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/consume/gelatin/thick_gelatin"
+  }
+}

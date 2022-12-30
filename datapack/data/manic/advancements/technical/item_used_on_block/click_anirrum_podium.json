@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{Lock:\"§manic.anirrum_podium\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:block/anirrum_podium/click"
+  }
+}

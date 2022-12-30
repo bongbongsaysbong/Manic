@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:underwater"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 0,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:underwater"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:underwater"
+      }
+    }
+  }
+]

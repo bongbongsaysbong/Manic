@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench, Modeler: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:block/corpsebloom/snare",
+		"particle": "manic:block/corpsebloom/snare"
+	},
+	"elements": [
+		{
+			"name": "Cross",
+			"from": [-1, -4, 8],
+			"to": [17, 22, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [5, 0.25, 9.5, 6.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9.5, 0.25, 5, 6.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Cross",
+			"from": [8, -4, -1],
+			"to": [8, 22, 17],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"east": {"uv": [0.25, 0.25, 4.75, 6.75], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.75, 0.25, 0.25, 6.75], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -6, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"rotation": [0, 45, 0],
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	},
+	"groups": [
+		{
+			"name": "Roots",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

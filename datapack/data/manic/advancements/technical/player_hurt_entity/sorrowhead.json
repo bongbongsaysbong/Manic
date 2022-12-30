@@ -1,0 +1,17 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"manic.sorrowhead\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/sorrowhead/attack_sorrowhead"
+  }
+}

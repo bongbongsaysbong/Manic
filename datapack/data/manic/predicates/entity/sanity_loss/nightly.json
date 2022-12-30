@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:time_check",
+    "value": {
+      "min": 13000,
+      "max": 23000
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "min": 52
+        }
+      },
+      "dimension": "minecraft:overworld"
+    }
+  }
+]

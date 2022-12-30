@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:wandering_trader",
+      "nbt": "{Tags:[\"manic.corpsebloom\"]}"
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "manic.dummy": 2
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "manic.dummy": 4
+        }
+      }
+    ]
+  }
+]

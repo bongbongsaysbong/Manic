@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "record.manic.respite",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360000,HideFlags:32,manic:{id:\"music_disc_respite\"},nucleus:{custom_disc:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

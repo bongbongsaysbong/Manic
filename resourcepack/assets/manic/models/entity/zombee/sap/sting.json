@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/zombee/sting",
+	"textures": {
+		"0": "manic:entity/zombee/sap/sting"
+	}
+}

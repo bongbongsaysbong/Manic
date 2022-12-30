@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8360005}"
+    },
+    "title": {
+      "translate": "advancements.manic.insomniac"
+    },
+    "description": {
+      "translate": "advancements.manic.insomniac.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/insanity",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"manic.insomniac\"]}"
+        }
+      }
+    }
+  }
+}

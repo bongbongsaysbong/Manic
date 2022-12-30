@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{CustomModelData:8360000}"
+    },
+    "title": {
+      "translate": "advancements.manic.charonite_hoe"
+    },
+    "description": {
+      "translate": "advancements.manic.charonite_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "manic:manic/anirrum",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "nbt": "{manic:{id:\"charonite_hoe\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

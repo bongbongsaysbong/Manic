@@ -1,0 +1,25 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "kill_spectre_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"manic.entity.spectre\"]}"
+            }
+          }
+        ],
+        "killing_blow": {
+          "is_explosion": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:entity/player/sanity/modify/kill_spectre/main"
+  }
+}

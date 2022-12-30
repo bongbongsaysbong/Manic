@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:block/corpsegourd",
+		"particle": "manic:block/corpsegourd"
+	},
+	"elements": [
+		{
+			"name": "Gourd",
+			"from": [2, 0, 2],
+			"to": [14, 12, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [13, 0, 16, 3], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6, 0, 9, 3], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -9.7, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/close.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "aA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/return.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "bB"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/warped_fungus_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8360000
+      },
+      "model": "manic:item/grimoire/closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001
+      },
+      "model": "manic:item/grimoire/open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360002
+      },
+      "model": "manic:item/corpseplants/corpsebloom_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360003
+      },
+      "model": "manic:item/corpseplants/fertile_corpsebloom_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360004
+      },
+      "model": "manic:item/corpseplants/corpsepitcher_twig"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360005
+      },
+      "model": "manic:item/corpseplants/corpsegourd_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360006
+      },
+      "model": "manic:item/corpseplants/corpsethorn_tuna"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360007
+      },
+      "model": "manic:item/blight_mold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360008
+      },
+      "model": "manic:item/corpseflute"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360009
+      },
+      "model": "manic:item/anima_shackles/unbound"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360010
+      },
+      "model": "manic:item/anima_shackles/bound"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360011
+      },
+      "model": "manic:item/occult_explorer_map/closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360012
+      },
+      "model": "manic:item/wartspore_charm"
+    }
+  ]
+}

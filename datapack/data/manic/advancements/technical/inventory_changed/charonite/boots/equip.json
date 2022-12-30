@@ -1,0 +1,31 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "items": [
+                "minecraft:netherite_boots"
+              ],
+              "nbt": "{manic:{id:\"charonite_boots\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ],
+            "nbt": "{manic:{id:\"charonite_boots\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/charonite/boots/equip"
+  }
+}

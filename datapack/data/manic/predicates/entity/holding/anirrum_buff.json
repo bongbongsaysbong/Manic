@@ -1,0 +1,28 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe",
+            "minecraft:diamond_sword",
+            "minecraft:netherite_sword"
+          ],
+          "nbt": "{manic:{tool:\"anirrum\"}}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "manic.sanity": {
+        "max": 2999
+      }
+    }
+  }
+]

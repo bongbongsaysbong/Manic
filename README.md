@@ -10,7 +10,7 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
 
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)
-* [Smithed Page](https://smithed.dev/packs/hinge/manic)
+* [Smithed Page](https://smithed.dev/packs/visi/manic)
 * [Wiki](https://github.com/VisiVersa/Manic/wiki)
 
 ## 📦 Additional 📦

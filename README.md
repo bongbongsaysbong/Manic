@@ -35,8 +35,8 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/><br/>
   
   __Translations:__<br/>
-  Chinese (zh_cn) - IceBear
-  Russian (ru_ru) - VectorV, LolsShow
+  Chinese (zh_cn) - IceBear<br/>
+  Russian (ru_ru) - VectorV, LolsShow<br/><br/>
   
 </details>
 

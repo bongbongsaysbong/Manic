@@ -32,7 +32,7 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/libraries)<br/>
   ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
   Godlander - [ObjMC](https://github.com/Godlander/objmc)<br/>
-  Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/><br/>
+  Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/>
   
   __Translations:__<br/>
   Chinese (zh_cn) - IceBear<br/>

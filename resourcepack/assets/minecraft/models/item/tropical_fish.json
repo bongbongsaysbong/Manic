@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+  },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8360000 }, "model": "manic:item/corpsebulb/main" },
+	{ "predicate": { "custom_model_data": 8360001 }, "model": "manic:item/corpsebulb/eerie" },
+	{ "predicate": { "custom_model_data": 8360002 }, "model": "manic:item/corpsebulb/necrotic" },
+	{ "predicate": { "custom_model_data": 8360003 }, "model": "manic:item/corpsebulb/brainy" },
+	{ "predicate": { "custom_model_data": 8360004 }, "model": "manic:item/corpsebulb/ghastly" },
+	{ "predicate": { "custom_model_data": 8360005 }, "model": "manic:item/corpsebulb/viscous" },
+	{ "predicate": { "custom_model_data": 8360006 }, "model": "manic:item/pumpkin_pop" },
+	{ "predicate": { "custom_model_data": 8360007 }, "model": "manic:item/melon_pop" }
+  ]
+}

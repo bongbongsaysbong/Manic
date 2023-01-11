@@ -113,7 +113,11 @@
       "manic:ambience/insane/additions/additions6",
       "manic:ambience/insane/additions/additions7",
       "manic:ambience/insane/additions/additions8",
-      "manic:ambience/insane/additions/additions9"
+      "manic:ambience/insane/additions/additions9",
+      "manic:ambience/insane/additions/additions10",
+      "manic:ambience/insane/additions/additions11",
+      "manic:ambience/insane/additions/additions12",
+      "manic:ambience/insane/additions/additions13"
     ]
   },
   "ambient.insane.mood": {
@@ -121,7 +125,10 @@
       "manic:ambience/insane/mood/mood0",
       "manic:ambience/insane/mood/mood1",
       "manic:ambience/insane/mood/mood2",
-      "manic:ambience/insane/mood/mood3"
+      "manic:ambience/insane/mood/mood3",
+      "manic:ambience/insane/mood/mood4",
+      "manic:ambience/insane/mood/mood5",
+      "manic:ambience/insane/mood/mood6"
     ]
   },
   "ambient.half_insane.loop": {
@@ -204,10 +211,10 @@
   "entity.spook.footstep": {
     "subtitle": "subtitles.entity.manic.spook.footstep",
     "sounds": [
-      {"name": "manic:entity/spook/footstep0", "pitch": 1.0, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep0", "pitch": 0.9, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep1", "pitch": 1.0, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep1", "pitch": 0.9, "volume": 0.6}
+      {"name": "manic:entity/spook/footstep0", "pitch": 1.0, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep0", "pitch": 0.9, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep1", "pitch": 1.0, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep1", "pitch": 0.9, "volume": 0.3}
     ]
   },
   "entity.spook.death": {
@@ -274,6 +281,13 @@
       {"name": "manic:entity/revenant/death", "pitch": 0.9}
     ]
   },
+  "entity.revenant.prepare_dash": {
+    "subtitle": "subtitles.entity.manic.revenant.prepare_dash",
+    "sounds": [
+      {"name": "manic:entity/revenant/prepare_dash", "pitch": 1.0},
+      {"name": "manic:entity/revenant/prepare_dash", "pitch": 0.9}
+    ]
+  },
   "entity.revenant.dash": {
     "subtitle": "subtitles.entity.manic.revenant.dash",
     "sounds": [
@@ -307,6 +321,13 @@
     "sounds": [
       {"name": "manic:entity/mirage/death", "pitch": 1.0},
       {"name": "manic:entity/mirage/death", "pitch": 0.9}
+    ]
+  },
+  "entity.mirage.prepare_dash": {
+    "subtitle": "subtitles.entity.manic.mirage.prepare_dash",
+    "sounds": [
+      {"name": "manic:entity/mirage/prepare_dash", "pitch": 1.0},
+      {"name": "manic:entity/mirage/prepare_dash", "pitch": 0.9}
     ]
   },
   "entity.mirage.dash": {
@@ -429,6 +450,12 @@
       "manic:entity/sorrowhead/death"
     ]
   },
+  "entity.sorrowhead.prepare_dash": {
+    "subtitle": "subtitles.entity.manic.sorrowhead.prepare_dash",
+    "sounds": [
+      "manic:entity/sorrowhead/prepare_dash"
+    ]
+  },
   "entity.sorrowhead.dash": {
     "subtitle": "subtitles.entity.manic.sorrowhead.dash",
     "sounds": [
@@ -508,10 +535,10 @@
   "entity.necromorph.footstep": {
     "subtitle": "subtitles.entity.manic.necromorph.footstep",
     "sounds": [
-      {"name": "manic:entity/spook/footstep0", "pitch": 1.0, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep0", "pitch": 0.9, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep1", "pitch": 1.0, "volume": 0.6},
-      {"name": "manic:entity/spook/footstep1", "pitch": 0.9, "volume": 0.6}
+      {"name": "manic:entity/spook/footstep0", "pitch": 1.0, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep0", "pitch": 0.9, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep1", "pitch": 1.0, "volume": 0.3},
+      {"name": "manic:entity/spook/footstep1", "pitch": 0.9, "volume": 0.3}
     ]
   },
   "entity.siren.spawn": {
@@ -1116,6 +1143,18 @@
       "minecraft:block/big_dripleaf/tilt_down5"
     ]
   },
+  "block.corpsebulb.produce": {
+    "subtitle": "subtitles.block.manic.corpsebulb.produce",
+    "sounds": [
+      "manic:block/corpseplant/corpsebulb/produce"
+    ]
+  },
+  "block.corpsebulb.scent": {
+    "subtitle": "subtitles.block.manic.corpsebulb.scent",
+    "sounds": [
+      "manic:block/corpseplant/corpsebulb/scent"
+    ]
+  },
   "block.mad_fire.ambient": {
     "subtitle": "subtitles.block.manic.mad_fire.ambient",
     "sounds": [
@@ -1176,7 +1215,19 @@
   "entity.chitter.spawn": {
     "subtitle": "subtitles.entity.manic.chitter.spawn",
     "sounds": [
-      "manic:entity/chitter/spawn"
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
+    ]
+  },
+  "entity.chitter.ambient": {
+    "sounds": [
+      "manic:entity/chitter/ambient0",
+      "manic:entity/chitter/ambient1",
+      "manic:entity/chitter/ambient2",
+      "manic:entity/chitter/ambient3",
+      "manic:entity/chitter/ambient4",
+      "manic:entity/chitter/ambient5"
     ]
   },
   "entity.chitter.trigger": {
@@ -1188,7 +1239,31 @@
   "entity.chitter.despawn": {
     "subtitle": "subtitles.entity.manic.chitter.despawn",
     "sounds": [
-      "manic:entity/chitter/despawn"
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
+    ]
+  },
+  "entity.residuum.trigger": {
+    "subtitle": "subtitles.entity.manic.residuum.trigger",
+    "sounds": [
+      "manic:entity/chitter/trigger"
+    ]
+  },
+  "entity.residuum.spawn": {
+    "subtitle": "subtitles.entity.manic.residuum.spawn",
+    "sounds": [
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
+    ]
+  },
+  "entity.residuum.despawn": {
+    "subtitle": "subtitles.entity.manic.residuum.despawn",
+    "sounds": [
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
     ]
   },
   "record.respite": {
@@ -1199,6 +1274,16 @@
   "record.respite_broken": {
     "sounds": [
       "manic:record/respite_broken"
+    ]
+  },
+  "record.7": {
+    "sounds": [
+      "manic:record/7"
+    ]
+  },
+  "record.7_fixed": {
+    "sounds": [
+      "manic:record/seven"
     ]
   },
   "block.wormhole.open": {
@@ -1259,6 +1344,130 @@
     "subtitle": "subtitles.entity.manic.zoglin.cure",
     "sounds": [
       "manic:item/wartspore_charm/cure"
+    ]
+  },
+  "item.nightmare_shackles.use": {
+    "subtitle": "subtitles.item.manic.nightmare_shackles.use",
+    "sounds": [
+      "manic:item/nightmare_shackles/use"
+    ]
+  },
+  "item.nightmare_shackles.equip": {
+    "subtitle": "subtitles.item.manic.nightmare_shackles.equip",
+    "sounds": [
+      {"name": "manic:item/nightmare_shackles/equip", "pitch": 1.0},
+      {"name": "manic:item/nightmare_shackles/equip", "pitch": 0.9},
+      {"name": "manic:item/nightmare_shackles/equip", "pitch": 0.8}
+    ]
+  },
+  "entity.paracusia.ambient": {
+    "subtitle": "subtitles.entity.manic.paracusia.ambient",
+    "sounds": [
+      {"name": "manic:entity/paracusia/ambient0", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/ambient1", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/ambient2", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/ambient3", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.hurt": {
+    "subtitle": "subtitles.entity.manic.paracusia.hurt",
+    "sounds": [
+      {"name": "manic:entity/paracusia/hurt0", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/hurt1", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/hurt2", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.death": {
+    "subtitle": "subtitles.entity.manic.paracusia.death",
+    "sounds": [
+      {"name": "manic:entity/paracusia/death", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/death", "pitch": 0.9}
+    ]
+  },
+  "entity.paracusia.ambient_distant": {
+    "subtitle": "subtitles.entity.manic.paracusia.ambient_distant",
+    "sounds": [
+      {"name": "ambient/cave/cave1", "pitch": 0.7},
+      {"name": "ambient/cave/cave2", "pitch": 0.7},
+      {"name": "ambient/cave/cave3", "pitch": 0.7},
+      {"name": "ambient/cave/cave4", "pitch": 0.7},
+      {"name": "ambient/cave/cave5", "pitch": 0.7},
+      {"name": "ambient/cave/cave6", "pitch": 0.7},
+      {"name": "ambient/cave/cave7", "pitch": 0.7},
+      {"name": "ambient/cave/cave8", "pitch": 0.7},
+      {"name": "ambient/cave/cave9", "pitch": 0.7},
+      {"name": "ambient/cave/cave10", "pitch": 0.7},
+      {"name": "ambient/cave/cave11", "pitch": 0.7},
+      {"name": "ambient/cave/cave12", "pitch": 0.7},
+      {"name": "ambient/cave/cave13", "pitch": 0.7},
+      {"name": "ambient/cave/cave14", "pitch": 0.7},
+      {"name": "ambient/cave/cave15", "pitch": 0.7},
+      {"name": "ambient/cave/cave16", "pitch": 0.7},
+      {"name": "ambient/cave/cave17", "pitch": 0.7}
+    ]
+  },
+  "entity.paracusia.attack": {
+    "subtitle": "subtitles.entity.manic.paracusia.attack",
+    "sounds": [
+      {"name": "manic:entity/paracusia/attack", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/attack", "pitch": 0.9}
+    ]
+  },
+  "entity.paracusia.shoot": {
+    "subtitle": "subtitles.entity.manic.paracusia.shoot",
+    "sounds": [
+      {"name": "manic:entity/paracusia/shoot", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.alert": {
+    "subtitle": "subtitles.entity.manic.paracusia.alert",
+    "sounds": [
+      {"name": "manic:entity/paracusia/alert", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.alert_undo": {
+    "subtitle": "subtitles.entity.manic.paracusia.alert_undo",
+    "sounds": [
+      {"name": "manic:entity/paracusia/alert_undo", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.footstep": {
+    "subtitle": "subtitles.entity.manic.paracusia.footstep",
+    "sounds": [
+      {"name": "manic:entity/paracusia/step0", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/step1", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/step2", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/step3", "pitch": 1.0}
+    ]
+  },
+  "entity.paracusia.soundwave.create": {
+    "subtitle": "subtitles.entity.manic.paracusia.soundwave.create",
+    "sounds": [
+      {"name": "manic:entity/paracusia/soundwave_create", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/soundwave_create", "pitch": 0.9}
+    ]
+  },
+  "entity.paracusia.soundwave.delete": {
+    "subtitle": "subtitles.entity.manic.paracusia.soundwave.delete",
+    "sounds": [
+      {"name": "manic:entity/paracusia/soundwave_delete", "pitch": 1.0},
+      {"name": "manic:entity/paracusia/soundwave_delete", "pitch": 0.9}
+    ]
+  },
+  "entity.paracusia.cackler.create": {
+    "subtitle": "subtitles.entity.manic.paracusia.cackler.create",
+    "sounds": [
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
+    ]
+  },
+  "entity.paracusia.cackler.delete": {
+    "subtitle": "subtitles.entity.manic.paracusia.cackler.delete",
+    "sounds": [
+      {"name": "manic:entity/chitter/spawn", "pitch": 1.0},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.9},
+      {"name": "manic:entity/chitter/spawn", "pitch": 0.8}
     ]
   }
 }

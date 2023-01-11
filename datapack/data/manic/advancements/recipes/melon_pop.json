@@ -1,0 +1,17 @@
+{
+  "parent": "manic:recipes/root",
+  "rewards": {
+    "function": "manic:item/crafted_item",
+    "loot": [
+      "manic:items/melon_pop"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "manic:melon_pop"
+      }
+    }
+  }
+}

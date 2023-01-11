@@ -231,6 +231,54 @@
         "custom_model_data": 8360037
       },
       "model": "manic:block/corpsethorn/satisfied_blooming"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360038
+      },
+      "model": "manic:block/corpsebulb/stem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360039
+      },
+      "model": "manic:block/corpsebulb/full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360040
+      },
+      "model": "manic:block/corpsebulb/scent/eerie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360041
+      },
+      "model": "manic:block/corpsebulb/scent/necrotic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360042
+      },
+      "model": "manic:block/corpsebulb/scent/brainy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360043
+      },
+      "model": "manic:block/corpsebulb/scent/ghastly"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360044
+      },
+      "model": "manic:block/corpsebulb/scent/viscous"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360045
+      },
+      "model": "manic:block/corpsebulb/dead"
     }
   ]
 }

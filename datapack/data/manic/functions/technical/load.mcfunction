@@ -18,7 +18,6 @@ scoreboard objectives add manic.change_sanity dummy
 scoreboard objectives add manic.sanity_debt dummy
 scoreboard objectives add manic.sanity_storage dummy
 scoreboard objectives add manic.food_sanity dummy
-scoreboard objectives add manic.hide_sanity dummy
 
 scoreboard objectives add manic.grimoire.chapter dummy
 scoreboard objectives add manic.grimoire.chapter.storage dummy
@@ -78,4 +77,4 @@ scoreboard players set #256 manic.dummy 256
 
 # Initialise
 scoreboard players set #manic.installed manic.dummy 1
-execute unless data storage manic:storage root.version{major:1,release:0,semiver:1} run function manic:technical/first_load/main
+execute unless data storage manic:storage root.version{major:1,release:0,semiver:2} run function manic:technical/first_load/main

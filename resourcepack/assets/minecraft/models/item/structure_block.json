@@ -102,6 +102,12 @@
 		  "custom_model_data": 8360016
 		},
 		"model": "manic:item/mad_eye"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360017
+		},
+		"model": "manic:item/disc_fragment_7"
 	  }
 	]
 }

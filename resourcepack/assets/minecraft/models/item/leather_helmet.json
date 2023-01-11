@@ -16,6 +16,12 @@
           "custom_model_data": 8360001
         },
         "model": "manic:item/charonite/charonite_helmet"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 8360002
+        },
+        "model": "manic:item/nightmare_shackles"
       }
     ]
 }

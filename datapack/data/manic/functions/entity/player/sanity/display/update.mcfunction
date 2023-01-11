@@ -8,7 +8,5 @@ execute if score @s manic.lunacy matches 1.. run function manic:entity/player/sa
 execute unless score @s manic.lunacy matches 1.. run function manic:entity/player/sanity/display/bar/normal
 execute if score @s manic.lunacy matches 1.. run function manic:entity/player/sanity/display/bar/lunacy
 
-#title @s actionbar {"translate":"manic.sanity_display","font":"manic:meter","color":"#2804f9","with":[{"nbt":"root.temp.icon","storage":"manic:storage","interpret":true},{"nbt":"root.temp.bar","storage":"manic:storage","interpret":true}]}
-
-data modify storage smithed.actionbar:input message set value {priority:'persistent',json:'{"translate":"manic.sanity_display","font":"manic:meter","color":"#2804f9","with":[{"nbt":"root.temp.icon","storage":"manic:storage","interpret":true},{"nbt":"root.temp.bar","storage":"manic:storage","interpret":true}]}'}
+data modify storage smithed.actionbar:input message set value {freeze:0,priority:'persistent',json:'{"translate":"manic.sanity_display","font":"manic:meter","color":"#2804f9","with":[{"nbt":"root.temp.icon","storage":"manic:storage","interpret":true},{"nbt":"root.temp.bar","storage":"manic:storage","interpret":true}]}'}
 function #smithed.actionbar:message

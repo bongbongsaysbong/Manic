@@ -15,6 +15,7 @@ execute if block ~ ~ ~ #manic:corpseplant/gourds run loot spawn ~ ~ ~ loot manic
 execute if block ~ ~ ~ #manic:corpseplant/dripleaf run loot spawn ~ ~ ~ loot manic:items/corpsepitcher_twig
 execute if block ~ ~ ~ #manic:corpseplant/boney run loot spawn ~ ~ ~ loot manic:items/corpseflute
 execute if block ~ ~ ~ minecraft:cactus run loot spawn ~ ~ ~ loot manic:technical/corpsethorn_tuna
+execute if block ~ ~ ~ minecraft:allium run loot spawn ~ ~ ~ loot manic:items/corpsebulb_stem
 setblock ~ ~ ~ air
 
 # Wither Surroundings

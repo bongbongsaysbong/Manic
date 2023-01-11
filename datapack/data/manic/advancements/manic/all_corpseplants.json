@@ -69,6 +69,19 @@
         ]
       }
     },
+    "corpsebulb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"corpsebulb_stem\"}}"
+          }
+        ]
+      }
+    },
     "corpseflute": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -95,6 +108,9 @@
     ],
     [
       "corpsethorn"
+    ],
+    [
+      "corpsebulb"
     ],
     [
       "corpseflute"

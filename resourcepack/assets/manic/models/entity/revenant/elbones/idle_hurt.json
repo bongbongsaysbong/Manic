@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/revenant/elbones/idle",
+	"textures": {
+		"0": "manic:entity/revenant/elbones/idle_hurt"
+	}
+}

@@ -1,0 +1,84 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "base": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{id:\"corpsebulb_flesh\"}}"
+        }
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{scent:\"phantom\"}}"
+        }
+      }
+    },
+    "spook": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{scent:\"spook\"}}"
+        }
+      }
+    },
+    "mirage": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{scent:\"mirage\"}}"
+        }
+      }
+    },
+    "revenant": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{scent:\"revenant\"}}"
+        }
+      }
+    },
+    "eidolon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{scent:\"eidolon\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "base",
+      "phantom",
+      "spook",
+      "mirage",
+      "revenant",
+      "eidolon"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:item/consume/corpsebulb_flesh/main"
+  }
+}

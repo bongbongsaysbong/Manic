@@ -1,1 +1,1 @@
-scoreboard players set @s manic.grimoire.display 9999
+scoreboard players set @s manic.grimoire.display 8

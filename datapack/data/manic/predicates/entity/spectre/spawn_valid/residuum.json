@@ -1,0 +1,54 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "nucleus:entity/has_skylight"
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "light": {
+        "light": {
+          "max": 7
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "nucleus:opaque"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "manic:entity/spectre/spawn_valid/underwater"
+      }
+    ]
+  }
+]

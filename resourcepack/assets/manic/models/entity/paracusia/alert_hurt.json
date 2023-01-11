@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/paracusia/alert",
+	"textures": {
+		"0": "manic:entity/paracusia/alert_hurt"
+	}
+}

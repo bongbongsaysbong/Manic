@@ -1,5 +1,5 @@
 {
-  "parent": "manic:entity/chitter/lunacy/base",
+  "parent": "manic:entity/chitter/base",
   "textures": {
     "layer0": "manic:entity/chitter/lunacy/2"
   }

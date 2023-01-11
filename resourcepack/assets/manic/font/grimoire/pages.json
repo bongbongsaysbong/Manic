@@ -221,6 +221,15 @@
       "chars": [
         "\ua023"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/nightmare_shackles.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua024"
+      ]
     }
   ]
 }

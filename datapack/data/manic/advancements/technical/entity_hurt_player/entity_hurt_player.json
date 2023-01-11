@@ -2,17 +2,7 @@
   "parent": "manic:technical/root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "damage": {
-          "type": {
-            "is_fire": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
-          }
-        }
-      }
+      "trigger": "minecraft:entity_hurt_player"
     }
   },
   "rewards": {

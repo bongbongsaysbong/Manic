@@ -1,0 +1,1 @@
+execute if entity @s[type=creeper,predicate=manic:location/deepslate_caves,predicate=nucleus:chance/0.25] unless entity @a[gamemode=!spectator,nbt=!{Health:0f},distance=..12] unless entity @e[type=vindicator,tag=manic.paracusia,distance=..128] run function manic:commands/summon/paracusia

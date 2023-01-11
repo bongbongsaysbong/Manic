@@ -18,6 +18,10 @@
             "tag": "manic:placement_valid/corpsebloom"
           }
         }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "manic:entity/snare/phantom"
       }
     ]
   },

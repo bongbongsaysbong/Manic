@@ -1,6 +1,0 @@
-{
-  "parent": "manic:entity/chitter/base",
-  "textures": {
-    "layer0": "manic:entity/chitter/insane/idle"
-  }
-}

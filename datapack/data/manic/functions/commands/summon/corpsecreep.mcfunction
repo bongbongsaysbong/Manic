@@ -3,5 +3,6 @@ summon wandering_trader ~ ~ ~ {Team:"smithed.prevent_aggression",Tags:["smithed.
 execute if entity @s[type=player] run scoreboard players set #persistent manic.dummy 1
 execute as @e[type=wandering_trader,tag=manic.corpsecreep,tag=!manic.initiated] run function manic:entity/corpsecreep/init
 
-tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.manic.corpsecreep"}]}
+execute store result score #debug manic.dummy run gamerule sendCommandFeedback
+execute if score #debug manic.dummy matches 1 run tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.manic.corpsecreep"}]}
 execute if entity @s[type=player] run function manic:entity/player/gamerules/no_feedback/main

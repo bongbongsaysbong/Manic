@@ -81,6 +81,24 @@
         "custom_model_data": 8360012
       },
       "model": "manic:item/wartspore_charm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360013
+      },
+      "model": "manic:item/nightmare_shackles"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360014
+      },
+      "model": "manic:item/corpseplants/corpsebulb_stem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360015
+      },
+      "model": "manic:item/corpseplants/dead_corpsebulb_stem"
     }
   ]
 }

@@ -30,6 +30,8 @@ execute if data storage manic:storage root.temp.podium_item{id:"minecraft:nether
 
 execute if data storage manic:storage root.temp.podium_item{id:"minecraft:warped_fungus_on_a_stick",tag:{manic:{id:"anima_shackles",shackles_bound:1b}}} run scoreboard players add #anima_shackles manic.dummy 1
 
+execute if data storage manic:storage root.temp.podium_item{id:"minecraft:structure_block",tag:{manic:{id:"disc_fragment_7"}}} run scoreboard players add #disc_fragment manic.dummy 1
+
 execute if score #iron_ingot manic.dummy matches 1.. run scoreboard players set #mining manic.dummy 1
 execute if score #gold_ingot manic.dummy matches 1.. run scoreboard players set #mining manic.dummy 1
 execute if score #copper_ingot manic.dummy matches 1.. run scoreboard players set #mining manic.dummy 1

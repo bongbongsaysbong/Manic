@@ -18,3 +18,6 @@ execute if entity @s[tag=manic.corpsecreep] run function manic:entity/corpsecree
 execute if entity @s[tag=manic.chitter_swarm] run function manic:entity/chitter/swarm/second_clock
 execute if entity @s[tag=manic.chitter] run function manic:entity/chitter/second_clock
 execute if entity @s[tag=manic.wartspore_converting] run function manic:item/wartspore_charm/convert/second_clock
+execute if entity @s[tag=manic.residuum.idle] run function manic:entity/residuum/idle/second_clock
+execute if entity @s[tag=manic.paracusia] run function manic:entity/paracusia/second_clock
+execute if entity @s[tag=manic.cackler] run function manic:entity/paracusia/cackler/second_clock

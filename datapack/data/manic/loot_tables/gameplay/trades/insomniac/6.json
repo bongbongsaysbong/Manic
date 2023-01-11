@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 5
             }
           ]
         }
@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/occult_explorer_map"
+          "name": "manic:items/nightmare_shackles"
         }
       ]
     }

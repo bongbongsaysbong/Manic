@@ -12,4 +12,5 @@ execute if entity @s[tag=manic.siren] run function manic:entity/siren/second_clo
 execute if entity @s[tag=manic.lockjaw] run function manic:entity/lockjaw/second_clock
 
 # Misc
-execute if entity @s[tag=manic.entity.despawns,predicate=!nucleus:entity/in_vehicle] run function manic:entity/technical/spectre/despawn/second_clock
+execute if entity @s[tag=manic.entity.despawns,tag=!manic.entity.no_sanity_despawn,predicate=!nucleus:entity/in_vehicle] run function manic:entity/technical/spectre/despawn/second_clock
+execute if entity @s[tag=manic.entity.despawns,tag=manic.entity.no_sanity_despawn,predicate=!nucleus:entity/in_vehicle] run function manic:entity/technical/spectre/despawn/second_clock_b

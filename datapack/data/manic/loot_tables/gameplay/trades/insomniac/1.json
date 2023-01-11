@@ -67,6 +67,16 @@
               "count": 6
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allium",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         }
       ]
     }

@@ -1,6 +1,6 @@
 execute unless score @s manic.effect.prevent_effects matches 1.. run effect give @s blindness 3 255 true
 
-execute if score @s manic.grimoire.chapter matches 0 run function manic:item/grimoire/display/chapter/0
+execute if score @s manic.grimoire.chapter matches 0 run function manic:item/grimoire/display/chapter/0/main
 execute if score @s manic.grimoire.chapter matches 1 run function manic:item/grimoire/display/chapter/1
 execute if score @s manic.grimoire.chapter matches 2 run function manic:item/grimoire/display/chapter/2
 execute if score @s manic.grimoire.chapter matches 3 run function manic:item/grimoire/display/chapter/3
@@ -16,6 +16,7 @@ execute if score @s manic.grimoire.display matches 1 run title @s title {"text":
 execute if score @s manic.grimoire.display matches 2 run title @s title {"text":"\ua002","font":"manic:grimoire/pages","color":"#4404f9"}
 execute if score @s manic.grimoire.display matches 3 run title @s title {"text":"\ua003","font":"manic:grimoire/pages","color":"#4404f9"}
 execute if score @s manic.grimoire.display matches 9 run title @s title {"text":"\ua004","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 29 run title @s title {"text":"\ua024","font":"manic:grimoire/pages","color":"#4404f9"}
 
 # Chapter 2
 execute if score @s manic.grimoire.display matches 4 run title @s title {"text":"\ua001","font":"manic:grimoire/locked","color":"#4404f9"}

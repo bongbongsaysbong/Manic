@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,manic:{id:\"nightmare_shackles\",allow_sac_repair:1b},nucleus:{durability:[16,16],repaired:1b},CustomModelData:8360013}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.nightmare_shackles",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "with": [
+                    16,
+                    16
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.manic",
+                  "color": "#106050",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.armor",
+              "name": "manic.armor",
+              "amount": 1,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,10 @@
       {
         "condition": "minecraft:reference",
         "name": "manic:block/break/corpsethorn"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "manic:block/break/corpsebulb"
       }
     ]
   },

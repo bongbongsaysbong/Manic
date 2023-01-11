@@ -10,3 +10,7 @@ execute if entity @s[tag=manic.damage.lockjaw_ray] run tellraw @a {"translate":"
 execute if entity @s[tag=manic.damage.siren] run tellraw @a {"translate":"death.manic.siren","with":[{"selector":"@s"}]}
 
 execute if entity @s[tag=manic.damage.corpsecreep] run tellraw @a {"translate":"death.manic.corpsecreep","with":[{"selector":"@s"}]}
+
+execute if entity @s[tag=manic.damage.darkness] run tellraw @a {"translate":"death.manic.darkness","with":[{"selector":"@s"}]}
+
+execute if entity @s[tag=manic.damage.paracusia] run tellraw @a {"translate":"death.manic.paracusia","with":[{"selector":"@s"}]}

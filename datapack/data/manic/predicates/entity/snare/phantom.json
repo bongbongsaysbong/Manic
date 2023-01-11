@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -2,
+    "predicate": {
+      "block": {
+        "tag": "manic:placement_valid/corpsebloom"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:phantom"
+    }
+  }
+]

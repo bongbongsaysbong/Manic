@@ -6,11 +6,12 @@
 	"item.manic.grimoire": "Grimoire",
 	"item.manic.occult_explorer_map": "Occult Explorer Map",
 	"subtitles.entity.manic.player.gain_insight": "Knowledge absorbed",
+	"ui.manic.gain_insight": "%s Insight level increased %s",
 	"subtitles.item.manic.grimoire.select": "Grimoire rustles",
 	"subtitles.item.manic.grimoire.open": "Grimoire opens",
 	"subtitles.item.manic.grimoire.close": "Grimoire shuts",
-	"item.manic.grimoire.description.cycle": "Use [%s] to cycle",
-	"item.manic.grimoire.description.select": "Use [%s] + [%s] to select",
+	"item.manic.grimoire.description.cycle": "Use %s to cycle",
+	"item.manic.grimoire.description.select": "Use %s + %s to select",
 
 	"block.manic.deepslate_podium": "Deepslate Podium",
 	"block.manic.deepslate_podium.name": " ",
@@ -22,6 +23,9 @@
 	"subtitles.block.manic.deepslate_altar.commit": "Ritual commits",
 	"subtitles.block.manic.deepslate_altar.reject": "Ritual fails",
 	"subtitles.block.manic.deepslate_altar.empty": "Ritual ends",
+	"ui.manic.deepslate_altar.reject.too_recent": "%s was called too recently to use this ritual (%s seconds left)",
+	"ui.manic.deepslate_altar.reject.high_sanity": "Sanity is too high to use this ritual",
+	"ui.manic.deepslate_altar.reject.dimension": "Ritual must be performed in %s",
 
 	"block.manic.cursed_candle": "Cursed Candle",
 	"subtitles.block.manic.cursed_candle.ignite": "Cursed Candle ignited",
@@ -112,6 +116,22 @@
 	"item.manic.corpseflute.5": "Undead Carol",
 	"item.manic.corpseflute.6": "Ascent",
 	"subtitles.item.manic.corpseflute.use": "Corpseflute whistles",
+
+	"block.manic.corpsebulb": "Corpsebulb",
+	"subtitles.block.manic.corpsebulb.produce": "Corpsebulb blooms",
+	"subtitles.block.manic.corpsebulb.scent": "Corpsebulb scents",
+	"item.manic.corpsebulb_stem": "Corpsebulb Stem",
+	"item.manic.dead_corpsebulb_stem": "Dead Corpsebulb Stem",
+	"item.manic.corpsebulb_flesh": "Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.eerie": "Eerie Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.necrotic": "Necrotic Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.brainy": "Brainy Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.ghastly": "Ghastly Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.viscous": "Viscous Corpsebulb Flesh",
+	"item.manic.corpsebulb_flesh.unscented": "Unscented",
+
+	"item.manic.pumpkin_pop": "Pumpkin Pop",
+	"item.manic.melon_pop": "Melon Pop",
 
 	"block.manic.anirrum_podium": "Anirrum Podium",
 	"block.manic.anirrum_podium.name": " ",
@@ -265,6 +285,10 @@
 	"subtitles.entity.manic.insomniac.spawn": "Insomniac appears",
 	"subtitles.entity.manic.insomniac.despawn": "Insomniac vanishes",
 
+	"item.manic.nightmare_shackles": "Nightmare Shackles",
+	"subtitles.item.manic.nightmare_shackles.use": "Nightmare Shackles whisper",
+	"subtitles.item.manic.nightmare_shackles.equip": "Nightmare Shackles clank",
+
 	"entity.manic.piglin_monk": "Piglin Monk",
 	"subtitles.entity.manic.piglin_monk.ambient": "Piglin Monk snorts",
 	"subtitles.entity.manic.piglin_monk.hurt": "Piglin Monk hurts",
@@ -289,6 +313,9 @@
 	"death.manic.corpsecreep": "%s was blighted by Corpsecreep",
 
 	"record.manic.respite": "chlo - respite",
+	"record.manic.7": "chlo - 7",
+	"record.manic.7_fixed": "chlo - seven",
+	"item.manic.disc_fragment_7.desc": "Music Disc - 7",
 
 	"entity.manic.zombee": "Zombee",
 	"subtitles.entity.manic.zombee.convert": "Bee blights",
@@ -300,9 +327,32 @@
 	"subtitles.entity.manic.zombee.absorb_sap": "Zombee absorbs Soul",
 
 	"entity.manic.chitter": "Chitter",
-	"subtitles.entity.manic.chitter.spawn": "Chitters swarm",
-	"subtitles.entity.manic.chitter.trigger": "Chitters giggle",
-	"subtitles.entity.manic.chitter.despawn": "Chitters vanish",
+	"subtitles.entity.manic.chitter.spawn": "Swarm appears",
+	"subtitles.entity.manic.chitter.trigger": "Swarm giggles",
+	"subtitles.entity.manic.chitter.despawn": "Swarm vanishes",
+
+	"entity.manic.residuum": "Residuum",
+	"subtitles.entity.manic.residuum.spawn": "Shadow appears",
+	"subtitles.entity.manic.residuum.trigger": "Shadow cackles",
+	"subtitles.entity.manic.residuum.despawn": "Shadow vanishes",
+
+	"entity.manic.paracusia": "Paracusia",
+	"subtitles.entity.manic.paracusia.ambient": "Paracusia blares",
+	"subtitles.entity.manic.paracusia.ambient_distant": "Eerie noise?",
+	"subtitles.entity.manic.paracusia.hurt": "Paracusia hurts",
+	"subtitles.entity.manic.paracusia.death": "Paracusia dies",
+	"subtitles.entity.manic.paracusia.attack": "Paracusia claws",
+	"subtitles.entity.manic.paracusia.alert": "Paracusia alerts",
+	"subtitles.entity.manic.paracusia.alert_undo": "Paracusia calms",
+	"subtitles.entity.manic.paracusia.footstep": "Paracusia steps",
+	"subtitles.entity.manic.paracusia.shoot": "Paracusia echoes",
+	"subtitles.entity.manic.paracusia.soundwave.create": "Soundwave resonates",
+	"subtitles.entity.manic.paracusia.soundwave.delete": "Soundwave fades",
+	"subtitles.entity.manic.paracusia.cackler.create": "Cackler appears",
+	"subtitles.entity.manic.paracusia.cackler.delete": "Cackler vanishes",
+	"death.manic.paracusia": "%s was indoctrinated by Paracusia",
+
+	"death.manic.darkness": "%s succumbed to darkness",
 
 	"gamerules.manic.title": "Manic Gamerules",
 	"gamerules.manic.legacy_sanity": "Passive Sanity Drain: %s %s",
@@ -377,5 +427,7 @@
 	"advancements.manic.charonite_hoe": "Fool Me Twice",
 	"advancements.manic.charonite_hoe.description": "Create a Charonite Hoe",
 	"advancements.manic.dimension_rift": "Doctor What",
-	"advancements.manic.dimension_rift.description": "Use an Anirrum Altar to travel across dimensions"
+	"advancements.manic.dimension_rift.description": "Use an Anirrum Altar to travel across dimensions",
+	"advancements.manic.kill_paracusia": "Phonophobia",
+	"advancements.manic.kill_paracusia.description": "Find and kill a Paracusia"
 }

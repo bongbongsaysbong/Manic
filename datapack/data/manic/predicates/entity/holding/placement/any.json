@@ -16,6 +16,10 @@
     {
       "condition": "minecraft:reference",
       "name": "manic:entity/holding/placement/corpsethorn"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/holding/placement/corpsebulb"
     }
   ]
 }

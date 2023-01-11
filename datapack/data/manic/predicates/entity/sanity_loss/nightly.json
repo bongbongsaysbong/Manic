@@ -11,7 +11,7 @@
     "predicate": {
       "position": {
         "y": {
-          "min": 52
+          "min": 48
         }
       },
       "dimension": "minecraft:overworld"

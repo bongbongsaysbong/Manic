@@ -40,7 +40,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{nucleus:{custom_model_data:{idle:83600018}}}",
+    "tag": "{nucleus:{custom_model_data:{idle:8360018}}}",
     "conditions": [
       {
         "condition": "minecraft:entity_scores",

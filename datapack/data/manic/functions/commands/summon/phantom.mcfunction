@@ -3,5 +3,6 @@ summon armor_stand ~ ~ ~ {ArmorItems:[{},{},{},{id:'minecraft:potion',Count:1b,t
 execute if entity @s[type=player] run scoreboard players set #persistent manic.dummy 1
 execute as @e[type=armor_stand,tag=manic.phantom_marker,sort=nearest,limit=1,tag=!manic.initiated] at @s run function manic:entity/phantom/init
 
-tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.minecraft.phantom"}]}
+execute store result score #debug manic.dummy run gamerule sendCommandFeedback
+execute if score #debug manic.dummy matches 1 run tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.minecraft.phantom"}]}
 execute if entity @s[type=player] run function manic:entity/player/gamerules/no_feedback/main

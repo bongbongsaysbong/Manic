@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"layer0": "manic:entity/chitter/insane/idle",
-		"particle": "manic:entity/chitter/insane/idle"
+		"particle": "manic:entity/chitter/insane/idle",
+		"layer0": "manic:entity/chitter/insane/idle"
 	},
 	"elements": [
 		{
-			"from": [-4, 0, 8],
-			"to": [20, 24, 8],
+			"from": [-8, 0, 8],
+			"to": [24, 32, 8],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
 				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},

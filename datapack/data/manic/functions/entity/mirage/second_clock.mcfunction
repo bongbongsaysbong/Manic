@@ -3,6 +3,7 @@ execute if entity @a[gamemode=!creative,gamemode=!spectator,distance=..12] ancho
 
 execute if score @s manic.dummy matches 9.. run scoreboard players add @s manic.dummy 1
 execute if entity @s[tag=nucleus.has_line_of_sight] unless score @s manic.dummy matches 9.. run function manic:entity/mirage/increment
+execute if score @s manic.dummy matches 9 run playsound manic:entity.mirage.prepare_dash hostile @a ~ ~ ~ 1.2
 
 execute if score @s manic.dummy matches 10.. unless score @s nucleus.frames matches 1.. run function manic:entity/mirage/animation_begin
 

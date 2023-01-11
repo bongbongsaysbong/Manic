@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/paracusia/attack",
+	"textures": {
+		"0": "manic:entity/paracusia/attack_hurt"
+	}
+}

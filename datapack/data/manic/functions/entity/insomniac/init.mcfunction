@@ -1,6 +1,6 @@
 ## Set Tags
 tag @s add manic.initiated
-execute unless score #persistent manic.dummy matches 1 run scoreboard players set @s manic.timer 601
+execute unless score #persistent manic.dummy matches 1 run scoreboard players set @s manic.timer 1201
 execute if data storage manic:storage root.temp.locate_pos run function manic:entity/insomniac/locate
 scoreboard players set #persistent manic.dummy 0
 
@@ -37,8 +37,14 @@ loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/5
 function manic:entity/insomniac/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
-# Occult Explorer Map
+# Nightmare Shackles
 loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/6
+function manic:entity/insomniac/add_trade
+data modify entity @s Offers.Recipes[-1].maxUses set value 3b
+
+# Occult Idol Map/Grimoire
+execute unless score #total_grimoires_looted manic.dummy matches 3.. run loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/7
+execute if score #total_grimoires_looted manic.dummy matches 3.. run loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/7b
 function manic:entity/insomniac/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 

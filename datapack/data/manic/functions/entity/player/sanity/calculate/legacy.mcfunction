@@ -38,6 +38,9 @@ execute if predicate manic:entity/wearing/anirrum_any run scoreboard players rem
 # Sanity Debt
 execute if score @s manic.sanity_debt matches 1.. if score @s manic.dummy matches 1.. run function manic:entity/player/sanity/calculate/sanity_debt
 
+# Nightmare Shackles
+execute if predicate manic:entity/wearing/nightmare_shackles run function manic:entity/player/sanity/calculate/nightmare_shackles
+
 # Finish
 scoreboard players operation @s manic.sanity += @s manic.dummy
 execute if predicate manic:entity/wearing/anirrum_or_charonite if score @s manic.sanity matches ..-1 run scoreboard players operation @s manic.lunacy -= @s manic.sanity

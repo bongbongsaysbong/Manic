@@ -53,6 +53,15 @@
     },
     {
       "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/nightmare_shackles.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "fF"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "manic:gui/grimoire/return.png",
       "ascent": -8,
       "height": 13,

@@ -166,6 +166,21 @@
           }
         ]
       }
+    },
+    "paracusia": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[\"manic.paracusia\"]}"
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -198,6 +213,9 @@
     ],
     [
       "lockjaw"
+    ],
+    [
+      "paracusia"
     ]
   ],
   "rewards": {

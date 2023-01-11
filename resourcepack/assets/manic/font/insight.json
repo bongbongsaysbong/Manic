@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "manic:gui/insight.png",
+      "ascent": 10,
+      "height": 15,
+      "chars": [
+        "A"
+      ]
+    }
+  ]
+}

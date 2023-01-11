@@ -15,3 +15,5 @@ execute if entity @s[tag=manic.piglin_monk] run function manic:entity/piglin_mon
 execute if entity @s[tag=manic.block.corpseplant] run function manic:block/corpseplant/hurt
 execute if entity @s[tag=manic.zombee] run playsound manic:entity.zombee.hurt neutral @a
 execute if entity @s[tag=manic.corpsecreep] run playsound manic:entity.corpsecreep.hurt hostile @a
+
+execute if entity @s[tag=manic.paracusia] run playsound manic:entity.paracusia.hurt hostile @a

@@ -16,6 +16,10 @@
     {
       "condition": "minecraft:reference",
       "name": "manic:block/placement/corpsethorn_valid"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:block/placement/corpsebulb_valid"
     }
   ]
 }

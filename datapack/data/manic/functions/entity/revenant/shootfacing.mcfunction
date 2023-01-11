@@ -1,5 +1,8 @@
 function nucleus:entity/technical/shootface/main
-data modify entity @s Motion[1] set value 0.2
+execute if entity @p[gamemode=!spectator,gamemode=!creative,distance=8..] run data modify entity @s Motion[1] set value 0.2
+
+execute store result score #vert manic.dummy run data get entity @s Motion[1] 1000
+execute if score #vert manic.dummy matches 65.. run data modify entity @s Motion[1] set value 0.65
 
 scoreboard players reset @s manic.dummy
 

@@ -14,6 +14,8 @@ execute if score @s manic.dummy matches 13..14 run data modify storage manic:sto
 execute if score @s manic.dummy matches 13 run function manic:entity/insomniac/spawning/main
 execute if score @s manic.dummy matches 14 run function manic:entity/piglin_monk/spawning/main
 execute if score @s manic.dummy matches 15 run function manic:block/anirrum_altar/interact/rituals/mining/set_data
+execute if score @s manic.dummy matches 16 run loot spawn ~ ~ ~ loot manic:items/nightmare_shackles
+execute if score @s manic.dummy matches 17 run loot spawn ~ ~ ~ loot manic:items/music_disc_7
 
 execute positioned ~ ~-2 ~ run tag @e[type=armor_stand,tag=manic.anirrum_altar.performing,sort=nearest,limit=1] remove manic.anirrum_altar.performing
 playsound manic:block.anirrum_altar.tentacle.spawn_item block @a

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/paracusia/walk",
+	"textures": {
+		"0": "manic:entity/paracusia/walk_hurt"
+	}
+}

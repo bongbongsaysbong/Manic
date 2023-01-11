@@ -1,11 +1,11 @@
 # Sound Event
 execute store result score @s manic.dummy run data get entity @s SelectedItem.tag.manic.corpseflute
-execute if score @s manic.dummy matches 1 run playsound manic:item.corpseflute.use.1 player @a[distance=..16] ~ ~ ~ 4
-execute if score @s manic.dummy matches 2 run playsound manic:item.corpseflute.use.2 player @a[distance=..16] ~ ~ ~ 4
-execute if score @s manic.dummy matches 3 run playsound manic:item.corpseflute.use.3 player @a[distance=..16] ~ ~ ~ 4
-execute if score @s manic.dummy matches 4 run playsound manic:item.corpseflute.use.4 player @a[distance=..16] ~ ~ ~ 4
-execute if score @s manic.dummy matches 5 run playsound manic:item.corpseflute.use.5 player @a[distance=..16] ~ ~ ~ 4
-execute if score @s manic.dummy matches 6 run playsound manic:item.corpseflute.use.6 player @a[distance=..16] ~ ~ ~ 4
+execute if score @s manic.dummy matches 1 run playsound manic:item.corpseflute.use.1 player @a[distance=..16] ~ ~ ~ 16
+execute if score @s manic.dummy matches 2 run playsound manic:item.corpseflute.use.2 player @a[distance=..16] ~ ~ ~ 16
+execute if score @s manic.dummy matches 3 run playsound manic:item.corpseflute.use.3 player @a[distance=..16] ~ ~ ~ 16
+execute if score @s manic.dummy matches 4 run playsound manic:item.corpseflute.use.4 player @a[distance=..16] ~ ~ ~ 16
+execute if score @s manic.dummy matches 5 run playsound manic:item.corpseflute.use.5 player @a[distance=..16] ~ ~ ~ 16
+execute if score @s manic.dummy matches 6 run playsound manic:item.corpseflute.use.6 player @a[distance=..16] ~ ~ ~ 16
 
 # Zombee Interaction
 data modify storage manic:storage root.temp.UUID set from entity @s UUID[0]

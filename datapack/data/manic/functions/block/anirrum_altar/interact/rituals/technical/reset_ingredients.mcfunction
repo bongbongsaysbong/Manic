@@ -31,5 +31,7 @@ scoreboard players reset #nether_wart manic.dummy
 
 scoreboard players reset #anima_shackles manic.dummy
 
+scoreboard players reset #disc_fragment manic.dummy
+
 scoreboard players reset #mining.ingot manic.dummy
 scoreboard players reset #mining manic.dummy

@@ -59,6 +59,33 @@
       "chars": [
         "fF"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/locked.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "xX"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/closed.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "yY"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/insight/future.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "zZ"
+      ]
     }
   ]
 }

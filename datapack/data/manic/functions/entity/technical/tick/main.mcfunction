@@ -13,6 +13,7 @@ execute if entity @s[tag=!nucleus.entity.animating,tag=!manic.entity.snared] run
 execute if entity @s[tag=manic.spectre_wormhole] run function manic:entity/technical/spectre/spawning/wormhole/tick
 execute if entity @s[tag=manic.spook_acid] run function manic:entity/spook/acid/tick
 execute if entity @s[tag=manic.insanity_ray] run function manic:entity/eidolon/insanity_ray/tick
+execute if entity @s[tag=manic.soundwave] run function manic:entity/paracusia/soundwave/tick
 execute if entity @s[tag=manic.lockjaw_insanity_ray] run function manic:entity/lockjaw/insanity_ray/tick
 execute if entity @s[tag=manic.sorrowhead_acid] run function manic:entity/sorrowhead/acid/tick
 execute if entity @s[tag=manic.sorrowhead_acid.burst] run function manic:entity/sorrowhead/acid/tick_burst
@@ -25,3 +26,6 @@ execute if entity @s[tag=manic.corpsecreep] run function manic:entity/corpsecree
 execute if entity @s[tag=manic.chitter_swarm] run function manic:entity/chitter/swarm/tick
 execute if entity @s[tag=manic.siren.shadow_hand] run function manic:entity/siren/hand/entity/tick
 execute if entity @s[tag=manic.grimoire_wormhole] run function manic:item/grimoire/render/spawning/wormhole/tick
+execute if entity @s[tag=manic.residuum.idle] run function manic:entity/residuum/idle/tick
+execute if entity @s[tag=manic.residuum.chase] run function manic:entity/residuum/chase/tick
+execute if entity @s[tag=manic.paracusia] run function manic:entity/paracusia/tick

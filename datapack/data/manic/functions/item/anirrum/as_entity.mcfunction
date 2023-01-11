@@ -10,3 +10,5 @@ execute if score #helmet manic.dummy matches 1 run data modify entity @s ArmorIt
 execute if score #chestplate manic.dummy matches 1 run data modify entity @s ArmorItems[2].tag set from storage manic:storage root.temp.inventory[2].tag
 execute if score #leggings manic.dummy matches 1 run data modify entity @s ArmorItems[1].tag set from storage manic:storage root.temp.inventory[1].tag
 execute if score #boots manic.dummy matches 1 run data modify entity @s ArmorItems[0].tag set from storage manic:storage root.temp.inventory[0].tag
+
+playsound manic:item.armor.equip_anirrum neutral @a

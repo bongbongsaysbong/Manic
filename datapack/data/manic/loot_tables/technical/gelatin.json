@@ -68,6 +68,15 @@
             }
           ]
         }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 3
+          }
+        }
       ]
     }
   ]

@@ -1,4 +1,4 @@
-playsound manic:entity.sorrowhead.spit_acid hostile @a
+playsound manic:entity.sorrowhead.spit_acid hostile @a ~ ~ ~ 1.5
 
 tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator] eyes
 execute at @s positioned ^ ^ ^1 positioned ~ ~1 ~ run summon armor_stand ~ ~ ~ {Marker:1b,Silent:1b,Invisible:1b,Invulnerable:1b,Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid"]}

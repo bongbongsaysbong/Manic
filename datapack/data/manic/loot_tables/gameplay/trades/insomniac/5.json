@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": 2
             }
           ]
         }
@@ -20,17 +20,35 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:mycelium"
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:ender_pearl",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": 2
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/pumpkin_pop",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/corpseflute"
         }
       ]
     }

@@ -6,22 +6,26 @@
 	"item.manic.grimoire": "魔典",
 	"item.manic.occult_explorer_map": "神秘探险家地图",
 	"subtitles.entity.manic.player.gain_insight": "知识吸收",
+	"ui.manic.gain_insight": "%s 灵视提高了 %s",
 	"subtitles.item.manic.grimoire.select": "魔典沙沙作响",
 	"subtitles.item.manic.grimoire.open": "魔典打开",
 	"subtitles.item.manic.grimoire.close": "魔典合上",
 	"item.manic.grimoire.description.cycle": "使用 [%s] 循环",
 	"item.manic.grimoire.description.select": "使用 [%s] + [%s] 选择",
 
-	"block.manic.deepslate_podium": "深板岩讲台",
+	"block.manic.deepslate_podium": "深板岩祭台",
 	"block.manic.deepslate_podium.name": " ",
-	"subtitles.block.manic.deepslate_podium.fill": "深板岩讲台填充",
-	"subtitles.block.manic.deepslate_podium.empty": "深板岩讲台清空",
+	"subtitles.block.manic.deepslate_podium.fill": "深板岩祭台填充",
+	"subtitles.block.manic.deepslate_podium.empty": "深板岩祭台清空",
 
 	"block.manic.deepslate_altar": "深板岩祭坛",
 	"block.manic.deepslate_altar.name": " ",
 	"subtitles.block.manic.deepslate_altar.commit": "仪式上贡",
 	"subtitles.block.manic.deepslate_altar.reject": "仪式失败",
 	"subtitles.block.manic.deepslate_altar.empty": "仪式结束",
+	"ui.manic.deepslate_altar.reject.too_recent": "%s 最近被执行过, 无法使用此仪式 (还剩 %s 秒)",
+	"ui.manic.deepslate_altar.reject.high_sanity": "理智值太高无法使用这个仪式",
+	"ui.manic.deepslate_altar.reject.dimension": "仪式必须在 %s 中进行",
 
 	"block.manic.cursed_candle": "诅咒蜡烛",
 	"subtitles.block.manic.cursed_candle.ignite": "诅咒蜡烛被点燃",
@@ -112,6 +116,22 @@
 	"item.manic.corpseflute.5": "亡灵卡罗尔",
 	"item.manic.corpseflute.6": "升天",
 	"subtitles.item.manic.corpseflute.use": "尸笛笛声",
+
+	"block.manic.corpsebulb": "尸球",
+	"subtitles.block.manic.corpsebulb.produce": "尸球绽放",
+	"subtitles.block.manic.corpsebulb.scent": "尸球嗅到",
+	"item.manic.corpsebulb_stem": "尸球茎",
+	"item.manic.dead_corpsebulb_stem": "死亡尸球茎",
+	"item.manic.corpsebulb_flesh": "尸球肉",
+	"item.manic.corpsebulb_flesh.eerie": "诡异尸球肉",
+	"item.manic.corpsebulb_flesh.necrotic": "坏死尸球肉",
+	"item.manic.corpsebulb_flesh.brainy": "聪明尸球肉",
+	"item.manic.corpsebulb_flesh.ghastly": "可怕尸球肉",
+	"item.manic.corpsebulb_flesh.viscous": "粘稠尸球肉",
+	"item.manic.corpsebulb_flesh.unscented": "无味",
+
+	"item.manic.pumpkin_pop": "南瓜汽水",
+	"item.manic.melon_pop": "西瓜汽水",
 
 	"block.manic.anirrum_podium": "魂钢讲台",
 	"block.manic.anirrum_podium.name": " ",
@@ -265,6 +285,10 @@
 	"subtitles.entity.manic.insomniac.spawn": "无眠者出现",
 	"subtitles.entity.manic.insomniac.despawn": "无眠者消失",
 
+	"item.manic.nightmare_shackles": "梦魇镣铐",
+	"subtitles.item.manic.nightmare_shackles.use": "梦魇镣铐低语",
+	"subtitles.item.manic.nightmare_shackles.equip": "梦魇镣铐叮当响",
+
 	"entity.manic.piglin_monk": "猪格林",
 	"subtitles.entity.manic.piglin_monk.ambient": "猪格林哼哼",
 	"subtitles.entity.manic.piglin_monk.hurt": "猪格林受伤",
@@ -289,6 +313,9 @@
 	"death.manic.corpsecreep": "%s 被尸力怕炸没了",
 
 	"record.manic.respite": "chlo - respite",
+	"record.manic.7": "chlo - 7",
+	"record.manic.7_fixed": "chlo - seven",
+	"item.manic.disc_fragment_7.desc": "音乐唱片 - 7",
 
 	"entity.manic.zombee": "僵尸蜂",
 	"subtitles.entity.manic.zombee.convert": "蜜蜂枯萎",
@@ -303,6 +330,29 @@
 	"subtitles.entity.manic.chitter.spawn": "寒灵蜂拥",
 	"subtitles.entity.manic.chitter.trigger": "寒灵嘲讽",
 	"subtitles.entity.manic.chitter.despawn": "寒灵消失",
+
+	"entity.manic.residuum": "暗影",
+	"subtitles.entity.manic.residuum.spawn": "暗影出现",
+	"subtitles.entity.manic.residuum.trigger": "暗影咯咯",
+	"subtitles.entity.manic.residuum.despawn": "暗影消失",
+
+	"entity.manic.paracusia": "恼闹",
+	"subtitles.entity.manic.paracusia.ambient": "恼闹鸣叫",
+	"subtitles.entity.manic.paracusia.ambient_distant": "诡异的噪音?",
+	"subtitles.entity.manic.paracusia.hurt": "恼闹受伤",
+	"subtitles.entity.manic.paracusia.death": "恼闹死亡",
+	"subtitles.entity.manic.paracusia.attack": "恼闹磨爪",
+	"subtitles.entity.manic.paracusia.alert": "恼闹警报",
+	"subtitles.entity.manic.paracusia.alert_undo": "恼闹平静",
+	"subtitles.entity.manic.paracusia.footstep": "恼闹踱步",
+	"subtitles.entity.manic.paracusia.shoot": "恼闹回声",
+	"subtitles.entity.manic.paracusia.soundwave.create": "声波共鸣",
+	"subtitles.entity.manic.paracusia.soundwave.delete": "声波消退",
+	"subtitles.entity.manic.paracusia.cackler.create": "咯咯声出现",
+	"subtitles.entity.manic.paracusia.cackler.delete": "咯咯声消失了",
+	"death.manic.paracusia": "%s 被恼闹魔音灌耳",
+
+	"death.manic.darkness": "%s 屈服于黑暗",
 
 	"gamerules.manic.title": "癫狂游戏规则",
 	"gamerules.manic.legacy_sanity": "被动理智值流失: %s %s",
@@ -377,5 +427,7 @@
 	"advancements.manic.charonite_hoe": "骗我两次",
 	"advancements.manic.charonite_hoe.description": "创造一个夏龙石锄",
 	"advancements.manic.dimension_rift": "什么博士",
-	"advancements.manic.dimension_rift.description": "使用魂钢祭坛跨次元旅行"
+	"advancements.manic.dimension_rift.description": "使用魂钢祭坛跨次元旅行",
+	"advancements.manic.kill_paracusia": "恐声症",
+	"advancements.manic.kill_paracusia.description": "找到并杀死一个恼闹"
 }

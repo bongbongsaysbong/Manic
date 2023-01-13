@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360007,manic:{id:\"pumpkin_pop\",sanity:\"good\",item_group:\"pop\"}}"
+              "tag": "{CustomModelData:8360007,manic:{id:\"melon_pop\",sanity:\"good\",item_group:\"pop\"}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.manic.pumpkin_pop",
+                "translate": "item.manic.melon_pop",
                 "italic": false,
                 "color": "white"
               }

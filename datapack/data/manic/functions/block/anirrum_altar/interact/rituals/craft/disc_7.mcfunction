@@ -1,6 +1,6 @@
 data modify storage manic:storage root.temp.ritual_success set value 1b
 data modify storage manic:storage root.temp.reduce_sanity set value 200
-scoreboard players set #sanity_charges manic.dummy 3
+scoreboard players set #sanity_charges manic.dummy 0
 scoreboard players set #ritual_id manic.dummy 17
 
 playsound manic:block.anirrum_altar.ritual.generic block @a

@@ -108,6 +108,12 @@
 		  "custom_model_data": 8360017
 		},
 		"model": "manic:item/disc_fragment_7"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360018
+		},
+		"model": "manic:item/charonite/charonite_ingot"
 	  }
 	]
 }

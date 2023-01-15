@@ -1,4 +1,4 @@
-execute if score @s manic.dummy matches 2.. as @e[distance=..12,predicate=manic:entity/snare/can_be_snared,tag=!manic.entity.snared,tag=!nucleus.entity.animating] at @s run function manic:block/corpsebloom/snare/ensnare
+execute if score @s manic.dummy matches 2.. as @e[distance=..12,predicate=manic:entity/snare/can_be_snared,tag=!manic.entity.snared,tag=!nucleus.animating] at @s run function manic:block/corpsebloom/snare/ensnare
 
 execute if score @s manic.timer matches 1.. run scoreboard players remove @s manic.timer 1
 execute if score @s manic.timer matches 1 run function manic:block/corpsebloom/unwilt

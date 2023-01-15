@@ -175,6 +175,27 @@
 	{ "predicate": { "custom_model_data": 8360166 }, "model": "manic:entity/paracusia/alert_undo" },
 	{ "predicate": { "custom_model_data": 8360167 }, "model": "manic:entity/paracusia/alert_undo_hurt" },
 	{ "predicate": { "custom_model_data": 8360168 }, "model": "manic:entity/paracusia/additional/soundwave" },
-	{ "predicate": { "custom_model_data": 8360169 }, "model": "manic:entity/paracusia/additional/cackler" }
+	{ "predicate": { "custom_model_data": 8360169 }, "model": "manic:entity/paracusia/additional/cackler" },
+	{ "predicate": { "custom_model_data": 8360170 }, "model": "manic:entity/heretic/idle" },
+	{ "predicate": { "custom_model_data": 8360171 }, "model": "manic:entity/heretic/idle_hurt" },
+	{ "predicate": { "custom_model_data": 8360172 }, "model": "manic:entity/heretic/walk" },
+	{ "predicate": { "custom_model_data": 8360173 }, "model": "manic:entity/heretic/walk_hurt" },
+	{ "predicate": { "custom_model_data": 8360174 }, "model": "manic:entity/heretic/cast_explosion" },
+	{ "predicate": { "custom_model_data": 8360175 }, "model": "manic:entity/heretic/cast_explosion_hurt" },
+	{ "predicate": { "custom_model_data": 8360176 }, "model": "manic:entity/heretic/cast_flame" },
+	{ "predicate": { "custom_model_data": 8360177 }, "model": "manic:entity/heretic/cast_flame_hurt" },
+	{ "predicate": { "custom_model_data": 8360178 }, "model": "manic:entity/heretic/cast_tentacle" },
+	{ "predicate": { "custom_model_data": 8360179 }, "model": "manic:entity/heretic/cast_tentacle_hurt" },
+	{ "predicate": { "custom_model_data": 8360180 }, "model": "manic:entity/zealot/idle" },
+	{ "predicate": { "custom_model_data": 8360181 }, "model": "manic:entity/zealot/idle_hurt" },
+	{ "predicate": { "custom_model_data": 8360182 }, "model": "manic:entity/zealot/walk" },
+	{ "predicate": { "custom_model_data": 8360183 }, "model": "manic:entity/zealot/walk_hurt" },
+	{ "predicate": { "custom_model_data": 8360184 }, "model": "manic:entity/zealot/cast_mob" },
+	{ "predicate": { "custom_model_data": 8360185 }, "model": "manic:entity/zealot/cast_mob_hurt" },
+	{ "predicate": { "custom_model_data": 8360186 }, "model": "manic:entity/zealot/cast_flame" },
+	{ "predicate": { "custom_model_data": 8360187 }, "model": "manic:entity/zealot/cast_flame_hurt" },
+	{ "predicate": { "custom_model_data": 8360188 }, "model": "manic:entity/zealot/cast_tentacle" },
+	{ "predicate": { "custom_model_data": 8360189 }, "model": "manic:entity/zealot/cast_tentacle_hurt" },
+	{ "predicate": { "custom_model_data": 8360190 }, "model": "manic:entity/heretic/tentacle" }
   ]
 }

@@ -9,7 +9,8 @@ execute if entity @s[tag=manic.sanity_ray] run function manic:block/sanity_ray/t
 execute if entity @s[tag=manic.altar_tentacle] run function manic:block/anirrum_altar/tentacle/tick
 
 # Entities
-execute if entity @s[tag=!nucleus.entity.animating,tag=!manic.entity.snared] run function manic:entity/technical/tick/non_animated
+execute if entity @s[tag=!nucleus.animating,tag=!manic.entity.snared] run function manic:entity/technical/tick/non_animated
+execute if score @s[tag=nucleus.animating.spawn] nucleus.frames matches 2 run function nucleus:entity/technical/animate/end
 execute if entity @s[tag=manic.spectre_wormhole] run function manic:entity/technical/spectre/spawning/wormhole/tick
 execute if entity @s[tag=manic.spook_acid] run function manic:entity/spook/acid/tick
 execute if entity @s[tag=manic.insanity_ray] run function manic:entity/eidolon/insanity_ray/tick

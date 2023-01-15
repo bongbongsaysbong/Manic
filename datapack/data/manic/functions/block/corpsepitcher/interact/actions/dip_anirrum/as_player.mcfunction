@@ -9,10 +9,8 @@ execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_ax
 execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_shovel"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 9
 execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_hoe"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 10
 execute if data storage manic:storage root.temp{item:{id:"minecraft:chain"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 11
-execute if data storage manic:storage root.temp{item:{id:"minecraft:iron_block"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 12
-execute if data storage manic:storage root.temp{item:{id:"minecraft:anvil"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 13
-execute if data storage manic:storage root.temp{item:{id:"minecraft:chipped_anvil"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 13
-execute if data storage manic:storage root.temp{item:{id:"minecraft:damaged_anvil"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 13
+execute if data storage manic:storage root.temp{item:{id:"minecraft:dispenser",tag:{manic:{id:"deepslate_podium"}}}} run scoreboard players set #anirrum manic.dummy 12
+execute if data storage manic:storage root.temp{item:{id:"minecraft:dispenser",tag:{manic:{id:"deepslate_altar"}}}} run scoreboard players set #anirrum manic.dummy 13
 execute if data storage manic:storage root.temp{item:{id:"minecraft:cauldron"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 14
 execute if data storage manic:storage root.temp{item:{id:"minecraft:iron_ingot"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 15
 execute if data storage manic:storage root.temp{item:{id:"minecraft:iron_helmet"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 16
@@ -23,6 +21,7 @@ execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_he
 execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_chestplate"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 21
 execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_leggings"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 22
 execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_boots"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 23
+execute if data storage manic:storage root.temp{item:{id:"minecraft:netherite_ingot"},vanilla_item:1b} run scoreboard players set #anirrum manic.dummy 24
 
 execute if data entity @s SelectedItem run loot give @s loot manic:technical/anirrum
 execute unless data entity @s SelectedItem run loot replace entity @s weapon.mainhand loot manic:technical/anirrum

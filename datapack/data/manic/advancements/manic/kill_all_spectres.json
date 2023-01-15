@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:8360003}"
+      "nbt": "{CustomModelData:8360004}"
     },
     "title": {
       "translate": "advancements.manic.kill_all_spectres"

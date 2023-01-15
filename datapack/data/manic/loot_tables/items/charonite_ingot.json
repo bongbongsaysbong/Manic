@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360013,manic:{id:\"anirrum_ingot\"}}"
+              "tag": "{CustomModelData:8360018,manic:{id:\"charonite_ingot\"}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -24,7 +24,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.manic.anirrum_ingot",
+                "translate": "item.manic.charonite_ingot",
                 "italic": false,
                 "color": "white"
               }

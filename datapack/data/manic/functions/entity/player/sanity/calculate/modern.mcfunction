@@ -2,10 +2,6 @@
 scoreboard players reset @s manic.dummy
 execute unless score @s manic.lunacy matches 1.. run scoreboard players add @s manic.dummy 1
 
-# Beacon
-execute if entity @s[tag=manic.scheduled.beacon_sanity] run scoreboard players add @s manic.dummy 2
-tag @s remove manic.scheduled.beacon_sanity
-
 # Anirrum Armour
 execute if predicate manic:entity/wearing/charonite_any unless predicate manic:entity/wearing/anirrum_any run scoreboard players remove @s manic.dummy 1
 execute if predicate manic:entity/wearing/anirrum_any run scoreboard players remove @s manic.dummy 2

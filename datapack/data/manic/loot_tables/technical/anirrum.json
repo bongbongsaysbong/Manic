@@ -665,6 +665,29 @@
           "range": 23
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/charonite_ingot"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#anirrum"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 24
+        }
+      ]
     }
   ]
 }

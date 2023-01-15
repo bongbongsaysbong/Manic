@@ -429,5 +429,7 @@
 	"advancements.manic.dimension_rift": "Doctor What",
 	"advancements.manic.dimension_rift.description": "Use an Anirrum Altar to travel across dimensions",
 	"advancements.manic.kill_paracusia": "Phonophobia",
-	"advancements.manic.kill_paracusia.description": "Find and kill a Paracusia"
+	"advancements.manic.kill_paracusia.description": "Find and kill a Paracusia",
+	"advancements.manic.kill_mirage": "Sea Sickness",
+	"advancements.manic.kill_mirage.description": "Obtain Lysosomes, a key ritual ingredient, from killing a Mirage of the seas"
 }

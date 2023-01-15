@@ -21,4 +21,5 @@ execute positioned ~ ~-2 ~ run tag @e[type=armor_stand,tag=manic.anirrum_altar.p
 playsound manic:block.anirrum_altar.tentacle.spawn_item block @a
 particle item potion{CustomModelData:8360137,CustomPotionColor:16777215} ~ ~0.25 ~ 0.45 0.5 0.45 0.08 20 force
 particle dust_color_transition 0.102 1.000 0.000 2 0.114 0.212 0.176 ~ ~-0.5 ~ 0.45 0.65 0.45 2 15
+particle end_rod ~ ~0.5 ~ 0 0 0 0.15 30 force
 kill @s

@@ -77,4 +77,4 @@ scoreboard players set #256 manic.dummy 256
 
 # Initialise
 scoreboard players set #manic.installed manic.dummy 1
-execute unless data storage manic:storage root.version{major:1,release:0,semiver:2} run function manic:technical/first_load/main
+execute unless data storage manic:storage root.version{major:1,release:0,semiver:3} run function manic:technical/first_load/main

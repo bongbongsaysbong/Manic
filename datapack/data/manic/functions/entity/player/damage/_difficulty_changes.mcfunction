@@ -8,4 +8,6 @@ execute if score #difficulty manic.dummy matches 0..1 run scoreboard players ope
 execute if score #difficulty manic.dummy matches 3 run scoreboard players operation @s smithed.damage += #percentage manic.dummy
 
 # Effects
-playsound minecraft:entity.player.hurt player @a
+execute unless entity @s[tag=manic.burning] run playsound minecraft:entity.player.hurt player @a
+execute if entity @s[tag=manic.burning] run playsound minecraft:entity.player.hurt_on_fire player @a
+tag @s remove manic.burning

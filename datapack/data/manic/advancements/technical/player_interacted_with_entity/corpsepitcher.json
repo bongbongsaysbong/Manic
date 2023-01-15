@@ -84,6 +84,34 @@
         ]
       }
     },
+    "charonite_ingot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:structure_block"
+          ],
+          "nbt": "{manic:{id:\"charonite_ingot\"}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.dummy": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"manic.corpsepitcher\"]}"
+            }
+          }
+        ]
+      }
+    },
     "spectre_drop": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
@@ -211,10 +239,6 @@
             "minecraft:netherite_shovel",
             "minecraft:netherite_hoe",
             "minecraft:chain",
-            "minecraft:iron_block",
-            "minecraft:anvil",
-            "minecraft:chipped_anvil",
-            "minecraft:damaged_anvil",
             "minecraft:iron_ingot",
             "minecraft:iron_helmet",
             "minecraft:iron_chestplate",
@@ -223,7 +247,9 @@
             "minecraft:netherite_helmet",
             "minecraft:netherite_chestplate",
             "minecraft:netherite_leggings",
-            "minecraft:netherite_boots"
+            "minecraft:netherite_boots",
+            "minecraft:netherite_ingot",
+            "minecraft:dispenser"
           ]
         },
         "entity": [
@@ -251,6 +277,7 @@
       "bottle",
       "corpse_sap_bottle",
       "anirrum_ingot",
+      "charonite_ingot",
       "spectre_drop",
       "sugar",
       "empty",

@@ -6,3 +6,4 @@ execute if data storage manic:storage root.temp{action:5} run function manic:blo
 execute if data storage manic:storage root.temp{action:6} run function manic:block/corpsepitcher/interact/actions/create_anirrum
 execute if data storage manic:storage root.temp{action:7} run function manic:block/corpsepitcher/interact/actions/dip_anirrum/main
 execute if data storage manic:storage root.temp{action:8} run function manic:block/corpsepitcher/interact/actions/anirrum_ingot/main
+execute if data storage manic:storage root.temp{action:9} run function manic:block/corpsepitcher/interact/actions/charonite_ingot/main

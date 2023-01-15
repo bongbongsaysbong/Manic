@@ -13,14 +13,16 @@ execute if entity @s[advancements={manic:technical/player_interacted_with_entity
 execute if entity @s[advancements={manic:technical/player_interacted_with_entity/corpsepitcher={create_anirrum=true}}] run data modify storage manic:storage root.temp.action set value 6
 execute if entity @s[advancements={manic:technical/player_interacted_with_entity/corpsepitcher={dip_anirrum=true}}] run data modify storage manic:storage root.temp.action set value 7
 execute if entity @s[advancements={manic:technical/player_interacted_with_entity/corpsepitcher={anirrum_ingot=true}}] run data modify storage manic:storage root.temp.action set value 8
+execute if entity @s[advancements={manic:technical/player_interacted_with_entity/corpsepitcher={charonite_ingot=true}}] run data modify storage manic:storage root.temp.action set value 9
 
 # Actions
 execute anchored eyes run function manic:block/technical/raycast/raycast
 execute if data storage manic:storage root.temp{success:1b,reduce_count:1b,gamemode:0b} run item modify entity @s weapon.mainhand manic:reduce_count/1
 execute if data storage manic:storage root.temp{success:1b,action:1} run function manic:block/corpsepitcher/interact/actions/bottle/as_player
 execute if data storage manic:storage root.temp{success:1b,action:2} run function manic:block/corpsepitcher/interact/actions/corpse_sap_bottle/as_player
-execute if data storage manic:storage root.temp{success:1b,action:7,vanilla_item:1b} run function manic:block/corpsepitcher/interact/actions/dip_anirrum/as_player
+execute if data storage manic:storage root.temp{success:1b,make_anirrum:1b} run function manic:block/corpsepitcher/interact/actions/dip_anirrum/as_player
 execute if data storage manic:storage root.temp{success:1b,action:8} run function manic:block/corpsepitcher/interact/actions/anirrum_ingot/as_player
+execute if data storage manic:storage root.temp{success:1b,action:9} run function manic:block/corpsepitcher/interact/actions/charonite_ingot/as_player
 execute if data storage manic:storage root.temp{advancement:1b} run advancement grant @s only manic:manic/corpsepitcher
 
 # Finish

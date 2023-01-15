@@ -1,6 +1,6 @@
 data modify storage manic:storage root.version.major set value 1
 data modify storage manic:storage root.version.release set value 0
-data modify storage manic:storage root.version.semiver set value 2
+data modify storage manic:storage root.version.semiver set value 3
 
 data modify storage manic:storage root.gamerules.legacy_sanity set value 1b
 data modify storage manic:storage root.gamerules.night_sanity_drain set value 0b

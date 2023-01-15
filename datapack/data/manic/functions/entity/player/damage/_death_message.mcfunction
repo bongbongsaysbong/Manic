@@ -14,3 +14,7 @@ execute if entity @s[tag=manic.damage.corpsecreep] run tellraw @a {"translate":"
 execute if entity @s[tag=manic.damage.darkness] run tellraw @a {"translate":"death.manic.darkness","with":[{"selector":"@s"}]}
 
 execute if entity @s[tag=manic.damage.paracusia] run tellraw @a {"translate":"death.manic.paracusia","with":[{"selector":"@s"}]}
+
+execute if entity @s[tag=manic.damage.heretic_explosion] run tellraw @a {"translate":"death.manic.heretic_explosion","with":[{"selector":"@s"}]}
+execute if entity @s[tag=manic.damage.sanity_flame] run tellraw @a {"translate":"death.manic.sanity_flame","with":[{"selector":"@s"}]}
+execute if entity @s[tag=manic.damage.cultist_tentacle] run tellraw @a {"translate":"death.manic.cultist_tentacle","with":[{"selector":"@s"}]}

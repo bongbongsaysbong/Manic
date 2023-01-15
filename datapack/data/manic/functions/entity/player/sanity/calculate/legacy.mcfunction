@@ -2,8 +2,8 @@ scoreboard players reset @s manic.dummy
 scoreboard players add @s manic.sanity_debt 0
 
 # Base Modifications
-execute if predicate manic:entity/sanity_loss/amount/3 run scoreboard players remove @s manic.dummy 3
-execute if predicate manic:entity/sanity_loss/amount/6 run scoreboard players remove @s manic.dummy 6
+execute if predicate manic:entity/sanity_loss/3 run scoreboard players remove @s manic.dummy 3
+execute if predicate manic:entity/sanity_loss/6 run scoreboard players remove @s manic.dummy 6
 execute if predicate manic:entity/has_darkness run scoreboard players remove @s manic.dummy 3
 execute if data storage manic:storage root.gamerules{night_sanity_drain:1b} if predicate manic:entity/sanity_loss/nightly run scoreboard players remove @s manic.dummy 1
 execute if data storage manic:storage root.gamerules{deepslate_sanity_drain:1b} if predicate manic:location/deepslate_caves run scoreboard players remove @s manic.dummy 1
@@ -11,7 +11,7 @@ execute if data storage manic:storage root.gamerules{nether_sanity_drain:1b} if 
 execute if data storage manic:storage root.gamerules{end_sanity_drain:1b} if predicate manic:location/dimension/the_end run scoreboard players remove @s manic.dummy 2
 
 execute if score #sanguine.blood_moon.phase sanguine.dummy matches 2 run scoreboard players remove @s manic.dummy 5
-execute if entity @s[tag=manic.scheduled.beacon_sanity] run scoreboard players add @s manic.dummy 2
+execute if entity @s[tag=manic.scheduled.beacon_sanity] if score @s manic.dummy matches ..-1 run scoreboard players operation @s manic.dummy /= #2 manic.dummy
 tag @s remove manic.scheduled.beacon_sanity
 execute if score @s manic.dummy matches ..-8 run scoreboard players set @s manic.dummy -8
 

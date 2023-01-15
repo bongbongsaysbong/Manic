@@ -425,5 +425,7 @@
 	"advancements.manic.dimension_rift": "Доктор... куда?",
 	"advancements.manic.dimension_rift.description": "Используйте аниррумовый алтарь для путешествия сквозь измерения",
 	"advancements.manic.kill_paracusia": "Акустикофобия",
-	"advancements.manic.kill_paracusia.description": "Найдите и убейте паракузию"
+	"advancements.manic.kill_paracusia.description": "Найдите и убейте паракузию",
+	"advancements.manic.kill_mirage": "Морская болезнь",
+	"advancements.manic.kill_mirage.description": "Добудьте Лизосомы, главная вещь для проведения ритуала, убив Мираж глубин"
 }

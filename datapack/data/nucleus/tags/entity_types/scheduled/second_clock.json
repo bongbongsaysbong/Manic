@@ -1,13 +1,10 @@
 {
     "values":[
-        "#manic:undead",
+        "#nucleus:preset/undead",
         "minecraft:armor_stand",
         "minecraft:marker",
         "minecraft:bee",
         "minecraft:creeper",
-        "minecraft:snowball",
-        "minecraft:zombified_piglin",
-        "minecraft:zoglin",
-        "minecraft:phantom"
+        "minecraft:snowball"
     ]
 }

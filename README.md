@@ -37,7 +37,9 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   __Translations:__<br/>
   Chinese (zh_cn) - IceBear<br/>
   Russian (ru_ru) - VectorV, LolsShow<br/>
-  Korean (ko_kr) - Daik<br/><br/>
+  Korean (ko_kr) - Daik<br/>
+  
+  Additional credits to VectorV for winning the 2022 spectre contest, getting their mob "Paracusia" in the game!<br/><br/>
   
 </details>
 

@@ -10,7 +10,8 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
 
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)
-* [Smithed Page](https://smithed.dev/packs/visi/manic) (recommended download)
+* [Modrinth](https://modrinth.com/datapack/manic)
+* [Smithed](https://smithed.dev/packs/manic)
 * [Wiki](https://github.com/VisiVersa/Manic/wiki)
 
 ## 📦 Additional 📦
@@ -48,8 +49,8 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   </summary>
   
   __Can I run Manic with other datapacks?__<br/>
-  It depends, but if the datapack is on Smithed, then it likely can. You may have to merge the resource pack and/or datapack with Mito.<br/>
-  ➼ [mito](https://mito.thenuclearnexus.live)<br/>
+  It depends, but if the datapack is on Smithed, then it likely can. You may have to merge the resource pack and/or datapack with Weld.<br/>
+  ➼ [weld](https://weld.smithed.dev)<br/>
   
   __I am experiencing various rendering issues__<br/>
   OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here.<br/>
@@ -71,5 +72,6 @@ Manic is a magic datapack for Minecraft that allows you to delve into insanity. 
   ➼ gamerules: /function manic:commands/gamerules<br/>
   ➼ spawning items: /loot give @s loot manic:items/...<br/>
   ➼ spawning mobs: /function manic:commands/summon/...<br/>
+  ➼ set sanity: /function manic:commands/sanity/...<br/>
 
 </details>

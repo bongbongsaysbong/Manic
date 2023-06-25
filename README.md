@@ -9,7 +9,7 @@ Sacrifice your sanity to the dark arts and ascend further than before. Face its 
 Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forgotten pages of ancient texts and ruined civilization in this challenging, dark new world. Fight off nasty undead spectres, garden strange, rotten plants, wield new toolsets and commit rituals to an unknown goddess. Shall you brave the horrors, you may even slay these beasts and ascend to new heights...
 
 ## 🔗 Links 🔗
-* [Discord Server](https://discord.gg/jsbRvexYqA)
+* [Discord server](https://discord.gg/jsbRvexYqA)
 * [Modrinth](https://modrinth.com/datapack/manic)
 * [Smithed](https://smithed.dev/packs/manic)
 * [Wiki](https://github.com/VisiVersa/Manic/wiki)
@@ -58,7 +58,7 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
   ➼ [weld](https://weld.smithed.dev)<br/>
   
   __I am experiencing various rendering issues__<br/>
-  OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here.<br/>
+  OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here. Also note that even Iris shaders don't work.<br/>
   ➼ [on optifine](https://tinyurl.com/optifine-is-mid)<br/>
   
   __Why am I receiving items constantly?__<br/>
@@ -74,9 +74,7 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
     💻 Commands 💻
   </summary>
 
-  ➼ gamerules: /function manic:commands/gamerules<br/>
-  ➼ spawning items: /loot give @s loot manic:items/...<br/>
-  ➼ spawning mobs: /function manic:commands/summon/...<br/>
-  ➼ set sanity: /function manic:commands/sanity/...<br/>
+__You can open up a menu with all custom commands here:__<br/>
+  ➼ /function nucleus:menu<br/>
 
 </details>

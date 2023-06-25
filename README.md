@@ -22,15 +22,16 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
   </summary>
   
   __User Credits:__<br/>
-  VisiVersa - Main Programmer<br/>
-  ElBones - Artist, Brainstorming<br/>
-  CreeperMagnet_ - Miscellaneous Code<br/>
-  the der discohund - [Shader Code](https://github.com/HalbFettKaese/)<br/>
-  chlo - [Respite Music Disc](https://www.youtube.com/watch?v=G-pl_pN_okU)<br/>
+  VisiVersa - Main programmer<br/>
+  ElBones - Artist, brainstorming<br/>
+  CreeperMagnet_ - Miscellaneous code<br/>
+  the der discohund - [Shader code](https://github.com/HalbFettKaese/)<br/>
+  chlo - [Respite music disc](https://www.youtube.com/watch?v=G-pl_pN_okU)<br/>
+  Amber Gray - Corpseflute sounds<br/>
   
   __Libraries:__<br/>
-  TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/libraries)<br/>
-  ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
+  TheNuclearNexus & co. - [Various smithed libraries](https://smithed.dev/libraries)<br/>
+  ShockMicro - [Emissive textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
   Godlander - [ObjMC](https://github.com/Godlander/objmc)<br/>
   Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/>
   
@@ -43,7 +44,7 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
   [Zapsplat](https://www.zapsplat.com/)<br/>
   [Freesound](https://freesound.org/)<br/>
   
-  Additional credits to VectorV for winning the 2022 spectre contest, getting their mob "Paracusia" in the game!<br/><br/>
+  Additional credits to the 2022 spectre contest winners, VectorV and TheCommonCard!<br/><br/>
   
 </details>
 

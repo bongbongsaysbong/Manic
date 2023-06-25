@@ -60,10 +60,7 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
   __I am experiencing various rendering issues__<br/>
   OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here. Also note that even Iris shaders don't work.<br/>
   ➼ [on optifine](https://tinyurl.com/optifine-is-mid)<br/>
-  
-  __Why am I receiving items constantly?__<br/>
-  This is an issue caused by mods or datapacks that unlock all recipe advancements, notably VanillaTweaks and Quark (though Quark's can be configured off). This is due to how datapacks handle custom recipes.<br/>
-  
+
   __This feature is broken__<br/>
   Some server or plugin software may cause issues with our datapacks. This notoriously includes Paper, Spigot, Bukkit, Paper and Purpur. You can try to mess around with the config files, but it's recommended to use Vanilla or Fabric, and sometimes Forge with varying results.<br/><br/>
 

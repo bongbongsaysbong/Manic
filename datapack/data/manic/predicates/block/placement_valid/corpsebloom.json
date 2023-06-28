@@ -1,0 +1,40 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 0,
+    "offsetY": 1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:air"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": 0,
+        "offsetZ": 0,
+        "predicate": {
+          "block": {
+            "tag": "nucleus:air"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 0,
+    "offsetY": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "tag": "manic:placement_valid/corpsebloom"
+      }
+    }
+  }
+]

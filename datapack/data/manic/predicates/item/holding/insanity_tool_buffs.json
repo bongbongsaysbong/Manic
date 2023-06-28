@@ -1,0 +1,57 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:diamond_sword",
+                "minecraft:diamond_pickaxe",
+                "minecraft:diamond_axe",
+                "minecraft:diamond_shovel",
+                "minecraft:diamond_hoe",
+                "minecraft:netherite_sword",
+                "minecraft:netherite_pickaxe",
+                "minecraft:netherite_axe",
+                "minecraft:netherite_shovel",
+                "minecraft:netherite_hoe"
+              ],
+              "nbt": "{manic:{tool:\"anirrum\"}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:netherite_sword",
+                "minecraft:netherite_pickaxe",
+                "minecraft:netherite_axe",
+                "minecraft:netherite_shovel",
+                "minecraft:netherite_hoe"
+              ],
+              "nbt": "{manic:{tool:\"elderskin\"}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "manic.sanity": {
+        "max": 2999
+      }
+    }
+  }
+]

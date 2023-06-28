@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:700933,HideFlags:33,manic:{id:\"potion_clairvoyance\"},nucleus:{potion:{can_corrupt:1b,can_enhance:1b}}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.manic.potion.effect.clairvoyance.description",
+                  "color": "#A8C2A8",
+                  "italic": false
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "potion.whenDrank",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "potion.manic.sanity_up",
+                  "color": "#A8C2A8",
+                  "italic": false,
+                  "with": [
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.potion.effect.clairvoyance",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

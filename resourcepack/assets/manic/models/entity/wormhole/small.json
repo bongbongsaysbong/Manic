@@ -18,16 +18,5 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"ground": {
-			"rotation": [0, -90, 0],
-			"translation": [0, -9.7, -6],
-			"scale": [1.01, 1.01, 1.01]
-		},
-		"head": {
-			"translation": [0, -25.75, 0],
-			"scale": [1.62, 1.62, 1.62]
-		}
-	}
+	]
 }

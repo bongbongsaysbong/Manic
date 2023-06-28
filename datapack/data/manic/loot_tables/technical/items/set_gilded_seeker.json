@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{LodestonePos:{X:0,Y:60,Z:0},LodestoneTracked:0b,LodestoneDimension:\"manic:invalid\",HideFlags:2,manic:{id:\"gilded_seeker\"},CustomModelData:8360000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.gilded_seeker",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:compass"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "charonite",
+  "description": {
+    "color": "#46617B",
+    "translate": "trim_material.manic.charonite"
+  },
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.83622
+}

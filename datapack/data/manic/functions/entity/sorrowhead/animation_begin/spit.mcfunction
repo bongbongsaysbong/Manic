@@ -2,5 +2,5 @@ data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value
 tag @s add manic.sorrowhead.spit
 
 tp @s ~ ~ ~ facing entity @p[gamemode=!spectator,gamemode=!creative]
-scoreboard players set @s nucleus.frames 30
+scoreboard players set @s nucleus.frames 50
 function nucleus:entity/technical/animate

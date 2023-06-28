@@ -10,6 +10,12 @@
           "custom_model_data": 8360000
         },
         "model": "manic:item/occult_explorer_map/main"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 8360001
+        },
+        "model": "manic:item/grim_explorer_map/main"
       }
     ]
 }

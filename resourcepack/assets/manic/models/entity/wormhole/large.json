@@ -17,6 +17,5 @@
 				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
 			}
 		}
-	],
-	"display": {}
+	]
 }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"manic:deepslate_podium\"}}}}]},CustomModelData:8360000,manic:{id:\"deepslate_podium\"}}"
+              "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{nucleus:{block:{placed_block:1b,id:\"manic:deepslate_podium\"}}}}]},CustomModelData:8360000,manic:{id:\"deepslate_podium\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -22,14 +22,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             }
           ],
-          "name": "minecraft:dispenser"
+          "name": "minecraft:hopper"
         }
       ]
     }

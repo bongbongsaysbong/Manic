@@ -1,0 +1,10 @@
+{
+  "values": [
+    "manic:charged",
+    "manic:shaken",
+    "manic:darkness",
+    "manic:dragged",
+    "manic:dragged/bypasses_enchants",
+    "manic:crushed"
+  ]
+}

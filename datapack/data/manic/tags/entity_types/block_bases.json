@@ -1,6 +1,6 @@
 {
   "values": [
-    "minecraft:wandering_trader",
-    "minecraft:armor_stand"
+    "minecraft:interaction",
+    "minecraft:item_display"
   ]
 }

@@ -11,13 +11,13 @@
         },
         "entity": [
           {
-            "condition": "minecraft:alternative",
+            "condition": "minecraft:any_of",
             "terms": [
               {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "nbt": "{Tags:[\"manic.entity.despawns\"]}"
+                  "nbt": "{Tags:[\"manic.despawns\"]}"
                 }
               },
               {

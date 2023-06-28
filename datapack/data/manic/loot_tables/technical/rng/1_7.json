@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:empty",
+  "random_sequence": "manic:technical/rng/1_7",
+  "pools": [{
+    "rolls": {
+      "min": 1,
+      "max": 7
+    },
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "stone",
+      "functions": [{
+        "function": "minecraft:set_count",
+        "count": 0
+      }]
+    }]
+  }]
+}

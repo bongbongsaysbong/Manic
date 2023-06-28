@@ -1,0 +1,239 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room0",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room1",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room1b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room2",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room2b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room2c",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room3",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room3b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room4",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room5",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room6",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room6b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room7",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room7b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room8",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room8b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room9",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room9b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room10",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room10b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room11",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room11b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room11c",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/bottom/room12",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room13",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "manic:mausoleum/bottom/room13b",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

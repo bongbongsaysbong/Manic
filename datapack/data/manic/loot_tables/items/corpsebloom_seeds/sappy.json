@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360003,manic:{id:\"corpsebloom_seeds\",corpsebloom_state:\"sappy\"},RepairCost:999}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360003,manic:{id:\"corpsebloom_seeds\",corpsebloom_state:\"sappy\"},RepairCost:999,nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -20,9 +20,13 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },

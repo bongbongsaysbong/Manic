@@ -4,12 +4,12 @@
     "entity": "this",
     "scores": {
       "manic.effect.prevent_effects": {
-        "min": 1
+        "min": 0
       }
     }
   },
   {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
       {
         "condition": "minecraft:entity_properties",
@@ -17,8 +17,8 @@
         "predicate": {
           "effects": {
             "bad_omen": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -30,8 +30,8 @@
         "predicate": {
           "effects": {
             "blindness": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -43,8 +43,8 @@
         "predicate": {
           "effects": {
             "darkness": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -56,8 +56,8 @@
         "predicate": {
           "effects": {
             "glowing": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -69,8 +69,8 @@
         "predicate": {
           "effects": {
             "hunger": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -82,8 +82,8 @@
         "predicate": {
           "effects": {
             "levitation": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -95,8 +95,8 @@
         "predicate": {
           "effects": {
             "mining_fatigue": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -108,8 +108,8 @@
         "predicate": {
           "effects": {
             "nausea": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -121,8 +121,8 @@
         "predicate": {
           "effects": {
             "poison": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -134,8 +134,8 @@
         "predicate": {
           "effects": {
             "slowness": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -147,8 +147,8 @@
         "predicate": {
           "effects": {
             "unluck": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -160,8 +160,8 @@
         "predicate": {
           "effects": {
             "weakness": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }
@@ -173,8 +173,8 @@
         "predicate": {
           "effects": {
             "wither": {
-              "duration": {
-                "min": 1
+              "amplifier": {
+                "min": 0
               }
             }
           }

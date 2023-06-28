@@ -10,15 +10,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360000,manic:{charonite_modified:0b,id:\"anirrum_axe\",tool:\"anirrum\"}}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360000,manic:{charonite_modified:0b,id:\"anirrum_axe\",tool:\"anirrum\"},sanguine:{allow_pus_repair:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },

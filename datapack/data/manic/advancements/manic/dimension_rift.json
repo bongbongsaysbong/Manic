@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:8360009}"
+      "nbt": "{CustomModelData:8360010,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
     },
     "title": {
       "translate": "advancements.manic.dimension_rift"

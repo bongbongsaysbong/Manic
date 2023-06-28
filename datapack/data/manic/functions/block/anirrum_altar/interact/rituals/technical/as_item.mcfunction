@@ -10,5 +10,7 @@ tag @s remove manic.anirrum_podium_item
 tag @s remove manic.anirrum_podium_item.set
 
 tag @s add manic.tentacle_target
+tag @s add smithed.entity
+tag @s add smithed.strict
 
 data modify entity @s Item.tag.nucleus.illegal_item set value 1b

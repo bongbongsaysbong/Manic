@@ -6,14 +6,14 @@ execute store result score #pos_y manic.dummy run data get entity @s Pos[1]
 execute store result score #pos_z manic.dummy run data get entity @s Pos[2]
 
 # RNG
-execute store result score #rng_x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_32
-execute if score #rng_x manic.dummy matches 17.. run scoreboard players remove #rng_x manic.dummy 32
+execute store result score #rng_x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_64
+execute if score #rng_x manic.dummy matches 33.. run scoreboard players remove #rng_x manic.dummy 64
 
 execute store result score #rng_y manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_8
 execute if score #rng_y manic.dummy matches 4.. run scoreboard players remove #rng_y manic.dummy 8
 
-execute store result score #rng_z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_32
-execute if score #rng_z manic.dummy matches 17.. run scoreboard players remove #rng_z manic.dummy 32
+execute store result score #rng_z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_64
+execute if score #rng_z manic.dummy matches 33.. run scoreboard players remove #rng_z manic.dummy 64
 
 # Set Objectives and Storage
 execute store result storage manic:storage root.temp.Pos[0] double 1 run scoreboard players operation #pos_x manic.dummy += #rng_x manic.dummy

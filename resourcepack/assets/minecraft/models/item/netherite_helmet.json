@@ -5,10 +5,166 @@
   },
   "overrides": [
     {
+      "model": "minecraft:item/netherite_helmet_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_netherite_darker_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "manic:item/anirrum/trims/netherite/helmet",
+      "predicate": {
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/netherite/helmet",
+      "predicate": {
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_helmet_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    },
+    {
       "predicate": {
         "custom_model_data": 8360000
       },
       "model": "manic:item/charonite/charonite_helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.1
+      },
+      "model": "manic:item/charonite/charonite_helmet/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_helmet/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_helmet/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_helmet/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_helmet/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_helmet/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_helmet/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_helmet/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/helmet",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/helmet",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_helmet/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_helmet/amethyst_trim"
     },
     {
       "predicate": {
@@ -18,9 +174,87 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8360002
+        "custom_model_data": 8360001,
+        "trim_type": 0.1
       },
-      "model": "manic:item/elderskin/elderskin_helmet"
+      "model": "manic:item/charonite/charonite_helmet/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_helmet/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_helmet/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_helmet/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_helmet/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_helmet/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_helmet/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_helmet/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/helmet",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/helmet",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_helmet/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_helmet/amethyst_trim"
     }
   ]
 }

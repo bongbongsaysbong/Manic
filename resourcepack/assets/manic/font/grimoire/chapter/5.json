@@ -17,6 +17,60 @@
     },
     {
       "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/void_chasm.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "bB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/anirrum_lantern.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "cC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grim_rune.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "dD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/eldritch_sigil.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "eE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grimstone_plinth.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "fF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/occult_veil.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "gG"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "manic:gui/grimoire/return.png",
       "ascent": -8,
       "height": 13,

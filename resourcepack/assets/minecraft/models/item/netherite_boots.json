@@ -5,10 +5,166 @@
   },
   "overrides": [
     {
+      "model": "minecraft:item/netherite_boots_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_netherite_darker_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "manic:item/anirrum/trims/netherite/boots",
+      "predicate": {
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/netherite/boots",
+      "predicate": {
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_boots_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    },
+    {
       "predicate": {
         "custom_model_data": 8360000
       },
       "model": "manic:item/charonite/charonite_boots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.1
+      },
+      "model": "manic:item/charonite/charonite_boots/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_boots/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_boots/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_boots/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_boots/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_boots/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_boots/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_boots/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/boots",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/boots",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_boots/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_boots/amethyst_trim"
     },
     {
       "predicate": {
@@ -18,9 +174,87 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8360002
+        "custom_model_data": 8360001,
+        "trim_type": 0.1
       },
-      "model": "manic:item/elderskin/elderskin_boots"
+      "model": "manic:item/charonite/charonite_boots/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_boots/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_boots/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_boots/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_boots/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_boots/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_boots/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_boots/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/boots",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/boots",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_boots/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_boots/amethyst_trim"
     }
   ]
 }

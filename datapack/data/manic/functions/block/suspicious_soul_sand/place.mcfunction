@@ -1,0 +1,2 @@
+setblock ~ ~ ~ soul_sand
+execute align xyz run summon item_display ~0.5 ~1.5 ~0.5 {item:{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:8360052}},transformation:{scale:[1.001,1.001,1.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0,-1,0]},Tags:["nucleus.entity","manic.tick","manic.block","manic.suspicious_soul_sand","smithed.entity","smithed.block","nucleus.offset_block_entity","nucleus.prevent_darkening"],CustomName:'{"translate":"block.manic.suspicious_soul_sand"}',view_range:4.0}

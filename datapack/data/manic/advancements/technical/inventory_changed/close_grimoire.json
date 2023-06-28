@@ -8,8 +8,11 @@
           {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:reference",
-              "name": "manic:entity/holding/grimoire"
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"manic.grimoire.open\"]}"
+              }
             }
           }
         ],

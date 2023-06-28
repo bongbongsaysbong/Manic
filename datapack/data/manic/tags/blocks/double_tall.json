@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#minecraft:tall_flowers",
+    {"id": "minecraft:pitcher_plant", "required": false}
+  ]
+}

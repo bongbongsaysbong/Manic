@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8360018}"
+    },
+    "title": {
+      "translate": "advancements.manic.grim_chasm"
+    },
+    "description": {
+      "translate": "advancements.manic.grim_chasm.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/kill_mirage",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"grim_chasm\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

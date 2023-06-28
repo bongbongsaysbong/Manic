@@ -1,4 +1,8 @@
-# Setup
+# Initiate
+tag @s add manic.siren_hand_spawner
+tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator,nbt=!{Health:0.0f}] eyes
+
+# Setup Storage
 data modify storage manic:storage root.temp.Pos set value [0.0d,0.0d,0.0d]
 execute store result score #pos_x manic.dummy run data get entity @s Pos[0]
 data modify storage manic:storage root.temp.Pos[1] set from entity @s Pos[1]

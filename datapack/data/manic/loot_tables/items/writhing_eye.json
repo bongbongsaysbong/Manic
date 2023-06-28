@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360000,nucleus:{brewing_ingredient:1b},manic:{id:\"writhing_eye\",sanity:\"very_good\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.manic.when_eaten",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "potion.withDuration",
+                  "color": "#ebb5a9",
+                  "italic": false,
+                  "with": [
+                    {"translate":"effect.minecraft.nausea"},
+                    {"text":"00:10"}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.writhing_eye",
+                "italic": false,
+                "color": "#35cc3a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

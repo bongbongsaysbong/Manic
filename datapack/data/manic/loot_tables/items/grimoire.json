@@ -15,16 +15,21 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.manic.grimoire",
-                "italic": false
+                "italic": false,
+                "color": "#35cc3a"
               }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 },
                 "",
                 {

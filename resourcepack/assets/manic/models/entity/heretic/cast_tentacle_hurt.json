@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/heretic/cast_tentacle",
+	"textures": {
+		"0": "manic:entity/heretic/cast_tentacle_hurt"
+	}
+}

@@ -13,6 +13,6 @@ execute store result storage manic:storage root.temp.shackle_lore.pos[1] int 1 r
 execute store result storage manic:storage root.temp.shackle_lore.pos[2] int 1 run scoreboard players get #z manic.dummy
 
 # Set Dimension
-execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:overworld"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"item.manic.anima_shackles.dimension.overworld","color":"gray"}'
-execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:the_nether"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"item.manic.anima_shackles.dimension.the_nether","color":"gray"}'
-execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:the_end"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"item.manic.anima_shackles.dimension.the_end","color":"gray"}'
+execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:overworld"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"ui.manic.dimension.overworld","color":"gray"}'
+execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:the_nether"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"ui.manic.dimension.the_nether","color":"gray"}'
+execute if data storage manic:storage root.temp.shackle{dimension:"minecraft:the_end"} run data modify storage manic:storage root.temp.shackle_lore.dimension set value '{"translate":"ui.manic.dimension.the_end","color":"gray"}'

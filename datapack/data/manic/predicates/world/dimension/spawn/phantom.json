@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/overworld"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/the_end"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/the_brine"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/the_faewild"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/the_underdark"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/sanctum"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/glacium"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/panacea"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/varkspace"
+    }
+  ]
+}

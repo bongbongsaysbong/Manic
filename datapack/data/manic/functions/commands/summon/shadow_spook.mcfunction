@@ -1,0 +1,8 @@
+summon vindicator ~ ~ ~ {Silent:1b,DeathTime:19,DeathLootTable:"manic:entities/shadow_spook",Team:"smithed.prevent_aggression",Health:115f,Tags:["nucleus.deletes_vehicles","smithed.entity","nucleus.entity","nucleus.living_entity","nucleus.hostile","nucleus.zombie_entity","manic.entity","manic.shadow_spook","manic.tick","manic.spectre","nucleus.smite_damage","nucleus.smite_damage.reduced"],CustomName:'{"translate":"entity.manic.shadow_spook"}',ArmorItems:[{},{},{},{id:'minecraft:potion',Count:1b,tag:{CustomModelData:8360220,nucleus:{custom_model_data:{idle:8360216,moving:8360218,anim:{spawn:8360220,spawn_frames:89}}},CustomPotionColor:16777215}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:-1,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:115},{Name:generic.knockback_resistance,Base:0.4},{Name:generic.movement_speed,Base:0.375},{Name:generic.attack_damage,Base:7},{Name:generic.attack_knockback,Base:0.5},{Name:generic.armor,Base:1}],PersistenceRequired:1b,CanBreakDoors:0b,LeftHanded:0b,IsBaby:0b,HandDropChances:[-10000.0f,-10000.0f],CanPickUpLoot:0b}
+
+execute if entity @s[type=player] run scoreboard players set #persistent manic.dummy 1
+execute as @e[type=vindicator,tag=manic.shadow_spook,tag=!manic.initiated,sort=nearest,limit=1] run function manic:entity/shadow_spook/init
+
+execute store result score #debug manic.dummy run gamerule sendCommandFeedback
+execute if score #debug manic.dummy matches 1 run tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.manic.shadow_spook"}]}
+execute if entity @s[type=player] run function nucleus:entity/player/commands/no_feedback/main

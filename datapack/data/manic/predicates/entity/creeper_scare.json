@@ -1,0 +1,12 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.00025
+  }
+]

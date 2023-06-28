@@ -9,15 +9,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360018,manic:{id:\"charonite_ingot\"}}"
+              "tag": "{CustomModelData:8360018,nucleus:{item_immunity:1b},manic:{id:\"charonite_ingot\"}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },

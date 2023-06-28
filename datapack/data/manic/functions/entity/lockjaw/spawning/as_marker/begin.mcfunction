@@ -1,3 +1,2 @@
-tag @s add manic.found
-scoreboard players set #attempts manic.dummy 0
+scoreboard players reset #attempts manic.dummy
 function manic:entity/lockjaw/spawning/as_marker/main_loop

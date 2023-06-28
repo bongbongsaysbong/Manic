@@ -1,6 +1,25 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "manic:entities/corpsecreep",
   "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/music_disc_respite",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "type": "minecraft:skeleton"
+              }
+            }
+          ]
+        }
+      ]
+    },
     {
       "rolls": 1,
       "entries": [

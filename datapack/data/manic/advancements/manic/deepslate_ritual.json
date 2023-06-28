@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:dropper",
       "nbt": "{CustomModelData:8360004}"
     },
     "title": {

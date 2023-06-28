@@ -1,0 +1,358 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "manic:chests/mausoleum/treasure",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/grim_quill"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/grim_rune/occult"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "manic:items/occult_veil/zealot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "manic:items/eldritch_sigil"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "manic:items/charonite_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/anirrum_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/sunstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/moonstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_helmet",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_chestplate",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_leggings",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_boots",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_sword",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/anirrum_pickaxe",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_helmet",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_chestplate",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_leggings",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_boots",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_sword",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_pickaxe",
+              "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 15,
+                    "max": 30
+                  },
+                  "treasure": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "min": 0.6,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

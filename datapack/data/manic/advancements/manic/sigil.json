@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8360049,Enchantments:[{lvl:1s,id:\"minecraft:unbreaking\"}]}"
+    },
+    "title": {
+      "translate": "advancements.manic.sigil"
+    },
+    "description": {
+      "translate": "advancements.manic.sigil.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/anirrum_lantern",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

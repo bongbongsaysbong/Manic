@@ -1,5 +1,5 @@
 tag @s remove manic.siren.attack.spawn_mirage
-execute store result score #mirages manic.dummy if entity @e[type=drowned,tag=manic.mirage,tag=manic.entity.despawns,distance=..24]
+execute store result score #mirages manic.dummy if entity @e[type=drowned,tag=manic.mirage,tag=manic.despawns,distance=..24]
 
 execute unless score #mirages manic.dummy matches 3.. if predicate nucleus:chance/0.5 run tag @s add manic.siren.attack.spawn_mirage
 

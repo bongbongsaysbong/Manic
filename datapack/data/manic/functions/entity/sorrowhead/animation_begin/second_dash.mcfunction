@@ -4,7 +4,7 @@ tag @s add manic.sorrowhead.dash
 tag @s add manic.sorrowhead.second_dash
 
 tp @s ~ ~ ~ facing entity @p[gamemode=!spectator,gamemode=!creative]
-scoreboard players set @s nucleus.frames 55
+scoreboard players set @s nucleus.frames 75
 function nucleus:entity/technical/animate
 
 playsound manic:entity.sorrowhead.prepare_dash hostile @a ~ ~ ~ 1.5

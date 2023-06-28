@@ -9,12 +9,12 @@ item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{manic:{id:"bli
 
 # Spawn Loot
 execute if block ~ ~ ~ #minecraft:tall_flowers run loot spawn ~ ~ ~ loot manic:items/corpsebloom_seeds
-execute if block ~ ~ ~ #minecraft:tall_flowers[half=upper] run fill ~ ~ ~ ~ ~-1 ~ air
-execute if block ~ ~ ~ #minecraft:tall_flowers[half=lower] run fill ~ ~ ~ ~ ~1 ~ air
-execute if block ~ ~ ~ #manic:corpseplant/gourds run loot spawn ~ ~ ~ loot manic:technical/corpsegourd_seeds
-execute if block ~ ~ ~ #manic:corpseplant/dripleaf run loot spawn ~ ~ ~ loot manic:items/corpsepitcher_twig
-execute if block ~ ~ ~ #manic:corpseplant/boney run loot spawn ~ ~ ~ loot manic:items/corpseflute
-execute if block ~ ~ ~ minecraft:cactus run loot spawn ~ ~ ~ loot manic:technical/corpsethorn_tuna
+execute if block ~ ~ ~ #manic:corpseplant/corpsepitcher run loot spawn ~ ~ ~ loot manic:items/corpsepitcher_pod
+execute if block ~ ~ ~ #manic:double_tall[half=upper] run fill ~ ~ ~ ~ ~-1 ~ air
+execute if block ~ ~ ~ #manic:double_tall[half=lower] run fill ~ ~ ~ ~ ~1 ~ air
+execute if block ~ ~ ~ #manic:corpseplant/corpsegourd run loot spawn ~ ~ ~ loot manic:technical/items/corpsegourd_seeds
+execute if block ~ ~ ~ #manic:corpseplant/corpseflute run loot spawn ~ ~ ~ loot manic:technical/items/corpseflute
+execute if block ~ ~ ~ minecraft:cactus run loot spawn ~ ~ ~ loot manic:technical/items/corpsethorn_tuna
 execute if block ~ ~ ~ minecraft:allium run loot spawn ~ ~ ~ loot manic:items/corpsebulb_stem
 setblock ~ ~ ~ air
 

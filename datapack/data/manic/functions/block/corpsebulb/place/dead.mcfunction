@@ -1,2 +1,4 @@
 tag @s add manic.corpsebulb.dead
-data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value 8360045
+scoreboard players set @s manic.dummy 7
+scoreboard players set @s manic.timer 450
+function manic:block/corpsebulb/update_state

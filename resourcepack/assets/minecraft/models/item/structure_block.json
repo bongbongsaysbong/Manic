@@ -1,3 +1,4 @@
+
 {
 	"parent": "minecraft:block/structure_block",
 	"overrides": [
@@ -5,7 +6,7 @@
 		"predicate": {
 		  "custom_model_data": 8360000
 		},
-		"model": "manic:null"
+		"model": "nucleus:item/null"
 	  },
 	  {
 		"predicate": {
@@ -114,6 +115,240 @@
 		  "custom_model_data": 8360018
 		},
 		"model": "manic:item/charonite/charonite_ingot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360019
+		},
+		"model": "manic:item/corpseplants/corpse_sap_bottle"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360020
+		},
+		"model": "manic:item/grim_rune/gold"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360021
+		},
+		"model": "manic:entity/wormhole/rune/gold"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360022
+		},
+		"model": "manic:item/grim_rune/soul"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360023
+		},
+		"model": "manic:entity/wormhole/rune/soul"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360024
+		},
+		"model": "manic:item/grim_rune/oil"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360025
+		},
+		"model": "manic:entity/wormhole/rune/oil"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360026
+		},
+		"model": "manic:item/grim_rune/occult"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360027
+		},
+		"model": "manic:entity/wormhole/rune/occult"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360028
+		},
+		"model": "manic:item/grim_rune/smolder"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360029
+		},
+		"model": "manic:entity/wormhole/rune/smolder"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360030
+		},
+		"model": "manic:item/grim_rune/wild"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360031
+		},
+		"model": "manic:entity/wormhole/rune/wild"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360032
+		},
+		"model": "manic:item/grim_rune/crimson"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360033
+		},
+		"model": "manic:entity/wormhole/rune/crimson"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360034
+		},
+		"model": "manic:item/grim_rune/frost"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360035
+		},
+		"model": "manic:entity/wormhole/rune/frost"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360036
+		},
+		"model": "manic:item/grim_rune/silver"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360037
+		},
+		"model": "manic:entity/wormhole/rune/silver"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360038
+		},
+		"model": "manic:item/grim_rune/void"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360039
+		},
+		"model": "manic:entity/wormhole/rune/void"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360040
+		},
+		"model": "manic:item/grim_rune/flood"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360041
+		},
+		"model": "manic:entity/wormhole/rune/flood"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360042
+		},
+		"model": "manic:item/oozing_nucleus"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360043
+		},
+		"model": "manic:item/grim_rune/unset"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360044
+		},
+		"model": "manic:item/eldritch_sigil/unset"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360045
+		},
+		"model": "manic:item/eldritch_sigil/heavy"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360046
+		},
+		"model": "manic:item/eldritch_sigil/honed"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360047
+		},
+		"model": "manic:item/eldritch_sigil/regal"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360048
+		},
+		"model": "manic:item/eldritch_sigil/arcane"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360049
+		},
+		"model": "manic:item/eldritch_sigil/enchanted"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360050
+		},
+		"model": "manic:item/grimstone_chunk"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360051
+		},
+		"model": "manic:item/eldritch_sigil/blank_sigil"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360052
+		},
+		"model": "manic:block/suspicious_soul_sand/base"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360053
+		},
+		"model": "manic:block/suspicious_soul_sand/dusted_1"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360054
+		},
+		"model": "manic:block/suspicious_soul_sand/dusted_2"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360055
+		},
+		"model": "manic:block/suspicious_soul_sand/dusted_3"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360056
+		},
+		"model": "manic:item/grim_rune/blossom"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360057
+		},
+		"model": "manic:entity/wormhole/rune/blossom"
 	  }
 	]
 }

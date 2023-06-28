@@ -1,4 +1,6 @@
-execute if data storage manic:storage root.temp{action:1} run function manic:block/corpsethorn/interact/actions/bottle/main
-execute if data storage manic:storage root.temp{action:2} run function manic:block/corpsethorn/interact/actions/bonemeal
-execute if data storage manic:storage root.temp{action:3} run function manic:block/corpsethorn/interact/actions/shear
-execute if data storage manic:storage root.temp{action:4} run function manic:block/corpsethorn/interact/actions/corpse_sap_bottle/main
+data remove entity @s interaction
+
+execute if data storage manic:storage root.temp.item{id:"minecraft:glass_bottle"} if entity @s[tag=manic.corpsethorn.sappy] run function manic:block/corpsethorn/interact/bottle_sap/main
+execute if data storage manic:storage root.temp.item{id:"minecraft:structure_block",tag:{manic:{id:"corpse_sap_bottle"}}} if entity @s[tag=!manic.corpsethorn.sappy] run function manic:block/corpsethorn/interact/fill_sap/main
+execute if data storage manic:storage root.temp.item{id:"minecraft:shears"} if entity @s[tag=manic.corpsethorn.blooming] run function manic:block/corpsethorn/interact/shear
+execute if data storage manic:storage root.temp.item{id:"minecraft:bone_meal"} if entity @s[tag=!manic.corpsethorn.blooming] run function manic:block/corpsethorn/interact/bone_meal

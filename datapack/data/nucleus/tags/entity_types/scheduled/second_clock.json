@@ -1,10 +1,13 @@
 {
     "values":[
         "#nucleus:preset/undead",
+        "minecraft:vindicator",
         "minecraft:armor_stand",
         "minecraft:marker",
         "minecraft:bee",
         "minecraft:creeper",
-        "minecraft:snowball"
+        "minecraft:item_display",
+        "minecraft:interaction",
+        "minecraft:wandering_trader"
     ]
 }

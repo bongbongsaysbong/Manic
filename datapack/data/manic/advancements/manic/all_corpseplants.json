@@ -51,7 +51,7 @@
             "items": [
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{manic:{id:\"corpsepitcher_twig\"}}"
+            "nbt": "{manic:{id:\"corpsepitcher_pod\"}}"
           }
         ]
       }

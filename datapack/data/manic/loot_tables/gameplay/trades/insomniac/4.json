@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/trades/insomniac/4",
   "pools": [
     {
       "rolls": 1,
@@ -34,6 +36,22 @@
               "function": "minecraft:set_count",
               "count": 4
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#insomniac.lysosome"
+                },
+                "score": "manic.dummy"
+              },
+              "range": {
+                "min": 1
+              }
+            }
           ]
         },
         {
@@ -45,6 +63,22 @@
               "function": "minecraft:set_count",
               "count": 2
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#insomniac.reticulum"
+                },
+                "score": "manic.dummy"
+              },
+              "range": {
+                "min": 1
+              }
+            }
           ]
         },
         {
@@ -55,6 +89,22 @@
             {
               "function": "minecraft:set_count",
               "count": 2
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#insomniac.vacuuole"
+                },
+                "score": "manic.dummy"
+              },
+              "range": {
+                "min": 1
+              }
             }
           ]
         }

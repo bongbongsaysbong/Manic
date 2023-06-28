@@ -56,7 +56,7 @@
 			"faces": {
 				"north": {"uv": [11.75, 13.5, 13.75, 15], "texture": "#1", "tintindex": 0},
 				"east": {"uv": [9.5, 13.5, 11.75, 15], "texture": "#1", "tintindex": 0},
-				"south": {"uv": [6.5, 13.5, 8.5, 15], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.5, 9.75, 8.5, 11.25], "texture": "#0", "tintindex": 0},
 				"west": {"uv": [13.75, 13.5, 16, 15], "texture": "#1", "tintindex": 0},
 				"up": {"uv": [11.75, 11.25, 13.75, 13.5], "texture": "#1", "tintindex": 0},
 				"down": {"uv": [13.75, 11.25, 15.75, 13.5], "texture": "#1", "tintindex": 0}
@@ -77,12 +77,6 @@
 			}
 		}
 	],
-	"display": {
-		"ground": {
-			"rotation": [0, -180, 0],
-			"translation": [0, -9.75, -5.5]
-		}
-	},
 	"groups": [
 		{
 			"name": "Corpsepitcher",

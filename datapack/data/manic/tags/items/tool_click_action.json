@@ -1,7 +1,7 @@
 {
    "values": [
-      "#nucleus:tools/hoes",
-      "#nucleus:tools/shovels",
-      "#nucleus:tools/axes"
+      "#minecraft:hoes",
+      "#minecraft:shovels",
+      "#minecraft:axes"
    ]
 }

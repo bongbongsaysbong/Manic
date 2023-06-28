@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:barter",
+  "random_sequence": "manic:gameplay/trades/piglin_monk_bartering/rare",
   "pools": [
     {
       "rolls": 1,
@@ -7,6 +9,11 @@
           "type": "minecraft:loot_table",
           "weight": 3,
           "name": "manic:items/wartspore_charm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/gilded_seeker"
         },
         {
           "type": "minecraft:item",

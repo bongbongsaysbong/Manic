@@ -10,15 +10,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:68,display:{color:12772060},Unbreakable:1b,CustomModelData:8360000,manic:{charonite_modified:0b,id:\"anirrum_helmet\",tool:\"anirrum\"},AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor_toughness\",Name:\"minecraft:generic.armor_toughness\",Operation:0,UUID:[I;8,3,6,2]},{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;7,3,6,2]}]}"
+              "tag": "{HideFlags:68,display:{color:12772060},Unbreakable:1b,CustomModelData:8360000,manic:{charonite_modified:0b,id:\"anirrum_helmet\",tool:\"anirrum\"},AttributeModifiers:[{Amount:2.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor_toughness\",Name:\"minecraft:generic.armor_toughness\",Operation:0,UUID:[I;8,3,6,2]},{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;7,3,6,2]}],sanguine:{allow_pus_repair:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },

@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "manic:manic/root",
+  "parent": "manic:manic/deepslate_ritual",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

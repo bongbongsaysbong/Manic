@@ -1,0 +1,13 @@
+execute if score #portal_type manic.dummy matches 0 run particle dust_color_transition 0.102 1.000 0.000 2 0.114 0.212 0.176 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 1 run particle dust_color_transition 0.988 0.827 0.094 2 0.412 0.216 0.047 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 2 run particle dust_color_transition 0.110 0.949 0.980 2 0.047 0.122 0.271 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 3 run particle dust_color_transition 0.157 0.086 0.220 2 0.024 0.008 0.059 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 4 run particle dust_color_transition 0.055 0.204 0.208 2 0.039 0.322 0.188 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 5 run particle dust_color_transition 0.914 0.529 0.000 2 0.510 0.122 0.027 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 6 run particle dust_color_transition 0.341 0.529 0.090 2 0.051 0.271 0.043 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 7 run particle dust_color_transition 0.753 0.298 0.133 2 0.200 0.035 0.059 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 8 run particle dust_color_transition 0.890 0.999 0.999 2 0.427 0.576 0.639 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 9 run particle dust_color_transition 0.604 0.639 0.643 2 0.149 0.145 0.169 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 10 run particle dust_color_transition 0.718 0.282 0.898 2 0.133 0.051 0.200 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 11 run particle dust_color_transition 0.000 0.667 0.804 2 0.000 0.043 0.220 ~ ~0.5 ~ 1 1 1 2 5 force
+execute if score #portal_type manic.dummy matches 12 run particle dust_color_transition 0.941 0.529 0.761 1 0.788 0.286 0.749 ~ ~0.5 ~ 1 1 1 2 5 force

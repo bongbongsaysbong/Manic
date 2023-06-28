@@ -8,7 +8,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/insomniac.png",
+      "file": "manic:gui/grimoire/icons/all_corpseplants.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -17,7 +17,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/blight_mold.png",
+      "file": "manic:gui/grimoire/icons/anirrum.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -26,7 +26,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/corpsebloom.png",
+      "file": "manic:gui/grimoire/icons/gelatin.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -35,7 +35,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/corpsepitcher.png",
+      "file": "manic:gui/grimoire/icons/stop_illness.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -44,7 +44,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/anirrum.png",
+      "file": "manic:gui/grimoire/icons/hunger.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -53,29 +53,11 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/gelatin.png",
-      "ascent": -8,
-      "height": 13,
-      "chars": [
-        "hH"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/stop_illness.png",
+      "file": "manic:gui/grimoire/icons/potion_sanity.png",
       "ascent": -8,
       "height": 13,
       "chars": [
         "fF"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/hunger.png",
-      "ascent": -8,
-      "height": 13,
-      "chars": [
-        "gG"
       ]
     },
     {

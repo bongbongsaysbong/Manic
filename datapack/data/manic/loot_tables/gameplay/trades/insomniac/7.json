@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 3
             }
           ]
         }
@@ -19,8 +19,56 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/grimoire"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "manic:items/occult_explorer_map"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#total_grimoires_looted"
+                },
+                "score": "manic.dummy"
+              },
+              "range": {
+                "min": 3
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:loot_table",
-          "name": "manic:items/occult_explorer_map"
+          "name": "manic:items/occult_explorer_map",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#total_grimoires_looted"
+                  },
+                  "score": "manic.dummy"
+                },
+                "range": {
+                  "min": 3
+                }
+              }
+            }
+          ]
         }
       ]
     }

@@ -10,4 +10,6 @@ execute if score @s manic.dummy matches 5 run data modify entity @s ArmorItems[3
 execute if score @s manic.dummy matches 6 run data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value 8360103
 data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.moving set from entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle
 
-scoreboard players set @s manic.dummy2 4
+tag @s add nucleus.block_tint
+scoreboard players set @s nucleus.frames 61
+function nucleus:entity/technical/animate

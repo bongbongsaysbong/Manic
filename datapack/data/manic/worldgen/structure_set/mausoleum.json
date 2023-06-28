@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "manic:mausoleum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1929712886,
+    "spread_type": "triangular",
+    "spacing": 300,
+    "separation": 100
+  }
+}

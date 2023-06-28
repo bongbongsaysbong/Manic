@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"manic:anirrum_altar\"}}}}]},CustomModelData:8360006,manic:{id:\"anirrum_altar\"}}"
+              "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{nucleus:{block:{placed_block:1b,id:\"manic:anirrum_altar\",charges:0}}}}]},CustomModelData:8360002,manic:{id:\"anirrum_altar\",charges:0}}"
             },
             {
               "function": "minecraft:set_name",
@@ -22,14 +22,26 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "block.manic.anirrum_altar.charges",
+                  "with": [
+                    "0"
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             }
           ],
-          "name": "minecraft:dispenser"
+          "name": "minecraft:hopper"
         }
       ]
     }

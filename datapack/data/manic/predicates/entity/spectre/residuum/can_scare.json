@@ -1,0 +1,39 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"manic.player.residuum_target\"]}"
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "effects": {
+          "minecraft:night_vision": {
+            "duration": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.0075
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "nucleus:entity/sprinting"
+  }
+]

@@ -28,9 +28,22 @@
         "italic": false
       },
       {
-        "translate": "pack.manic",
-        "color": "#106050",
-        "italic": true
+        "translate": "manic.tooltip",
+        "font": "manic:tooltip",
+        "color": "white",
+        "italic": false,
+        "with": [
+          {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+        ]
+      },
+      "",
+      {
+        "translate": "item.manic.anima_shackles.description",
+        "color": "#A8C2A8",
+        "italic": true,
+        "with": [
+          {"keybind":"key.use","color":"#7CC17C"}
+        ]
       }
     ],
     "replace": true

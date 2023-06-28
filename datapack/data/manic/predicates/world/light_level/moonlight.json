@@ -1,0 +1,21 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "light": {
+            "light": {
+              "min": 0,
+              "max": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:world/has_skylight"
+    }
+  ]
+  

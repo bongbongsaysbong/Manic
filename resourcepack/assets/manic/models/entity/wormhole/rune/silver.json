@@ -1,0 +1,7 @@
+{
+	"parent": "manic:entity/wormhole/large",
+	"textures": {
+	  "0": "manic:entity/wormhole/runes/silver"
+	}
+  }
+  

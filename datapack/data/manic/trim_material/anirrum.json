@@ -1,0 +1,9 @@
+{
+  "asset_name": "anirrum",
+  "description": {
+    "color": "#9BCCCC",
+    "translate": "trim_material.manic.anirrum"
+  },
+  "ingredient": "minecraft:barrier",
+  "item_model_index": 0.83621
+}

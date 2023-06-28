@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/hopper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8360000
+      },
+      "model": "manic:block/deepslate_podium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001
+      },
+      "model": "manic:block/anirrum_podium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360002
+      },
+      "model": "manic:block/anirrum_altar/inactive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360003
+      },
+      "model": "manic:block/anirrum_altar/active_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360004
+      },
+      "model": "manic:block/anirrum_altar/active_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360005
+      },
+      "model": "manic:block/anirrum_altar/active_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360006
+      },
+      "model": "manic:block/grimstone_plinth/main"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360007
+      },
+      "model": "manic:block/grimstone_plinth/eye"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360008
+      },
+      "model": "manic:block/grimstone_plinth/wrapped"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360009
+      },
+      "model": "manic:block/grimstone_plinth/wrapped_eye"
+    }
+  ]
+}

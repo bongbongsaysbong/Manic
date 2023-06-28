@@ -44,6 +44,15 @@
     },
     {
       "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grim_explorer_map.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "eE"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "manic:gui/grimoire/return.png",
       "ascent": -8,
       "height": 13,

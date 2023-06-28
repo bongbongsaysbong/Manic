@@ -1,7 +1,9 @@
 scoreboard players add @s manic.altar_warp 1
-execute unless entity @e[type=armor_stand,tag=manic.anirrum_altar.warp,distance=..3.5] run function manic:block/anirrum_altar/interact/rituals/rift/player/reset
+execute unless entity @e[type=item_display,tag=manic.anirrum_altar.warp,distance=..2] run function manic:block/anirrum_altar/interact/rituals/rift/player/reset
 
-particle dust_color_transition 0.102 1.000 0.000 2 0.114 0.212 0.176 ~ ~1.25 ~ 0.5 0.75 0.5 2 8 force @s
+scoreboard players operation #portal_type manic.dummy = @e[type=item_display,tag=manic.altar_rift,sort=nearest,limit=1] manic.dummy
+function manic:block/anirrum_altar/interact/rituals/rift/particles
+
 effect give @s nausea 5 0 true
 playsound manic:block.wormhole.ambient block @s
 

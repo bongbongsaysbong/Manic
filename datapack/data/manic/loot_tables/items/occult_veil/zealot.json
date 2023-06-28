@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,manic:{id:\"occult_veil\",veil_type:\"zealot\"},sanguine:{allow_pus_repair:1b},CustomModelData:8360004,nucleus:{prevent_striders:1b}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.occult_veil",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "entity.manic.zealot",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.manic.occult_veil.description.zealot",
+                  "color": "#A8C2A8",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:generic.armor",
+              "name": "manic.armor",
+              "amount": 3,
+              "operation": "addition",
+              "slot": "head"
+            },
+            {
+              "attribute": "minecraft:generic.armor_toughness",
+              "name": "manic.armor_toughness",
+              "amount": 1,
+              "operation": "addition",
+              "slot": "head"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

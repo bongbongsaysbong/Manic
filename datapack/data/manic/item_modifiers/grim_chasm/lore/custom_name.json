@@ -1,0 +1,55 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+        "nbt": "Item.tag.display.Name",
+        "color": "white",
+        "entity": "@s",
+        "interpret": true
+       }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Item:{tag:{Enchantments:[{}]}}}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+        "nbt": "Item.tag.display.Name",
+        "color": "aqua",
+        "entity": "@s",
+        "interpret": true
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{tag:{Enchantments:[{}]}}}"
+        }
+      }
+    ]
+  }
+]

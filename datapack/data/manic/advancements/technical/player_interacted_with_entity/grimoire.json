@@ -5,13 +5,13 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:wandering_trader",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"manic.grimoire_render\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "manic:item/grimoire/render/interact/raycast_start"
+    "function": "manic:item/grimoire/render/interact/main"
   }
 }

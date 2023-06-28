@@ -1,0 +1,19 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{manic:{id:\"potion_clairvoyance\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/consume/potion/clairvoyance"
+  }
+}

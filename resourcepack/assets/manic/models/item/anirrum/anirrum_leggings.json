@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "manic:item/null",
+    "layer0": "nucleus:item/null",
     "layer1": "manic:item/anirrum_leggings"
   }
 }

@@ -1,3 +1,6 @@
+tp @s ~ ~0.5 ~
+data modify entity @s CustomName set from storage manic:storage root.temp.custom_name
+
 execute store result score #dir manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_4
 execute store result score #dir2 manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_4
 

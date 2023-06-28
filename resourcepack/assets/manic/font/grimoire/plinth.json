@@ -1,0 +1,100 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/eldritch_sigil.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua00a\ua00b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/grim_rune.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua01a\ua01b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/grimstone_chunk.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua02a\ua02b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_claymore.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua03a\ua03b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_mattock.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua04a\ua04b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_cleaver.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua05a\ua05b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_spade.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua06a\ua06b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_scythe.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua07a\ua07b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/elderskin_greatbow.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua08a\ua08b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/plinth/upgrade.png",
+      "ascent": -8,
+      "height": 20,
+      "chars": [
+        "\ua09a\ua09b"
+      ]
+    }
+  ]
+}

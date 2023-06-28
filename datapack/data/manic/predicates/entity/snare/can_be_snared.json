@@ -1,6 +1,6 @@
 [
   {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
       {
         "condition": "minecraft:location_check",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
       {
         "condition": "minecraft:reference",
@@ -36,7 +36,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Tags:[\"manic.entity.snareable\"]}"
+          "nbt": "{Tags:[\"manic.snareable\"]}"
         }
       }
     ]

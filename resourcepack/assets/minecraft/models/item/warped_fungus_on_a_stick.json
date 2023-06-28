@@ -32,7 +32,7 @@
       "predicate": {
         "custom_model_data": 8360004
       },
-      "model": "manic:item/corpseplants/corpsepitcher_twig"
+      "model": "manic:item/corpseplants/corpsepitcher_pod"
     },
     {
       "predicate": {
@@ -56,7 +56,7 @@
       "predicate": {
         "custom_model_data": 8360008
       },
-      "model": "manic:item/corpseflute"
+      "model": "manic:item/corpseflute/red"
     },
     {
       "predicate": {
@@ -99,6 +99,132 @@
         "custom_model_data": 8360015
       },
       "model": "manic:item/corpseplants/dead_corpsebulb_stem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360016
+      },
+      "model": "manic:item/music_disc_respite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360017
+      },
+      "model": "manic:item/music_disc_7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360018
+      },
+      "model": "manic:item/grim_chasm/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360019
+      },
+      "model": "manic:item/grim_chasm/full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360020
+      },
+      "model": "manic:item/void_chasm/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360021
+      },
+      "model": "manic:item/void_chasm/full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360022
+      },
+      "model": "manic:item/gilded_seeker/unset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360023
+      },
+      "model": "manic:item/grim_chasm/max"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360024
+      },
+      "model": "manic:item/void_chasm/max"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360025
+      },
+      "model": "manic:item/grim_explorer_map/closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360026
+      },
+      "model": "manic:item/anirrum_lantern/unlit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360027
+      },
+      "model": "manic:item/anirrum_lantern/lit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360028
+      },
+      "model": "manic:item/grim_quill"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360029
+      },
+      "model": "manic:item/occult_veil/heretic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360030
+      },
+      "model": "manic:item/occult_veil/zealot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360031
+      },
+      "model": "manic:item/corpseflute/orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360032
+      },
+      "model": "manic:item/corpseflute/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360033
+      },
+      "model": "manic:item/corpseflute/green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360034
+      },
+      "model": "manic:item/corpseflute/blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360035
+      },
+      "model": "manic:item/corpseflute/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360036
+      },
+      "model": "manic:item/eerie_idol"
     }
   ]
 }

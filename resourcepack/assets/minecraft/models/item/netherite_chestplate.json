@@ -5,10 +5,166 @@
   },
   "overrides": [
     {
+      "model": "minecraft:item/netherite_chestplate_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_netherite_darker_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "manic:item/anirrum/trims/netherite/chestplate",
+      "predicate": {
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/netherite/chestplate",
+      "predicate": {
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_chestplate_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    },
+    {
       "predicate": {
         "custom_model_data": 8360000
       },
       "model": "manic:item/charonite/charonite_chestplate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.1
+      },
+      "model": "manic:item/charonite/charonite_chestplate/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_chestplate/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_chestplate/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_chestplate/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_chestplate/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_chestplate/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_chestplate/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_chestplate/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/chestplate",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/chestplate",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_chestplate/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_chestplate/amethyst_trim"
     },
     {
       "predicate": {
@@ -18,9 +174,87 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8360002
+        "custom_model_data": 8360001,
+        "trim_type": 0.1
       },
-      "model": "manic:item/elderskin/elderskin_breastplate"
+      "model": "manic:item/charonite/charonite_chestplate/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_chestplate/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_chestplate/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_chestplate/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_chestplate/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_chestplate/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_chestplate/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_chestplate/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/chestplate",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/chestplate",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_chestplate/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_chestplate/amethyst_trim"
     }
   ]
 }

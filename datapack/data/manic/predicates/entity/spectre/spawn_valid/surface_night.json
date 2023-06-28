@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "nucleus:world/has_skylight"
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld",
+      "light": {
+        "light": {
+          "max": 6
+        }
+      }
+    }
+  }
+]

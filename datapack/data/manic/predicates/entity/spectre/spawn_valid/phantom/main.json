@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/spawn_valid/phantom/overworld"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:entity/spectre/spawn_valid/phantom/the_end"
+    }
+  ]
+}

@@ -131,7 +131,7 @@
 				"north": {"uv": [0, 0, 0, 2.5], "texture": "#missing"},
 				"east": {"uv": [12, 0, 16, 2.5], "texture": "#0", "tintindex": 0},
 				"south": {"uv": [0, 0, 0, 2.5], "texture": "#missing"},
-				"west": {"uv": [16, 0, 12, 2.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12, 0, 16, 2.5], "texture": "#0", "tintindex": 0},
 				"up": {"uv": [0, 0, 0, 4], "texture": "#missing"},
 				"down": {"uv": [0, 0, 0, 4], "texture": "#missing"}
 			}
@@ -142,7 +142,7 @@
 			"to": [16, 10, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
 			"faces": {
-				"north": {"uv": [16, 0, 12, 2.5], "texture": "#0", "tintindex": 0},
+				"north": {"uv": [12, 0, 16, 2.5], "texture": "#0", "tintindex": 0},
 				"south": {"uv": [12, 0, 16, 2.5], "texture": "#0", "tintindex": 0}
 			}
 		}
@@ -154,18 +154,24 @@
 			"name": "Thorns",
 			"origin": [8, 0, 8],
 			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
 			"children": [2, 3]
 		},
 		{
 			"name": "Flower",
 			"origin": [8, 30, 10],
 			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
 			"children": [
 				4,
 				{
 					"name": "Petals",
 					"origin": [8, 30, 6],
 					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
 					"children": [5, 6, 7, 8]
 				}
 			]
@@ -174,18 +180,9 @@
 			"name": "Roots",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
 			"children": [9, 10]
 		}
-	],
-	"display": {
-		"ground": {
-			"rotation": [0, -90, 0],
-			"translation": [0, -9.7, -6],
-			"scale": [1.01, 1.01, 1.01]
-		},
-		"head": {
-			"translation": [0, -23.75, 0],
-			"scale": [1.62, 1.62, 1.62]
-		}
-	}
+	]
 }

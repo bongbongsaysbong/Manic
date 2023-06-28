@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "manic:entities/siren",
   "pools": [
     {
       "rolls": 1,

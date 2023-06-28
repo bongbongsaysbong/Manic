@@ -1,7 +1,9 @@
+data merge entity @s {ArmorItems:[{},{},{},{id:'minecraft:potion',Count:1b,tag:{CustomModelData:8360069,nucleus:{custom_model_data:{anim:{spawn:8360069,spawn_frames:69}}},CustomPotionColor:16777215}}],Tags:["smithed.entity","nucleus.entity","nucleus.living_entity","nucleus.zombie_entity","manic.tick","manic.entity","manic.phantom_marker"],PersistenceRequired:1b,Invisible:1b,Marker:1b}
+
 tag @s add manic.initiated
-scoreboard players set @s nucleus.frames 49
+scoreboard players set @s nucleus.frames 69
 function nucleus:entity/technical/animate
-playsound manic:entity.phantom.spawn hostile @a ~ ~ ~ 1.5
+playsound manic:entity.phantom.spawn hostile @a ~ ~ ~ 2
 
 execute if score #persistent manic.dummy matches 1 run tag @s add manic.phantom_marker.persistent
 execute if score #fire_resistant manic.dummy matches 1 run tag @s add manic.phantom_marker.fire_resistant

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/shadow_spook/sprint",
+	"textures": {
+		"0": "manic:entity/shadow_spook/sprint_hurt"
+	}
+}

@@ -9,12 +9,27 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"manic.entity.spectre\"]}"
+              "nbt": "{Tags:[\"manic.spectre\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"manic.gives_no_sanity\"]}"
+              }
             }
           }
         ],
         "killing_blow": {
-          "is_explosion": false
+          "tags": [
+            {
+              "id": "minecraft:is_explosion",
+              "expected": false
+            }
+          ]
         }
       }
     }

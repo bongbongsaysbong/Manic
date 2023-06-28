@@ -17,4 +17,6 @@ execute if entity @s[type=bee] run summon bee ~ ~ ~ {Age:-24000,Tags:["manic.new
 execute if entity @s[type=ocelot] run summon ocelot ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
 execute if entity @s[type=fox] run summon fox ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
 execute if entity @s[type=wolf] run summon wolf ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=camel] run summon camel ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
 execute as @e[type=#manic:can_split,tag=manic.newborn] at @s run function manic:block/anirrum_altar/interact/rituals/livestock/as_newborn

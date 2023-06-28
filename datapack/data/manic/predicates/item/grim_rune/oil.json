@@ -1,0 +1,31 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:lush_caves"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:dripstone_caves"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "max": 0
+        }
+      },
+      "dimension": "minecraft:overworld"
+    }
+  }
+]

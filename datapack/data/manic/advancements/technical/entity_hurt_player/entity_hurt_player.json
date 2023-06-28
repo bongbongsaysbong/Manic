@@ -2,7 +2,39 @@
   "parent": "manic:technical/root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:entity_hurt_player"
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"sanguine.binding.blood_barrier.active\"]}"
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_lightning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "rewards": {

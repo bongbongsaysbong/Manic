@@ -5,10 +5,166 @@
   },
   "overrides": [
     {
+      "model": "minecraft:item/netherite_leggings_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_netherite_darker_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "manic:item/anirrum/trims/netherite/leggings",
+      "predicate": {
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/netherite/leggings",
+      "predicate": {
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "minecraft:item/netherite_leggings_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    },
+    {
       "predicate": {
         "custom_model_data": 8360000
       },
       "model": "manic:item/charonite/charonite_leggings"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.1
+      },
+      "model": "manic:item/charonite/charonite_leggings/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_leggings/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_leggings/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_leggings/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_leggings/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_leggings/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_leggings/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_leggings/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/leggings",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/leggings",
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_leggings/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360000,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_leggings/amethyst_trim"
     },
     {
       "predicate": {
@@ -18,9 +174,87 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8360002
+        "custom_model_data": 8360001,
+        "trim_type": 0.1
       },
-      "model": "manic:item/elderskin/elderskin_greaves"
+      "model": "manic:item/charonite/charonite_leggings/quartz_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.2
+      },
+      "model": "manic:item/charonite/charonite_leggings/iron_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.3
+      },
+      "model": "manic:item/charonite/charonite_leggings/netherite_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.4
+      },
+      "model": "manic:item/charonite/charonite_leggings/redstone_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.5
+      },
+      "model": "manic:item/charonite/charonite_leggings/copper_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.6
+      },
+      "model": "manic:item/charonite/charonite_leggings/gold_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.7
+      },
+      "model": "manic:item/charonite/charonite_leggings/emerald_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.8
+      },
+      "model": "manic:item/charonite/charonite_leggings/diamond_trim"
+    },
+    {
+      "model": "manic:item/anirrum/trims/charonite/leggings",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83621
+      }
+    },
+    {
+      "model": "manic:item/charonite/trims/charonite/leggings",
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.83622
+      }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 0.9
+      },
+      "model": "manic:item/charonite/charonite_leggings/lapis_trim"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001,
+        "trim_type": 1.0
+      },
+      "model": "manic:item/charonite/charonite_leggings/amethyst_trim"
     }
   ]
 }

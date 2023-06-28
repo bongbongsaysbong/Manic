@@ -1,7 +1,7 @@
 data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value 8360051
 data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.moving set value 8360051
 
-scoreboard players set @s nucleus.frames 24
+scoreboard players set @s nucleus.frames 44
 tag @s add manic.grinn.anim.attack
 function nucleus:entity/technical/animate
 

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/keeper/slam_fists",
+	"textures": {
+		"0": "manic:entity/keeper/slam_fists_hurt"
+	}
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "nucleus:world/has_skylight"
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "light": {
+        "light": {
+          "max": 7
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "minecraft:stairs",
+            "state": {
+              "half": "top"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "minecraft:trapdoors",
+            "state": {
+              "half": "top",
+              "open": "false"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "minecraft:slabs",
+            "state": {
+              "type": "top"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "minecraft:slabs",
+            "state": {
+              "type": "double"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "tag": "nucleus:opaque"
+          }
+        }
+      }
+    ]
+  }
+]

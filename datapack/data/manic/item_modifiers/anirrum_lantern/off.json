@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{manic:{lit:0b},CustomModelData:8360026}"
+  }
+]

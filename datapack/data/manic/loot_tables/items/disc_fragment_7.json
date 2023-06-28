@@ -20,9 +20,13 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },
@@ -31,7 +35,7 @@
               "name": {
                 "translate": "item.minecraft.disc_fragment_5",
                 "italic": false,
-                "color": "white"
+                "color": "#35cc3a"
               }
             }
           ]

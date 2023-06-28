@@ -17,4 +17,4 @@ execute store result storage manic:storage root.temp.target_pos[2] double 1 run 
 
 # Finalise
 data modify entity @s Pos set from storage manic:storage root.temp.target_pos
-execute at @s align xyz run function manic:item/consume/corpsebulb_flesh/mob/spawning/as_marker/validate/checks
+execute at @s align xyz unless predicate manic:entity/spectre/spawn_valid/corpsebulb_flesh/main run function manic:item/consume/corpsebulb_flesh/mob/spawning/as_marker/validate/initiate

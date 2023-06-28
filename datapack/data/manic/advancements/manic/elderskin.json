@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe",
+      "nbt": "{CustomModelData:8360001}"
+    },
+    "title": {
+      "translate": "advancements.manic.elderskin"
+    },
+    "description": {
+      "translate": "advancements.manic.elderskin.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/kill_keeper",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword",
+              "minecraft:netherite_pickaxe",
+              "minecraft:netherite_axe",
+              "minecraft:netherite_shovel",
+              "minecraft:netherite_hoe",
+              "minecraft:bow"
+            ],
+            "nbt": "{manic:{tool:\"elderskin\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

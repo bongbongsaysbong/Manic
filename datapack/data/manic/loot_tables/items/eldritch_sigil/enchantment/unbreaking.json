@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:1,CustomModelData:8360049,manic:{id:\"eldritch_sigil\",enchantment:\"minecraft:unbreaking\",tools:{sword:1b,pickaxe:1b,axe:1b,shovel:1b,hoe:1b,bow:1b}},nucleus:{soulbound:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.manic.eldritch_sigil.upgrade",
+                  "with": [
+                    {
+                      "translate": "enchantment.minecraft.unbreaking",
+                      "color": "#7CC17C"
+                    }
+                  ],
+                  "color": "#A8C2A8",
+                  "italic": false
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.eldritch_sigil",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:unbreaking": 1
+          }
+        }
+      ]
+    }
+  ]
+}

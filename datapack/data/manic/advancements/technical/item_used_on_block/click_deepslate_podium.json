@@ -3,14 +3,28 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:hopper"
-            ],
-            "nbt": "{Lock:\"§manic.deepslate_podium\\\\uF001\"}"
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "nucleus:entity/sneaking_with_item"
+            }
           }
-        }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ],
+                "nbt": "{Lock:\"§manic.deepslate_podium\\\\uF001\"}"
+              }
+            }
+          }
+        ]
       }
     }
   },

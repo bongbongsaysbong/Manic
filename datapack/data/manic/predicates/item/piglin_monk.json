@@ -1,0 +1,85 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"manic.piglin_monk_dropped_item\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"smithed.entity\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"manic.piglin_monk_item\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:structure_block\",tag:{manic:{id:\"necroplasm\"}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:structure_block\",tag:{manic:{id:\"lysosome\"}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:structure_block\",tag:{manic:{id:\"reticulum\"}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:structure_block\",tag:{manic:{id:\"vacuuole\"}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:structure_block\",tag:{manic:{id:\"sunstone\"}}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:item",
+          "nbt": "{Item:{id:\"minecraft:phantom_membrane\"}}"
+        }
+      }
+    ]
+  }
+]

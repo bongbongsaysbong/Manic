@@ -25,7 +25,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"manic.entity.spectre\"]}"
+              "nbt": "{Tags:[\"manic.spectre\"]}"
             }
           }
         ]

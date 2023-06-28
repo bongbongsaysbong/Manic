@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/sanity/bar.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "0123"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/sanity/empty.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "XY"
+      ]
+    }
+  ]
+}

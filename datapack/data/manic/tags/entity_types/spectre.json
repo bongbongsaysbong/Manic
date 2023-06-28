@@ -3,6 +3,7 @@
     "minecraft:zombie",
     "minecraft:drowned",
     "minecraft:phantom",
-    "minecraft:wandering_trader"
+    "minecraft:wandering_trader",
+    "minecraft:vindicator"
   ]
 }

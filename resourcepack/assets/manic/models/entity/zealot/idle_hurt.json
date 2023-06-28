@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/zealot/idle",
+	"textures": {
+		"0": "manic:entity/zealot/idle_hurt"
+	}
+}

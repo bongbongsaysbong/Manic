@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:barter",
+  "random_sequence": "manic:gameplay/trades/piglin_monk_bartering/common",
   "pools": [
     {
       "rolls": 1,

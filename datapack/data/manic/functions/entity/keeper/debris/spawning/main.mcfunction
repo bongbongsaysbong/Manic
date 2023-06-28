@@ -1,0 +1,10 @@
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate
+execute summon marker run function manic:entity/keeper/debris/spawning/initiate

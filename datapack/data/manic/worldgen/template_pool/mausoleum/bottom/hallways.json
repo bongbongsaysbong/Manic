@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway0",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway1",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway2",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway3",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway0b",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway1b",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway2b",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/hallway3b",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    }
+  ]
+}

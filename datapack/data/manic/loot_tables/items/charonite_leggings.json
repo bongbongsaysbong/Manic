@@ -10,15 +10,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:68,display:{color:3423547},Unbreakable:1b,CustomModelData:8360001,nucleus:{item_immunity:1b},manic:{id:\"charonite_leggings\",tool:\"anirrum\",charonite_modified:1b},AttributeModifiers:[{Amount:0.1d,Slot:\"legs\",AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"minecraft:generic.knockback_resistance\",Operation:0,UUID:[I;9,3,7,4]},{Amount:3.0d,Slot:\"legs\",AttributeName:\"minecraft:generic.armor_toughness\",Name:\"minecraft:generic.armor_toughness\",Operation:0,UUID:[I;8,3,7,4]},{Amount:6.0d,Slot:\"legs\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;7,3,7,4]}]}"
+              "tag": "{HideFlags:68,display:{color:3423547},Unbreakable:1b,CustomModelData:8360001,nucleus:{item_immunity:1b},manic:{id:\"charonite_leggings\",tool:\"anirrum\",charonite_modified:1b},AttributeModifiers:[{Amount:0.1d,Slot:\"legs\",AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"minecraft:generic.knockback_resistance\",Operation:0,UUID:[I;9,3,7,4]},{Amount:3.0d,Slot:\"legs\",AttributeName:\"minecraft:generic.armor_toughness\",Name:\"minecraft:generic.armor_toughness\",Operation:0,UUID:[I;8,3,7,4]},{Amount:6.0d,Slot:\"legs\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;7,3,7,4]}],sanguine:{allow_pus_repair:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
                 }
               ]
             },

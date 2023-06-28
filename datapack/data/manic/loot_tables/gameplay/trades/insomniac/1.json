@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/trades/insomniac/1",
   "pools": [
     {
       "rolls": 1,

@@ -1,4 +1,6 @@
-execute as @a[distance=..2,gamemode=!creative,gamemode=!spectator] at @s unless score @s manic.invul_timer matches 1.. run function manic:entity/player/damage/sorrowhead_acid
+tag @s add manic.damager
+execute as @a[distance=..2] run damage @s 9 manic:melted by @e[type=armor_stand,tag=manic.damager,sort=nearest,limit=1]
+tag @s remove manic.damager
 
 kill @s[tag=manic.sorrowhead_acid.burst]
 playsound manic:entity.sorrowhead.acid hostile @a

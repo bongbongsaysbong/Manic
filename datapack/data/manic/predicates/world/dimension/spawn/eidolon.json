@@ -1,0 +1,53 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/the_end"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/varkspace"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/void"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/bracken/omnidrome"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/asteroids"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/europa"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/jupiter"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/mars"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/moon"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/space"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/storage"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "manic:world/dimension/expansion/transporter_utility"
+    }
+  ]
+}

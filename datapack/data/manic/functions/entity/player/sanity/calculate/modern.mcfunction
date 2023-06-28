@@ -1,14 +1,11 @@
 # Calculate
 scoreboard players reset @s manic.dummy
-execute unless score @s manic.lunacy matches 1.. run scoreboard players add @s manic.dummy 1
+scoreboard players add @s manic.dummy 1
 
-# Anirrum Armour
-execute if predicate manic:entity/wearing/charonite_any unless predicate manic:entity/wearing/anirrum_any run scoreboard players remove @s manic.dummy 1
-execute if predicate manic:entity/wearing/anirrum_any run scoreboard players remove @s manic.dummy 2
-
-# Nightmare Shackles
-execute if predicate manic:entity/wearing/nightmare_shackles run function manic:entity/player/sanity/calculate/nightmare_shackles
+# Other Effects
+execute if predicate manic:item/wearing/nightmare_shackles run function manic:entity/player/sanity/calculate/nightmare_shackles
+execute if predicate manic:item/wearing/occult_veil run function manic:entity/player/sanity/calculate/occult_veil
+execute if entity @s[tag=manic.player.rifting] run scoreboard players remove @s manic.dummy 3
 
 # Finish
 scoreboard players operation @s manic.sanity += @s manic.dummy
-execute if predicate manic:entity/wearing/anirrum_or_charonite if score @s manic.sanity matches ..-1 run scoreboard players operation @s manic.lunacy -= @s manic.sanity

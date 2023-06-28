@@ -6,5 +6,5 @@ tag @s remove manic.sorrowhead.spit
 tag @s add manic.sorrowhead.knocked
 data modify entity @s Motion[1] set value -1.2
 
-scoreboard players set @s nucleus.frames 42
+scoreboard players set @s nucleus.frames 62
 function nucleus:entity/technical/animate

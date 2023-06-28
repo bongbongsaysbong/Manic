@@ -230,6 +230,141 @@
       "chars": [
         "\ua024"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/corpsegourd.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/corpsebulb.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/wartspore_charm.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/zombee.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua028"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grim_chasm.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/wartspore_charm.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/potion_sanity.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grim_explorer_map.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/void_chasm.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/corpsethorn.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/anirrum_lantern.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grim_rune.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/eldritch_sigil.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grimstone_plinth.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/occult_veil.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua039"
+      ]
     }
   ]
 }

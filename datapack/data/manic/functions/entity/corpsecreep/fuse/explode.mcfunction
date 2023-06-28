@@ -8,9 +8,11 @@ execute store result score #griefing manic.dummy run gamerule mobGriefing
 execute if score #griefing manic.dummy matches 1 run function manic:entity/corpsecreep/fuse/wither
 
 # Damage
-execute as @a[distance=5..7,gamemode=!creative,gamemode=!spectator] run function manic:entity/corpsecreep/damage/far
-execute as @a[distance=3..5,gamemode=!creative,gamemode=!spectator] run function manic:entity/corpsecreep/damage/near
-execute as @a[distance=..3,gamemode=!creative,gamemode=!spectator] run function manic:entity/corpsecreep/damage/immediate
+tag @s add manic.damager
+execute as @e[type=#nucleus:preset/can_take_damage/include_players,distance=5..7] run damage @s 14 manic:blighted by @e[type=wandering_trader,tag=manic.damager,sort=nearest,limit=1]
+execute as @e[type=#nucleus:preset/can_take_damage/include_players,distance=3..5] run damage @s 28 manic:blighted by @e[type=wandering_trader,tag=manic.damager,sort=nearest,limit=1]
+execute as @e[type=#nucleus:preset/can_take_damage/include_players,distance=..3] run damage @s 42 manic:blighted by @e[type=wandering_trader,tag=manic.damager,sort=nearest,limit=1]
+tag @s remove manic.damager
 
 # Kill
 tp @s ~ -512 ~

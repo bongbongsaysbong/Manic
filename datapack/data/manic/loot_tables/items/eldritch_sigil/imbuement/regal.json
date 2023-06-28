@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360047,manic:{id:\"eldritch_sigil\",bias:\"regal\"},nucleus:{soulbound:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.manic.eldritch_sigil.imbuement",
+                  "color": "#A8C2A8",
+                  "italic": false,
+                  "with": [
+                    {"translate":"item.manic.eldritch_sigil.imbuement.regal","color":"#7CC17C"}
+                  ]
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.manic.eldritch_sigil.enchantments",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.fortune",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.looting",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.eldritch_sigil",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

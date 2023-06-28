@@ -13,3 +13,8 @@ execute if entity @s[tag=manic.insomniac] run playsound manic:entity.insomniac.a
 execute if entity @s[tag=manic.piglin_monk] run playsound manic:entity.piglin_monk.ambient neutral @a
 
 execute if entity @s[tag=manic.paracusia] if predicate nucleus:chance/0.5 run playsound manic:entity.paracusia.ambient hostile @a
+
+execute if entity @s[tag=manic.heretic] if predicate nucleus:chance/0.33 run playsound manic:entity.heretic.ambient hostile @a
+execute if entity @s[tag=manic.zealot] if predicate nucleus:chance/0.33 run playsound manic:entity.zealot.ambient hostile @a
+execute if entity @s[tag=manic.flagellant] run playsound manic:entity.flagellant.ambient hostile @a
+execute if entity @s[tag=manic.shadow_spook] run playsound manic:entity.shadow_spook.ambient hostile @a

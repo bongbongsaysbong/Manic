@@ -1,5 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "insomniacs.nbt_recipe",
+  "category": "misc",
   "pattern": [
       "XIX",
       "X#X"

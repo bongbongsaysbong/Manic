@@ -1,11 +1,14 @@
-execute as @a[distance=..3,gamemode=!creative,gamemode=!spectator] unless score @s manic.invul_timer matches 1.. at @s run function manic:entity/player/damage/sorrowhead_acid
+data modify storage manic:storage root.temp.custom_name set from entity @s CustomName
+tag @s add manic.damager
+execute as @a[distance=..2] run damage @s 9 manic:melted by @e[type=marker,tag=manic.damager,sort=nearest,limit=1]
+tag @s remove manic.damager
 
-summon armor_stand ~ ~0.5 ~ {Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid.burst"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
-summon armor_stand ~ ~0.5 ~ {Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid.burst"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
-summon armor_stand ~ ~0.5 ~ {Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid.burst"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
-summon armor_stand ~ ~0.5 ~ {Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid.burst"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
-summon armor_stand ~ ~0.5 ~ {Tags:["nucleus.entity","manic.tick","manic.entity","smithed.entity","manic.sorrowhead_acid.burst"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
-execute as @e[type=armor_stand,tag=manic.sorrowhead_acid.burst,tag=!manic.sorrowhead_acid.burst.initiated,sort=nearest,limit=4] at @s run function manic:entity/sorrowhead/acid/burst
+summon armor_stand ~ ~ ~ {Tags:["nucleus.entity","manic.tick","smithed.entity","manic.sorrowhead_acid.burst","manic.entity_component"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
+summon armor_stand ~ ~ ~ {Tags:["nucleus.entity","manic.tick","smithed.entity","manic.sorrowhead_acid.burst","manic.entity_component"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
+summon armor_stand ~ ~ ~ {Tags:["nucleus.entity","manic.tick","smithed.entity","manic.sorrowhead_acid.burst","manic.entity_component"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
+summon armor_stand ~ ~ ~ {Tags:["nucleus.entity","manic.tick","smithed.entity","manic.sorrowhead_acid.burst","manic.entity_component"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
+summon armor_stand ~ ~ ~ {Tags:["nucleus.entity","manic.tick","smithed.entity","manic.sorrowhead_acid.burst","manic.entity_component"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959,Silent:1b}
+execute as @e[type=armor_stand,tag=manic.sorrowhead_acid.burst,tag=!manic.initiated] at @s run function manic:entity/sorrowhead/acid/burst
 
 kill @s[tag=manic.sorrowhead_acid]
 playsound manic:entity.sorrowhead.acid hostile @a

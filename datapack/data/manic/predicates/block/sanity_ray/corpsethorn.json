@@ -3,7 +3,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "type": "minecraft:wandering_trader",
+      "type": "minecraft:interaction",
       "nbt": "{Tags:[\"manic.corpsethorn\"]}"
     }
   }

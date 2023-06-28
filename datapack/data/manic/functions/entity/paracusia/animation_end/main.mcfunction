@@ -8,3 +8,5 @@ attribute @s minecraft:generic.armor modifier remove 8-3-6-2-123514904
 tag @s remove manic.paracusia.alert_animating
 tag @s remove manic.paracusia.attacking
 tag @s remove manic.paracusia.shooting
+
+scoreboard players reset @s nucleus.frames

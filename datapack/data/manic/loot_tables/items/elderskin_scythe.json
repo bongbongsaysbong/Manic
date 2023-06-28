@@ -10,16 +10,73 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360001,manic:{id:\"elderskin_scythe\",tool:\"anirrum\"},nucleus:{soulbound:1b}}"
+              "tag": "{Unbreakable:1b,HideFlags:6,CustomModelData:8360001,manic:{id:\"elderskin_scythe\",tool:\"elderskin\",can_apply_sigils:1b,upgrade_type:\"hoe\"},nucleus:{soulbound:1b},sanguine:{allow_pus_repair:1b}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "elderskin_scythe.damage",
+                  "amount": 5,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "elderskin_scythe.speed",
+                  "amount": -1.5,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
-                }
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      6,
+                      {
+                        "translate": "attribute.name.generic.attack_damage"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      2.5,
+                      {
+                        "translate": "attribute.name.generic.attack_speed"
+                      }
+                    ]
+                  }
+                ]
               ]
             },
             {

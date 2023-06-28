@@ -1,0 +1,87 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:night_vision": {
+                "amplifier": {
+                  "min": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "effects": {
+            "minecraft:darkness": {
+              "amplifier": {
+                "min": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "manic:world/light_level/moonlight"
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+          "dimension": "minecraft:overworld",
+          "light": {
+            "light": {
+              "min": 2,
+              "max": 4
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+          "dimension": "minecraft:the_nether",
+          "light": {
+            "light": {
+              "min": 3,
+              "max": 5
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+          "dimension": "minecraft:the_end",
+          "light": {
+            "light": {
+              "min": 4,
+              "max": 6
+            }
+          }
+        }
+      }
+    ]
+  }
+]

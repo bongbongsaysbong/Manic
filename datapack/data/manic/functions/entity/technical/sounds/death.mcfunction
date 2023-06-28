@@ -16,3 +16,7 @@ execute if data entity @s Item.tag.manic{entity:"zombee"} run playsound manic:en
 execute if data entity @s Item.tag.manic{entity:"corpsecreep"} run playsound manic:entity.corpsecreep.death neutral @a
 
 execute if data entity @s Item.tag.manic{entity:"paracusia"} run playsound manic:entity.paracusia.death hostile @a
+
+execute if data entity @s Item.tag.manic{entity:"heretic"} run playsound manic:entity.heretic.death hostile @a
+execute if data entity @s Item.tag.manic{entity:"zealot"} run playsound manic:entity.zealot.death hostile @a
+execute if data entity @s Item.tag.manic{entity:"flagellant"} run function manic:entity/flagellant/death

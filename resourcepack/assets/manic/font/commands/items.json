@@ -1,0 +1,271 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:item/phantom_membrane.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/necroplasm.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/lysosome.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/reticulum.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/vacuuole.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/item/elderskin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/eerie.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/necrotic.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/brainy.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/ghastly.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/viscous.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/corpsebulb/main.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/wispy_gelatin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/thick_gelatin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/wet_gelatin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/spectre_gelatin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/gooey_gelatin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/moonstone.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/sunstone.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/writhing_eye.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/disc_fragment_7.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/music_disc_7.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/item/potion_of_clairvoyance.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/item/potion_of_torment.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/music_disc_respite.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/grim_chasm.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/void_chasm.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/item/nightmare_shackles.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:item/occult_explorer_map_closed.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ua028"
+      ]
+    }
+  ]
+}

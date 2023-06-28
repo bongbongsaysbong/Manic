@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/trades/insomniac/5",
   "pools": [
     {
       "rolls": 1,
@@ -48,7 +50,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "manic:items/corpseflute"
+          "name": "manic:technical/items/corpseflute"
         }
       ]
     }

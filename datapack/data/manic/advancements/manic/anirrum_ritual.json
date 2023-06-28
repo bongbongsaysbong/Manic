@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:dropper",
       "nbt": "{CustomModelData:8360006}"
     },
     "title": {
@@ -15,7 +15,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "manic:manic/deepslate_ritual",
+  "parent": "manic:manic/anirrum",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

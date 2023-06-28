@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Patterns:[{Pattern:\"bs\",Color:11},{Pattern:\"ts\",Color:15},{Pattern:\"bo\",Color:15},{Pattern:\"bt\",Color:15},{Pattern:\"cre\",Color:15},{Pattern:\"cbo\",Color:15},{Pattern:\"tts\",Color:5},{Pattern:\"bts\",Color:5}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.manic.mad_banner",
+                "color": "green",
+                "italic": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

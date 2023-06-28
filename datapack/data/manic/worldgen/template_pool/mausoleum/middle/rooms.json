@@ -1,0 +1,140 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room0",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room1",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room2",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room3",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room4",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room5",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room6",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room7",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room8",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room9",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room10",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room11",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room12",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room13",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:mausoleum/middle/room14",
+        "processors": "manic:deepslate_and_blackstone_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "manic.settings.knocking": 0
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.0001
+  }
+]

@@ -62,6 +62,15 @@
     },
     {
       "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grim_chasm.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "gG"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "manic:gui/grimoire/return.png",
       "ascent": -8,
       "height": 13,

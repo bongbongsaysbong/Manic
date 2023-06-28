@@ -1,10 +1,7 @@
-tp @s ~0.5 ~1 ~0.5
-data remove entity @s Offers.Recipes
-tag @s remove manic.block.start
+tag @s remove manic.corpsebloom.start
 
-scoreboard players set @s manic.dummy 0
-execute if data storage manic:storage root.temp{corpsebloom_state:"grown"} run scoreboard players set @s manic.dummy 2
-execute if data storage manic:storage root.temp{corpsebloom_state:"sappy"} run scoreboard players set @s manic.dummy 3
-execute if data storage manic:storage root.temp{corpsebloom_state:"wilted"} run scoreboard players set @s manic.dummy 4
-execute if score @s manic.dummy matches 4 run scoreboard players set @s manic.timer 450
-execute if score @s manic.dummy matches 1.. run function manic:block/corpsebloom/set_state
+execute if data storage manic:storage root.temp{corpsebloom_state:"grown"} run function manic:block/corpsebloom/place/state/grown
+execute if data storage manic:storage root.temp{corpsebloom_state:"sappy"} run function manic:block/corpsebloom/place/state/sappy
+execute if data storage manic:storage root.temp{corpsebloom_state:"wilted"} run function manic:block/corpsebloom/place/state/wilted
+execute unless data storage manic:storage root.temp{corpsebloom_state:"ungrown"} run tag @s add manic.corpsebloom.grown
+function manic:block/corpsebloom/update_state

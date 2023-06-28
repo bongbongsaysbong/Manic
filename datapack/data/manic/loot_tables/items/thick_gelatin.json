@@ -15,9 +15,36 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.manic",
-                  "color": "#106050",
-                  "italic": true
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.manic.when_eaten",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "potion.manic.sanity_up",
+                  "color": "#A8C2A8",
+                  "italic": false,
+                  "with": [
+                    "10"
+                  ]
+                },
+                {
+                  "translate": "potion.withDuration",
+                  "color": "#A8C2A8",
+                  "italic": false,
+                  "with": [
+                    {"translate":"effect.minecraft.regeneration"},
+                    {"text":"00:10"}
+                  ]
                 }
               ]
             },

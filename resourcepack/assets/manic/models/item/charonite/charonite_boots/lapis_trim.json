@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nucleus:item/null",
+    "layer1": "manic:item/charonite_boots",
+    "layer2": "minecraft:trims/items/boots_trim_lapis"
+  }
+}

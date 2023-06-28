@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/flagellant/walk",
+	"textures": {
+		"0": "manic:entity/flagellant/walk_hurt"
+	}
+}

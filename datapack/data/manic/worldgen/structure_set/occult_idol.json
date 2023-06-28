@@ -3,13 +3,25 @@
     {
       "structure": "manic:occult_idol/grassy",
       "weight": 1
+    },
+    {
+      "structure": "manic:occult_idol/desert",
+      "weight": 1
+    },
+    {
+      "structure": "manic:occult_idol/snowy",
+      "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 315593556,
+    "exclusion_zone": {
+      "other_set": "manic:mausoleum",
+      "chunk_count": 5
+    },
     "spread_type": "triangular",
-    "spacing": 40,
-    "separation": 20
+    "spacing": 60,
+    "separation": 30
   }
 }

@@ -1,9 +1,11 @@
+scoreboard players reset #darkness manic.dummy
+
 execute store result score #bad_omen manic.dummy run data get entity @s ActiveEffects[{Id:31}].Amplifier
 execute if data entity @s ActiveEffects[{Id:31}] run scoreboard players add #bad_omen manic.dummy 1
 execute store result score #blindness manic.dummy run data get entity @s ActiveEffects[{Id:15}].Amplifier
 execute if data entity @s ActiveEffects[{Id:15}] run scoreboard players add #blindness manic.dummy 1
-execute store result score #darkness manic.dummy run data get entity @s ActiveEffects[{Id:33}].Amplifier
-execute if data entity @s ActiveEffects[{Id:33}] run scoreboard players add #darkness manic.dummy 1
+execute unless entity @s[tag=manic.player.rifting] store result score #darkness manic.dummy run data get entity @s ActiveEffects[{Id:33}].Amplifier
+execute if data entity @s[tag=!manic.player.rifting] ActiveEffects[{Id:33}] run scoreboard players add #darkness manic.dummy 1
 execute store result score #glowing manic.dummy run data get entity @s ActiveEffects[{Id:24}].Amplifier
 execute if data entity @s ActiveEffects[{Id:24}] run scoreboard players add #glowing manic.dummy 1
 execute store result score #hunger manic.dummy run data get entity @s ActiveEffects[{Id:17}].Amplifier
@@ -43,7 +45,7 @@ scoreboard players operation #total manic.dummy *= #100 manic.dummy
 
 effect clear @s bad_omen
 effect clear @s blindness
-effect clear @s darkness
+effect clear @s[tag=!manic.player.rifting] darkness
 effect clear @s glowing
 effect clear @s hunger
 effect clear @s levitation

@@ -1,9 +1,9 @@
 {
   "values": [
     "#minecraft:tall_flowers",
-    "#manic:corpseplant/gourds",
-    "#manic:corpseplant/dripleaf",
-    "#manic:corpseplant/boney",
+    "#manic:corpseplant/corpsegourd",
+    "#manic:corpseplant/corpsepitcher",
+    "#manic:corpseplant/corpseflute",
     "minecraft:cactus",
     "minecraft:allium"
   ]

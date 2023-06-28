@@ -20,16 +20,5 @@
 				"down": {"uv": [0, 0, 0, 4], "texture": "#missing"}
 			}
 		}
-	],
-	"display": {
-		"ground": {
-			"rotation": [0, -180, 0],
-			"translation": [0, -10.4, -6],
-			"scale": [1.01, 1.01, 1.01]
-		},
-		"head": {
-			"translation": [0, -23.75, 0],
-			"scale": [1.62, 1.62, 1.62]
-		}
-	}
+	]
 }

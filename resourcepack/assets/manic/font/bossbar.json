@@ -1,0 +1,13 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "manic:gui/bossbar/keeper.png",
+        "ascent": 6,
+        "height": 32,
+        "chars": [
+          "\ua001"
+        ]
+      }
+    ]
+  }

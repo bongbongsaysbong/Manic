@@ -3,7 +3,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
       "block": {
-        "tag": "nucleus:replaceable"
+        "tag": "minecraft:replaceable"
       }
     }
   },
@@ -12,7 +12,7 @@
     "offsetY": 1,
     "predicate": {
       "block": {
-        "tag": "nucleus:replaceable"
+        "tag": "minecraft:replaceable"
       }
     }
   }

@@ -18,4 +18,4 @@ execute store result storage manic:storage root.temp.Pos[2] double 1 run scorebo
 
 # Finalise
 data modify entity @s Pos set from storage manic:storage root.temp.Pos
-execute at @s align xyz run function manic:entity/technical/spectre/spawning/as_marker/checks
+execute at @s align xyz run function manic:entity/technical/spectre/spawning/as_marker/checks/main

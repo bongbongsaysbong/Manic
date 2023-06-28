@@ -4,8 +4,8 @@
   "predicate": {
     "effects": {
       "minecraft:darkness": {
-        "duration": {
-          "min": 1
+        "amplifier": {
+          "min": 0
         }
       }
     }

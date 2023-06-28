@@ -16,3 +16,10 @@ execute if score #corpsebloom manic.dummy matches 1 run function manic:entity/zo
 execute if score #corpsebloom manic.dummy matches 1 if entity @e[predicate=manic:entity/scores/corpsebloom,distance=..4] run function manic:entity/zombee/sap/transfer_sap
 
 playsound manic:entity.zombee.ambient neutral @a ~ ~ ~ 0.1 1
+
+execute store success score #set_home manic.dummy as @e[predicate=manic:entity/scores/zombee_home,distance=..12] run data modify storage manic:storage root.temp.home_pos set from entity @s Pos
+execute if score #set_home manic.dummy matches 1 run data modify entity @s ArmorItems[3].tag.manic.zombee_home set from storage manic:storage root.temp.home_pos
+execute unless score #target manic.dummy matches 1 unless data entity @s ArmorItems[3].tag.manic.following unless entity @e[predicate=manic:entity/scores/zombee_home,distance=..8] run function manic:entity/zombee/return_home
+
+execute store result score #zombee_health manic.dummy run data get entity @s Health 10
+execute unless score #zombee_health manic.dummy matches 160.. store result entity @s Health int 0.1 run scoreboard players add #zombee_health manic.dummy 10

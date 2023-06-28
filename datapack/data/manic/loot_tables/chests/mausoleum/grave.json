@@ -1,12 +1,26 @@
 {
   "type": "minecraft:chest",
+  "random_sequence": "manic:chests/mausoleum/grave",
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 4
+        "min": 3,
+        "max": 5
       },
       "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/necroplasm",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
@@ -14,8 +28,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -27,8 +41,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -40,8 +54,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -50,8 +64,8 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 3
+        "min": 3,
+        "max": 5
       },
       "entries": [
         {
@@ -69,6 +83,14 @@
         {
           "type": "minecraft:loot_table",
           "name": "manic:items/moonstone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/sunstone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/anirrum_ingot"
         }
       ]
     },

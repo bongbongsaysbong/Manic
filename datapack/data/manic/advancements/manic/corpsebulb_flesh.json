@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish",
+      "nbt": "{CustomModelData:8360002}"
+    },
+    "title": {
+      "translate": "advancements.manic.corpsebulb_flesh"
+    },
+    "description": {
+      "translate": "advancements.manic.corpsebulb_flesh.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/corpsebloom",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{manic:{id:\"corpsebulb_flesh\"}}"
+        }
+      }
+    }
+  }
+}

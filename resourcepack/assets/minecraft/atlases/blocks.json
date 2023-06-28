@@ -1,0 +1,20 @@
+{
+	"sources": [
+	  {
+		"type": "paletted_permutations",
+		"textures": [
+		  "trims/items/leggings_trim",
+		  "trims/items/chestplate_trim",
+		  "trims/items/helmet_trim",
+		  "trims/items/boots_trim"
+		],
+		"palette_key": "trims/color_palettes/trim_palette",
+		"permutations": {
+		  "anirrum": "manic:trims/color_palettes/anirrum",
+		  "anirrum_darker": "manic:trims/color_palettes/anirrum_darker",
+		  "charonite": "manic:trims/color_palettes/charonite",
+		  "charonite_darker": "manic:trims/color_palettes/charonite_darker"
+		}
+	  }
+	]
+}

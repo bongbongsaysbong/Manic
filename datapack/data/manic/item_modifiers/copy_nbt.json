@@ -1,14 +1,16 @@
-{
-  "function": "minecraft:copy_nbt",
-  "source": {
-    "type": "minecraft:storage",
-    "source": "manic:storage"
-  },
-  "ops": [
-    {
-      "source": "root.temp.item.tag",
-      "target": "{}",
-      "op": "merge"
-    }
-  ]
-}
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "manic:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  }
+]

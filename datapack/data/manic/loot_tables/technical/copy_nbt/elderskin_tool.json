@@ -1,0 +1,224 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_claymore",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "manic:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.upgraded_item.tag.Enchantments",
+                  "target": "Enchantments",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.upgraded_item.tag.RepairCost",
+                  "target": "RepairCost",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#tool"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_mattock",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "manic:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.upgraded_item.tag.Enchantments",
+                  "target": "Enchantments",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.upgraded_item.tag.RepairCost",
+                  "target": "RepairCost",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#tool"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_cleaver",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "manic:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.upgraded_item.tag.Enchantments",
+                  "target": "Enchantments",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.upgraded_item.tag.RepairCost",
+                  "target": "RepairCost",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#tool"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_spade",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "manic:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.upgraded_item.tag.Enchantments",
+                  "target": "Enchantments",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.upgraded_item.tag.RepairCost",
+                  "target": "RepairCost",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#tool"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_scythe",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "manic:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.upgraded_item.tag.Enchantments",
+                  "target": "Enchantments",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.upgraded_item.tag.RepairCost",
+                  "target": "RepairCost",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#tool"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 5
+        }
+      ]
+    }
+  ]
+}

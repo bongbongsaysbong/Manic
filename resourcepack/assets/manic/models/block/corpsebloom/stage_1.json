@@ -27,17 +27,6 @@
 			}
 		}
 	],
-	"display": {
-		"ground": {
-			"rotation": [0, -90, 0],
-			"translation": [0, -6, -6],
-			"scale": [1.01, 1.01, 1.01]
-		},
-		"head": {
-			"translation": [0, -23.75, 0],
-			"scale": [1.62, 1.62, 1.62]
-		}
-	},
 	"groups": [
 		{
 			"name": "Stem",

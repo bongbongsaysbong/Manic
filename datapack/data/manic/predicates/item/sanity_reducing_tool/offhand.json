@@ -1,0 +1,31 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "manic:item/sanity_reducing_tool/mainhand"
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:diamond_sword",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_hoe",
+            "minecraft:netherite_sword",
+            "minecraft:netherite_pickaxe",
+            "minecraft:netherite_axe",
+            "minecraft:netherite_shovel",
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    }
+  }
+]

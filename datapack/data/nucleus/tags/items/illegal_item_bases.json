@@ -1,0 +1,25 @@
+{
+    "values": [
+      "minecraft:iron_ingot",
+      "minecraft:gold_ingot",
+      "minecraft:copper_ingot",
+      "minecraft:netherite_scrap",
+      "minecraft:lapis_lazuli",
+      "minecraft:diamond",
+      "minecraft:emerald",
+      "minecraft:redstone",
+      "minecraft:quartz",
+      "minecraft:structure_block",
+      "minecraft:rotten_flesh",
+      "minecraft:bone",
+      "minecraft:ender_pearl",
+      "minecraft:phantom_membrane",
+      "minecraft:golden_carrot",
+      "minecraft:polished_blackstone_bricks",
+      "minecraft:nether_wart",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:compass",
+      "minecraft:leather_helmet",
+      "minecraft:golden_carrot"
+    ]
+}

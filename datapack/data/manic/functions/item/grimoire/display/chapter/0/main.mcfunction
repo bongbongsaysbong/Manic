@@ -4,4 +4,5 @@ execute if score @s manic.grimoire.page matches 6.. run scoreboard players set @
 execute unless score @s manic.insight matches 1.. run function manic:item/grimoire/display/chapter/0/0
 execute if score @s manic.insight matches 1 run function manic:item/grimoire/display/chapter/0/1
 execute if score @s manic.insight matches 2 run function manic:item/grimoire/display/chapter/0/2
-execute if score @s manic.insight matches 3.. run function manic:item/grimoire/display/chapter/0/3
+execute if score @s manic.insight matches 3 run function manic:item/grimoire/display/chapter/0/3
+execute if score @s manic.insight matches 4.. run function manic:item/grimoire/display/chapter/0/4

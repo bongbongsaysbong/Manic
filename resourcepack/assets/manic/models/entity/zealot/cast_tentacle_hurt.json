@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/zealot/cast_tentacle",
+	"textures": {
+		"0": "manic:entity/zealot/cast_tentacle_hurt"
+	}
+}

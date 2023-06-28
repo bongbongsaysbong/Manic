@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:8360002}"
+      "item": "minecraft:golden_carrot",
+      "nbt": "{CustomModelData:8360000}"
     },
     "title": {
       "translate": "advancements.manic.kill_paracusia"
@@ -15,7 +15,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "manic:manic/root",
+  "parent": "manic:manic/kill_spectre",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",

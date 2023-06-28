@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "manic:occult_idol_located",
+              "decoration": "banner_green",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360000,manic:{id:\"occult_explorer_map\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.occult_explorer_map",
+                "color": "#35cc3a",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

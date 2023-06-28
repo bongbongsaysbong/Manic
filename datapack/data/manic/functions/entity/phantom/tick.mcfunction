@@ -1,1 +1,1 @@
-execute if score @s nucleus.frames matches 1 run function manic:entity/phantom/spawn
+execute if score @s nucleus.frames matches 20 run function manic:entity/phantom/spawn

@@ -1,5 +1,6 @@
+tag @s remove manic.corpsepitcher.digesting
+tag @s add manic.corpsepitcher.has_item
 scoreboard players operation @s manic.dummy = @s manic.dummy2
-scoreboard players reset @s manic.timer
-scoreboard players reset @s manic.dummy2
-function manic:block/corpsepitcher/set_state
-playsound manic:block.corpsepitcher.open block @a
+scoreboard players add @s manic.dummy 98
+function manic:block/corpsepitcher/update_state
+playsound manic:block.corpsepitcher.open block @a ~ ~ ~ 1 0.75

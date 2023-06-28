@@ -1,13 +1,13 @@
-# Base
-summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole"],NoGravity:1b}
-summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole"],NoGravity:1b}
-execute if predicate nucleus:chance/0.5 run summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole"],NoGravity:1b}
-
-execute if score @s manic.sanity matches ..1000 if predicate nucleus:chance/0.5 run summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole"]}
-execute if score @s manic.lunacy matches 1.. run summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole"]}
-execute if score @s manic.lunacy matches 1.. if predicate nucleus:chance/0.33 run summon marker ~ ~ ~ {Tags:["smithed.entity","manic.entity","manic.wormhole","manic.wormhole.lunacy"]}
-
-# Commit
+scoreboard players set #set_cooldown manic.dummy 0
 tag @s add manic.spawning_spectres
-execute as @e[type=marker,tag=manic.wormhole,tag=!manic.found] at @s run function manic:entity/technical/spectre/spawning/as_marker/main
+
+execute summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/main
+execute summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/main
+execute if predicate nucleus:chance/0.5 summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/main
+
+execute if score @s manic.sanity matches ..1000 if predicate nucleus:chance/0.5 summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/main
+execute if score @s manic.lunacy matches 1.. summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/main
+execute if score @s manic.lunacy matches 1.. if predicate nucleus:chance/0.33 summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/lunacy
+
 tag @s remove manic.spawning_spectres
+execute if score #set_cooldown manic.dummy matches 1 as @a[distance=..64] unless score @s manic.spectre_cooldown matches 150.. run scoreboard players set @s manic.spectre_cooldown 150

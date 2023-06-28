@@ -3,7 +3,7 @@ data remove storage manic:storage root.temp
 data modify storage manic:storage root.temp.item set from entity @s SelectedItem
 
 # Actions
-execute anchored eyes run function manic:block/technical/raycast/raycast
+execute anchored eyes run function manic:entity/corpsecreep/interact/raycast
 execute if data storage manic:storage root.temp{success:1b} run function manic:entity/corpsecreep/interact/as_player/main
 
 # Finish

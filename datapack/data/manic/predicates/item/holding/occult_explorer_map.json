@@ -1,0 +1,47 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:warped_fungus_on_a_stick"
+              ],
+              "count": {
+                "min": 1
+              },
+              "nbt": "{manic:{id:\"occult_explorer_map\"}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:warped_fungus_on_a_stick"
+              ],
+              "count": {
+                "min": 1
+              },
+              "nbt": "{manic:{id:\"occult_explorer_map\"}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -2,9 +2,12 @@ advancement revoke @s only manic:technical/inventory_changed/close_grimoire
 attribute @s minecraft:generic.movement_speed modifier remove 8-3-6-2-361785
 execute if entity @s[tag=manic.grimoire.open] run playsound manic:item.grimoire.close player @a
 tag @s remove manic.grimoire.open
+tag @s remove manic.grimoire.plinth
+tag @s add manic.grimoire.closing
 
 function manic:item/grimoire/reset_scores
 
+title @s reset
 title @s title ""
 title @s subtitle ""
 

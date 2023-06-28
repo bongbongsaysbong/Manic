@@ -4,5 +4,6 @@ scoreboard players operation @s manic.dummy -= #sanity_charges manic.dummy
 function manic:block/anirrum_altar/set_state
 data modify storage manic:storage root.temp.advancement set value 1b
 
-tag @s add manic.anirrum_altar.performing
-execute positioned ~ ~2 ~ run function manic:block/anirrum_altar/tentacle/spawn
+tag @s[tag=!manic.ritual_rune] add manic.anirrum_altar.performing
+execute unless entity @s[tag=manic.ritual_rune] positioned ~ ~2 ~ run function manic:block/anirrum_altar/tentacle/spawn
+tag @s remove manic.ritual_rune

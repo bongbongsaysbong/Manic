@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360048,manic:{id:\"eldritch_sigil\",bias:\"arcane\"},nucleus:{soulbound:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.manic.eldritch_sigil.imbuement",
+                  "color": "#A8C2A8",
+                  "italic": false,
+                  "with": [
+                    {"translate":"item.manic.eldritch_sigil.imbuement.arcane","color":"#7CC17C"}
+                  ]
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.manic.eldritch_sigil.enchantments",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.bane_of_arthropods",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.fire_aspect",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.punch",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "enchantment.minecraft.smite",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.eldritch_sigil",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

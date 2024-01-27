@@ -26,7 +26,7 @@ Manic adds a sense of occult mystery to the world of Minecraft. Uncover the forg
   ElBones - Artist, brainstorming<br/>
   CreeperMagnet_ - Miscellaneous code<br/>
   the der discohund - [Shader code](https://github.com/HalbFettKaese/)<br/>
-  chlo - [Respite music disc](https://www.youtube.com/watch?v=G-pl_pN_okU)<br/>
+  chlo, Nuclear Crackhead-239 - Soundtrack<br/><br/>
   Amber Gray - Corpseflute sounds<br/>
   
   __Libraries:__<br/>

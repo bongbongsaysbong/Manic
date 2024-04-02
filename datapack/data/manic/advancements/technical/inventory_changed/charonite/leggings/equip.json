@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "manic:item/charonite/leggings/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

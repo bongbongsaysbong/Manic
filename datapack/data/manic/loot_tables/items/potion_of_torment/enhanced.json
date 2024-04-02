@@ -15,9 +15,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.manic.potion.effect.torment.description.enhanced",
+                  "translate": "potion.withAmplifier",
                   "color": "#ebb5a9",
-                  "italic": false
+                  "italic": false,
+                  "with": [
+                    {"translate": "item.manic.potion.effect.torment.description"},{"translate":"potion.potency.1"}
+                  ]
                 },
                 {
                   "translate": "manic.tooltip",

@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/sorrowhead/knocked",
-	"textures": {
-		"0": "manic:entity/sorrowhead/knocked_hurt"
-	}
-}

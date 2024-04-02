@@ -1,8 +1,8 @@
-tag @s remove nucleus.has_line_of_sight
-execute if entity @a[distance=..12,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0.0f}] anchored eyes facing entity @p[gamemode=!creative,gamemode=!spectator,nbt=!{Health:0.0f}] eyes run function nucleus:entity/technical/line_of_sight_raycast
-execute if entity @s[tag=nucleus.has_line_of_sight] run function manic:entity/necromorph/increment
+scoreboard players add @s manic.dummy 1
+scoreboard players add @s manic.dummy2 1
 
-execute unless score @s nucleus.frames matches 1.. if score @s manic.dummy matches 9.. if predicate nucleus:chance/0.5 run function manic:entity/necromorph/animation_begin/spit
-execute unless score @s nucleus.frames matches 1.. if score @s manic.dummy2 matches 15.. if predicate nucleus:chance/0.4 run function manic:entity/necromorph/animation_begin/roar
+execute if score @s nucleus.frames matches 1.. run return 0
+execute if score @s manic.dummy matches 9.. if predicate nucleus:chance/0.5 run function manic:entity/necromorph/check/spit
+execute if score @s manic.dummy2 matches 15.. if predicate nucleus:chance/0.4 run function manic:entity/necromorph/check/roar
 
-execute if block ~ ~ ~ #nucleus:underwater if predicate nucleus:chance/0.5 run function manic:entity/necromorph/convert
+execute if predicate nucleus:block/waterlogged if predicate nucleus:chance/0.5 run function manic:entity/necromorph/convert

@@ -6,5 +6,27 @@
       "type": "minecraft:interaction",
       "nbt": "{Tags:[\"manic.corpsegourd\"]}"
     }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"manic.corpsegourd.sheared\"]}"
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"manic.corpsegourd.sappy\"]}"
+          }
+        }
+      ]
+    }
   }
 ]

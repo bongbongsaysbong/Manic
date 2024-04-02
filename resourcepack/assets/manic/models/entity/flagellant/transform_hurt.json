@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/flagellant/transform",
-	"textures": {
-		"0": "manic:entity/flagellant/transform_hurt"
-	}
-}

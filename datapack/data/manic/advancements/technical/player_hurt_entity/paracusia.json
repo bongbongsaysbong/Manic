@@ -13,5 +13,10 @@
   },
   "rewards": {
     "function": "manic:entity/paracusia/player_attack"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

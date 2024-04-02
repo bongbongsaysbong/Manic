@@ -1,6 +1,5 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "manic:entities/keeper",
   "pools": [
     {
       "rolls": 1,
@@ -24,6 +23,56 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#perm.keeper_kills"
+              },
+              "score": "manic.dummy"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#perm.keeper_kills"
+            },
+            "score": "manic.dummy"
+          },
+          "range": {
+            "min": 1
+          }
+        }
       ]
     },
     {
@@ -41,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "manic:entities/keeper"
 }

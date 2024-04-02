@@ -2,8 +2,11 @@
    "values": [
      "manic:melted",
      "manic:melted/bypasses_enchants",
+     "manic:melted/keeper",
      "manic:indoctrinated/projectile",
-     "manic:flayed"
+     "manic:flayed",
+     "manic:flayed/variant",
+     "manic:parry"
    ]
  }
  

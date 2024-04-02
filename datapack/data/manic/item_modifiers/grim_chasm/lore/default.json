@@ -7,7 +7,7 @@
         " ",
         {
         "selector": "@s",
-        "color": "white",
+        "color": "#A8C2A8",
         "italic": false
         }
       ]
@@ -35,7 +35,7 @@
         {
         "selector": "@s",
         "color": "aqua",
-        "italic": false
+        "italic": true
         }
       ]
     ],

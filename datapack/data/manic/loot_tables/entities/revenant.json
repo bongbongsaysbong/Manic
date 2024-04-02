@@ -8,14 +8,36 @@
         {
           "type": "minecraft:loot_table",
           "name": "manic:items/reticulum",
-          "conditions": [
+          "functions": [
             {
-              "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.45,
-              "looting_multiplier": 0.05
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              },
+              "add": false
             },
             {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
               "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"manic.reinforcement\"]}"
+                }
+              }
             }
           ]
         }

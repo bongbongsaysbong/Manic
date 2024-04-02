@@ -44,16 +44,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/sharing_ritual.png",
-      "ascent": -8,
-      "height": 13,
-      "chars": [
-        "eE"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/nightmare_shackles.png",
+      "file": "manic:gui/grimoire/icons/nightmare_pendant.png",
       "ascent": -8,
       "height": 13,
       "chars": [

@@ -44,7 +44,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.manic.anima_shackles",
-                "color": "##35cc3a",
+                "color": "#35cc3a",
                 "italic": false
               }
             },

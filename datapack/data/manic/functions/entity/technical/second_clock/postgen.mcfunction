@@ -6,3 +6,5 @@ execute if entity @s[tag=manic.postgen.flagellant] run function manic:technical/
 execute if entity @s[tag=manic.postgen.paracusia] run function manic:technical/postgen/paracusia/second_clock
 execute if entity @s[tag=manic.postgen.spook] run function manic:technical/postgen/spook/second_clock
 execute if entity @s[tag=manic.postgen.spawn_interaction] run function manic:technical/postgen/interaction/second_clock
+execute if entity @s[tag=manic.postgen.malefactor_nest] run function manic:technical/postgen/malefactor_nest/second_clock
+execute if entity @s[tag=manic.postgen.grimstone_weaver] run function manic:technical/postgen/grimstone_weaver/second_clock

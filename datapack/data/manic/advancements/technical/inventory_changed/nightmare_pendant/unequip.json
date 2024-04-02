@@ -1,0 +1,26 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{manic:{id:\"nightmare_pendant\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/nightmare_pendant/unequip/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

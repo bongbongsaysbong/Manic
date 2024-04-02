@@ -1,4 +1,4 @@
-data merge entity @s {Team:"smithed.prevent_aggression",Tags:["smithed.entity","nucleus.entity","nucleus.living_entity","nucleus.trader_entity","nucleus.trader_entity.has_gui","nucleus.trader_entity.model_based","manic.entity","manic.tick","manic.insomniac","manic.second_clock"],CustomName:'{"translate":"entity.manic.insomniac"}',Silent:1b,DeathTime:19s,Offers:{Recipes:[]},ActiveEffects:[{Id:14b,Duration:-1,Amplifier:0b,ShowParticles:0b}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:structure_block",tag:{CustomModelData:8360000,nucleus:{custom_model_data:{idle:8360075,moving:8360077}}}}],HandItems:[{id:"minecraft:potion",Count:1b,tag:{CustomModelData:8360075,CustomPotionColor:0}}],DeathLootTable:"manic:entities/insomniac",PersistenceRequired:1b}
+data merge entity @s {Team:"smithed.prevent_aggression",Tags:["smithed.entity","nucleus.entity","nucleus.living_entity","nucleus.trader_entity","nucleus.trader_entity.has_gui","manic.entity","manic.tick","manic.insomniac","manic.second_clock"],CustomName:'{"translate":"entity.manic.insomniac"}',Silent:1b,DeathTime:19s,Offers:{Recipes:[]},active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:0b,show_particles:0b}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:structure_block",tag:{CustomModelData:8360000,nucleus:{custom_model_data:8360014,damage_data:{idle:0,moving:7}}}}],HandItems:[{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:8360014,display:{color:0},nucleus:{render:1b}}}],DeathLootTable:"manic:entities/insomniac",PersistenceRequired:1b,DespawnDelay:2147483647}
 
 ## Set Tags
 tag @s add manic.initiated
@@ -35,10 +35,11 @@ loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/4
 function manic:entity/insomniac/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 15b
 
-# Treasure
-loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/5
-function manic:entity/insomniac/add_trade
-data modify entity @s Offers.Recipes[-1].maxUses set value 3b
+# Treasure or Corpse Sap
+execute if predicate nucleus:chance/0.5 run tag @s add manic.tag
+execute if entity @s[tag=manic.tag] run function manic:entity/insomniac/chance/treasure
+execute unless entity @s[tag=manic.tag] run function manic:entity/insomniac/chance/corpse_sap
+tag @s remove manic.tag
 
 # Nightmare Shackles
 loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/6
@@ -50,8 +51,8 @@ loot replace entity @s weapon.mainhand 2 loot manic:gameplay/trades/insomniac/7
 function manic:entity/insomniac/add_trade
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
-# Grimstone Chunks
-execute if score #perm.keeper_kills manic.dummy matches 1.. run function manic:entity/insomniac/grimstone_chunks
+# Mad Banner
+execute if score #perm.keeper_kills manic.dummy matches 1.. run function manic:entity/insomniac/mad_banner
 
 ## Reset Equipment
 item replace entity @s weapon.mainhand with air

@@ -3,6 +3,7 @@ scoreboard players operation @s manic.grimoire.page.storage = @s manic.grimoire.
 
 # Additional Chapters
 execute if score @s manic.grimoire.chapter matches 7 run function manic:item/grimoire/page_search/select/corpseplants
+execute if score @s manic.grimoire.chapter matches 8 run function manic:item/grimoire/page_search/select/horror
 
 # Regular Chapters
 execute if score @s manic.grimoire.chapter matches 1 run function manic:item/grimoire/page_search/select/1
@@ -16,3 +17,4 @@ scoreboard players set @s[tag=!manic.grimoire.return_menu] manic.grimoire.page 0
 tag @s remove manic.grimoire.return_menu
 
 execute if entity @s[tag=manic.grimoire.return_corpseplant] run function manic:item/grimoire/page_search/return/2
+execute if entity @s[tag=manic.grimoire.return_horror] run function manic:item/grimoire/page_search/return/5

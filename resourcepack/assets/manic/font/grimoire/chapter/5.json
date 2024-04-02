@@ -17,15 +17,6 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/void_chasm.png",
-      "ascent": -8,
-      "height": 13,
-      "chars": [
-        "bB"
-      ]
-    },
-    {
-      "type": "bitmap",
       "file": "manic:gui/grimoire/icons/anirrum_lantern.png",
       "ascent": -8,
       "height": 13,
@@ -53,7 +44,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/icons/grimstone_plinth.png",
+      "file": "manic:gui/grimoire/icons/occult_refuge.png",
       "ascent": -8,
       "height": 13,
       "chars": [
@@ -67,6 +58,24 @@
       "height": 13,
       "chars": [
         "gG"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grimstone_weaver.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "hH"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/horror_page.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "iI"
       ]
     },
     {

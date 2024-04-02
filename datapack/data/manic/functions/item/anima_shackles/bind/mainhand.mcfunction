@@ -5,3 +5,4 @@ item modify entity @s weapon.mainhand manic:anima_shackles/update
 
 execute unless score #debug_info manic.dummy matches 1 run function manic:item/anima_shackles/bind/lore_pos
 execute unless score #debug_info manic.dummy matches 1 run item modify entity @s weapon.mainhand manic:anima_shackles/lore
+execute if score #debug_info manic.dummy matches 1 run item modify entity @s weapon.mainhand manic:anima_shackles/reduced

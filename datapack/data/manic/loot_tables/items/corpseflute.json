@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/cloud"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/membrane"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/cage"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/ruse"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/city"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/corpseflute/depth"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "manic:items/corpseflute"
+}

@@ -29,5 +29,10 @@
   },
   "rewards": {
     "function": "manic:item/wartspore_charm/breed/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -51,6 +51,7 @@
   },
   {
     "condition": "minecraft:location_check",
+    "offsetY": 1,
     "predicate": {
       "position": {
         "y": {

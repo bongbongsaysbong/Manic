@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "manic:block/deepslate_podium",
-		"particle": "manic:block/deepslate_podium"
+		"particle": "manic:block/deepslate_altar/particles"
 	},
 	"elements": [
 		{

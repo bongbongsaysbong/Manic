@@ -35,5 +35,10 @@
   },
   "rewards": {
     "function": "manic:item/grim_quill/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

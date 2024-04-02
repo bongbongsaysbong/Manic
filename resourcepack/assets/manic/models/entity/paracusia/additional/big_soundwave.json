@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "manic:entity/paracusia/additional/big_soundwave",
+		"particle": "manic:entity/paracusia/additional/big_soundwave"
+	},
+	"elements": [
+		{
+			"name": "Big",
+			"from": [-13, -6, -4],
+			"to": [29, 32, -4],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 15, -4]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 7.5, 7.5], "texture": "#0"},
+				"south": {"uv": [7.5, 0.5, 0.5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Medium",
+			"from": [-7, 0, 11],
+			"to": [23, 30, 11],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 15, 11]},
+			"faces": {
+				"north": {"uv": [0.5, 8, 5.5, 13], "texture": "#0"},
+				"south": {"uv": [5.5, 8, 0.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Small",
+			"from": [-1, 6, 26],
+			"to": [17, 24, 26],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 15, 20]},
+			"faces": {
+				"north": {"uv": [8, 0.5, 11, 3.5], "texture": "#0"},
+				"south": {"uv": [11, 0.5, 8, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -9.7, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -5, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	}
+}

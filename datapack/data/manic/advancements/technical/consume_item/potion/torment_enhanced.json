@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "manic:item/consume/potion/torment_enhanced"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

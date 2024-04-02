@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/grinn/idle",
-	"textures": {
-		"0": "manic:entity/grinn/idle_hurt"
-	}
-}

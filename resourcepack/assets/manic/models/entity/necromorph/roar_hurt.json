@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/necromorph/roar",
-	"textures": {
-		"0": "manic:entity/necromorph/roar_hurt"
-	}
-}

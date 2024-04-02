@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "manic:item/consume/pop"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

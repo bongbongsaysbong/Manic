@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/spook/idle",
+	"textures": {
+		"0": "manic:entity/spook/red_spook/emerge"
+	}
+}

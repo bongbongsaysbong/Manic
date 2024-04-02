@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/revenant/elbones/sprint",
+	"textures": {
+		"0": "manic:entity/revenant/elbones/emerge"
+	}
+}

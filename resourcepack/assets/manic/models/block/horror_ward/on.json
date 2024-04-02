@@ -1,0 +1,135 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "manic:block/horror_ward/main",
+		"1": "manic:block/horror_ward/fire",
+		"particle": "manic:block/horror_seeker/particle"
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"from": [4, 3, 4],
+			"to": [12, 19, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [4, 8, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 8, 4, 16], "texture": "#0"},
+				"south": {"uv": [12, 8, 16, 16], "texture": "#0"},
+				"west": {"uv": [8, 8, 12, 16], "texture": "#0"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [1.5, 1.5, 5.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Base",
+			"from": [1, 0, 1],
+			"to": [15, 3, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
+			"faces": {
+				"north": {"uv": [9, 6.5, 16, 8], "texture": "#0"},
+				"east": {"uv": [9, 6.5, 16, 8], "texture": "#0"},
+				"south": {"uv": [9, 6.5, 16, 8], "texture": "#0"},
+				"west": {"uv": [9, 6.5, 16, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"down": {"uv": [9, 6.5, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Connector",
+			"from": [12, 10, 6.5],
+			"to": [14, 13, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 10, 6.5]},
+			"faces": {
+				"north": {"uv": [13.5, 4, 14.5, 5.5], "texture": "#0"},
+				"east": {"uv": [14.5, 4, 16, 5.5], "texture": "#0"},
+				"south": {"uv": [14.5, 4, 13.5, 5.5], "texture": "#0"},
+				"west": {"uv": [14.5, 4, 16, 5.5], "texture": "#0"},
+				"up": {"uv": [14.5, 4, 13.5, 5.5], "texture": "#0"},
+				"down": {"uv": [14.5, 4, 13.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Shaft",
+			"from": [14, 10, 6.5],
+			"to": [17, 19, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [14, 10, 6.5]},
+			"faces": {
+				"north": {"uv": [10.5, 0, 12, 4.5], "texture": "#0"},
+				"east": {"uv": [10.5, 0, 12, 4.5], "texture": "#0"},
+				"south": {"uv": [10.5, 0, 12, 4.5], "texture": "#0"},
+				"west": {"uv": [10.5, 0, 12, 4.5], "texture": "#0"},
+				"up": {"uv": [10.5, 4.5, 12, 6], "texture": "#0"},
+				"down": {"uv": [10.5, 4.5, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-3, 4, 8],
+			"to": [4, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 4, 7]},
+			"faces": {
+				"north": {"uv": [7, 0, 10.5, 6], "texture": "#0"},
+				"south": {"uv": [10.5, 0, 7, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "FireBase",
+			"from": [6, 19, 6],
+			"to": [10, 21, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"east": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"south": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"west": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"up": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Cross",
+			"from": [3.5, 21, 8],
+			"to": [12.5, 29, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 25, 8]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Cross",
+			"from": [8, 21, 3.5],
+			"to": [8, 29, 12.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 25, 8]},
+			"faces": {
+				"east": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "Tube",
+			"origin": [12, 6, 6.5],
+			"color": 0,
+			"children": [2, 3]
+		},
+		4,
+		{
+			"name": "FireGear",
+			"origin": [8, 24, 8],
+			"color": 0,
+			"children": [
+				5,
+				{
+					"name": "Fire",
+					"origin": [8, 24, 8],
+					"color": 0,
+					"children": [6, 7]
+				}
+			]
+		}
+	]
+}

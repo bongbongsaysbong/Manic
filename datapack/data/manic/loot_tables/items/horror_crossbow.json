@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360001,manic:{id:\"horror_crossbow\"},sanguine:{allow_pus_repair:1b},nucleus:{durability:[512,512],repaired:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "with": [
+                    512,
+                    512
+                  ],
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.horror_crossbow",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

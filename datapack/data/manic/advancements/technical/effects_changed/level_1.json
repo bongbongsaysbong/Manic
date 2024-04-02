@@ -1,0 +1,313 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "bad_omen": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:bad_omen": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "blindness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:blindness": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "manic.effects.prevent_effects": {
+                    "min": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"manic.player.rifting\"]}"
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:darkness": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "glowing": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:glowing": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "hunger": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:hunger": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "levitation": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:levitation": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "mining_fatigue": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:mining_fatigue": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "nausea": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:nausea": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:poison": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:slowness": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "unluck": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:unluck": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:weakness": {
+            "amplifier": 0
+          }
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "manic.effect.prevent_effects": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "effects": {
+          "minecraft:wither": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bad_omen",
+      "blindness",
+      "darkness",
+      "glowing",
+      "hunger",
+      "levitation",
+      "mining_fatigue",
+      "nausea",
+      "poison",
+      "slowness",
+      "unluck",
+      "weakness",
+      "wither"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:entity/player/effects/prevent_effects/level_1"
+  }
+}

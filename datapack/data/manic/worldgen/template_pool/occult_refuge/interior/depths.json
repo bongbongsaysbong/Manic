@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/depths/depths0",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/depths/depths1",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/depths/depths2",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/depths/depths3",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

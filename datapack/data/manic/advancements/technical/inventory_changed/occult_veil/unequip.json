@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "manic:item/occult_veil/unequip/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

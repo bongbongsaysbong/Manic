@@ -1,10 +1,9 @@
 data remove storage manic:storage root.temp
 particle dust_color_transition 0.102 1.000 0.000 2 0.114 0.212 0.176 ~ ~-0.25 ~ 0.25 0.25 0.25 2 12 force
 particle soul ~ ~ ~ 0.5 0.5 0.5 0 2 force
-playsound manic:item.anima_shackles.bind player @a
+playsound manic:item.anima_shackles.bind player @a[distance=..16]
 
-summon marker ~ ~ ~ {Tags:["manic.shackle_pos"]}
-execute as @e[type=marker,tag=manic.shackle_pos,sort=nearest,limit=1] at @s run function manic:item/anima_shackles/as_marker
+execute summon marker run function manic:item/anima_shackles/as_marker
 data modify storage manic:storage root.temp.shackle.dimension set from entity @s Dimension
 
 execute store result score #debug_info manic.dummy run gamerule reducedDebugInfo

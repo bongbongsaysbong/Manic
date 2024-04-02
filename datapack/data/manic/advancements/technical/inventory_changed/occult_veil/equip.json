@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "manic:item/occult_veil/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

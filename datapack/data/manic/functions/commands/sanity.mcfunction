@@ -1,4 +1,4 @@
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"\ua000","font":"manic:tooltip","color":"white"}," ",{"translate":"pack.manic","bold":true,"color":"#106050"},{"text":" >> ","color":"#86a697"},{"translate":"settings.manic.sanity","color":"#a9ebbd"},"\n",{"translate":"menu.nucleus.return","italic":"true","color":"#86a697","clickEvent":{"action":"run_command","value":"/function manic:commands/menu"}},"\n"]
+tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"\ua000","font":"manic:tooltip","color":"white"}," ",{"translate":"pack.manic","bold":true,"color":"#106050"},{"text":" >> ","color":"#86a697"},{"translate":"settings.manic.sanity","color":"#a9ebbd"},"\n",{"translate":"menu.nucleus.return","italic": true,"color":"#86a697","clickEvent":{"action":"run_command","value":"/function manic:commands/menu"}},"\n"]
 
 data remove storage manic:storage root.temp.menu
 data modify storage manic:storage root.temp.menu.sanity set value []

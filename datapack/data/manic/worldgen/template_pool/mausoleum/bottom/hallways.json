@@ -72,6 +72,60 @@
         "location": "manic:mausoleum/bottom/hallway3b",
         "processors": "manic:deepslate_and_blackstone_cracked"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall0",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall1",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall2",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall3",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall4",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "manic:mausoleum/bottom/large_hall5",
+        "processors": "manic:deepslate_and_blackstone_cracked"
+      }
     }
   ]
 }

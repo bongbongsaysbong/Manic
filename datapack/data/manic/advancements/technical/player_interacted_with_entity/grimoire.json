@@ -1,7 +1,7 @@
 {
   "parent": "manic:technical/root",
   "criteria": {
-    "feed": {
+    "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
@@ -13,5 +13,10 @@
   },
   "rewards": {
     "function": "manic:item/grimoire/render/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

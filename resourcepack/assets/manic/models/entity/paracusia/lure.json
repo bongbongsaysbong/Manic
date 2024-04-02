@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/paracusia/idle",
+	"textures": {
+		"0": "manic:entity/paracusia/lure"
+	}
+}

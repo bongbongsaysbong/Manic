@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/keeper/phase2/idle",
-	"textures": {
-		"0": "manic:entity/keeper/phase2/idle_hurt"
-	}
-}

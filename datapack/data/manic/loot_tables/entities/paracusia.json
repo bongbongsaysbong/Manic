@@ -16,7 +16,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/disc_fragment_7",
+          "name": "manic:items/disc_fragment_lull",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -31,11 +31,6 @@
                 "min": 0,
                 "max": 1
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:killed_by_player"
             }
           ]
         }

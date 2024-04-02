@@ -16,6 +16,10 @@
     "minecraft:taiga",
     "minecraft:old_growth_pine_taiga",
     "minecraft:old_growth_spruce_taiga",
-    "minecraft:meadow"
+    "minecraft:meadow",
+    {"id": "blooming_biosphere:oak_woodland", "required": false},
+    {"id": "blooming_biosphere:autumnal_forest", "required": false},
+    {"id": "horizons:boreal_forest", "required": false},
+    {"id": "horizons:pumpkin_patch", "required": false}
   ]
 }

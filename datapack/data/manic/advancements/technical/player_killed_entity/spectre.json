@@ -21,6 +21,16 @@
                 "nbt": "{Tags:[\"manic.gives_no_sanity\"]}"
               }
             }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"manic.reinforcement\"]}"
+              }
+            }
           }
         ],
         "killing_blow": {
@@ -36,5 +46,10 @@
   },
   "rewards": {
     "function": "manic:entity/player/sanity/modify/kill_spectre/main"
-  }
+  },
+  "requirements": [
+    [
+      "kill_spectre_entity"
+    ]
+  ]
 }

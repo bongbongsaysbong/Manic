@@ -839,6 +839,45 @@
           "range": 25
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "jolted:items/anirrum_pistol"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:copy_nbt",
+          "source": {
+            "type": "minecraft:storage",
+            "source": "manic:storage"
+          },
+          "ops": [
+            {
+              "source": "root.temp.item.tag",
+              "target": "{}",
+              "op": "merge"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "#anirrum_result"
+            },
+            "score": "manic.dummy"
+          },
+          "range": 26
+        }
+      ]
     }
   ]
 }

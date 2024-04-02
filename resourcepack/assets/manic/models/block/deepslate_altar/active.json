@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "particle": "manic:block/deepslate_altar/active/particles",
+    "particle": "manic:block/deepslate_altar/particles",
     "north": "manic:block/deepslate_altar/active/side",
     "south": "manic:block/deepslate_altar/active/side",
     "east": "manic:block/deepslate_altar/active/side",

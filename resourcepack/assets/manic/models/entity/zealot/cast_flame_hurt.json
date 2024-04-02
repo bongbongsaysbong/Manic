@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/zealot/cast_flame",
-	"textures": {
-		"0": "manic:entity/zealot/cast_flame_hurt"
-	}
-}

@@ -6,4 +6,4 @@ scoreboard players set #items manic.dummy 0
 function manic:item/grim_chasm/update_lore
 
 item modify entity @s weapon.mainhand manic:copy_nbt
-playsound manic:item.grim_chasm.remove_all player @a
+playsound manic:item.grim_chasm.remove_all player @a[distance=..16]

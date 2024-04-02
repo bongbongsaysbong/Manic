@@ -4,5 +4,5 @@ execute if score @s manic.dummy matches 41.. run particle dust_color_transition 
 execute if score @s manic.dummy matches 180.. run kill @s
 
 execute if score @s manic.dummy matches 20 run function manic:entity/keeper/orb/face/main
-execute if score @s manic.dummy matches 40 run playsound manic:entity.keeper.laser hostile @a ~ ~ ~ 4
+execute if score @s manic.dummy matches 40 run playsound manic:entity.keeper.laser hostile @a[distance=..64] ~ ~ ~ 4
 execute if score @s manic.dummy matches 40.. run function manic:entity/keeper/orb/laser/main

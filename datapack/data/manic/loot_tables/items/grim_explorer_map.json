@@ -9,11 +9,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360025,manic:{id:\"grim_explorer_map\"},RepairCost:999,nucleus:{prevent_striders:1b}}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360025,manic:{id:\"grim_explorer_map\"},RepairCost:999,nucleus:{prevent_striders:1b,soulbound:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
+                {
+                  "translate": "item.nucleus.soulbound",
+                  "color": "#ABCECC",
+                  "italic": true
+                },
                 {
                   "translate": "manic.tooltip",
                   "font": "manic:tooltip",

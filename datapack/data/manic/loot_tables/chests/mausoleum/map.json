@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "manic:chests/mausoleum/map",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/sanctuary_explorer_map"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:chests/mausoleum/treasure"
+        }
+      ]
+    }
+  ]
+}

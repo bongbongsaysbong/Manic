@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/corpsecreep/ignited",
-	"textures": {
-		"0": "manic:entity/corpsecreep/corpsecreep_ignited_hurt"
-	}
-}

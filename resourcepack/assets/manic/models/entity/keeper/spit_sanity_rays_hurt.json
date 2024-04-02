@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/keeper/spit_sanity_rays",
-	"textures": {
-		"0": "manic:entity/keeper/spit_sanity_rays_hurt"
-	}
-}

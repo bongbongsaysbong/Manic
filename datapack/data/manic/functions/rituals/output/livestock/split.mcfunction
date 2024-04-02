@@ -1,0 +1,22 @@
+execute if entity @s[type=minecraft:cow] run summon cow ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:chicken] run summon chicken ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:sheep] run summon sheep ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:pig] run summon pig ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:rabbit] run summon rabbit ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:goat] run summon goat ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:mooshroom] run summon mooshroom ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:turtle] run summon turtle ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:strider] run summon strider ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:horse] run summon horse ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:llama] run summon llama ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:donkey] run summon donkey ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:mule] run summon mule ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:panda] run summon panda ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:cat] run summon cat ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:bee] run summon bee ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:ocelot] run summon ocelot ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:fox] run summon fox ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:wolf] run summon wolf ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:camel] run summon camel ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute if entity @s[type=minecraft:sniffer] run summon sniffer ~ ~ ~ {Age:-24000,Tags:["manic.newborn"]}
+execute as @e[type=#manic:can_split,tag=manic.newborn] at @s run function manic:rituals/output/livestock/as_newborn

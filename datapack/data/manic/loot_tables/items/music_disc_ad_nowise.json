@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.minecraft.music_disc_13",
+                "color": "#35cc3a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "record.manic.ad_nowise",
+                  "color": "gray",
+                  "italic": false,
+                  "with":[{"text":"ad nowise","font":"manic:grimspeak/main"}]
+                },
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360039,HideFlags:4,manic:{id:\"music_disc_ad_nowise\"},nucleus:{music_disc:{sound:\"manic:record.ad_nowise\",string:'{\"color\":\"#0AB205\",\"translate\":\"record.nowPlaying\",\"with\":[{\"translate\":\"record.manic.ad_nowise\",\"with\":[{\"text\":\"ad nowise\",\"font\":\"manic:grimspeak/main\"}]}]}'},prevent_striders:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

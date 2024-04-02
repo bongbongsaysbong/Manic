@@ -1,5 +1,5 @@
-execute unless entity @s[tag=manic.corpsebulb.scented] run playsound manic:block.corpsebulb.produce block @a
-execute if entity @s[tag=manic.corpsebulb.scented] run playsound manic:block.corpsebulb.scent block @a
+execute unless entity @s[tag=manic.corpsebulb.scented] run playsound manic:block.corpsebulb.produce block @a[distance=..16]
+execute if entity @s[tag=manic.corpsebulb.scented] run playsound manic:block.corpsebulb.scent block @a[distance=..16]
 
 scoreboard players operation @s manic.dummy = #onion_scent manic.dummy
 tag @s add manic.corpsebulb.scented

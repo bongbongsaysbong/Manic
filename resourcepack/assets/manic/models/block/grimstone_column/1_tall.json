@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "manic:block/grimstone_column",
-		"particle": "manic:block/grimstone_column"
+		"particle": "manic:block/grimstone_chains/particles"
 	},
 	"elements": [
 		{

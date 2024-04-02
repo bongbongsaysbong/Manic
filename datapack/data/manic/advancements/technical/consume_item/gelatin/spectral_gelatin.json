@@ -1,0 +1,24 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "nbt": "{manic:{id:\"spectral_gelatin\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/consume/gelatin/spectral_gelatin"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum/boots/unequip/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

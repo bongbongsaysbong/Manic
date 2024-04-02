@@ -11,5 +11,5 @@ execute if score @s manic.dummy matches 4 if predicate nucleus:chance/0.75 run t
 # Vacuuole
 execute if score @s manic.dummy matches 5 run tag @s add manic.successful_trade
 
-execute unless entity @s[tag=manic.successful_trade] run playsound manic:entity.piglin_monk.deny neutral @a
+execute unless entity @s[tag=manic.successful_trade] run playsound manic:entity.piglin_monk.deny neutral @a[distance=..16]
 execute if entity @s[tag=manic.successful_trade] run function manic:entity/piglin_monk/interact/item/spawn_sunstone

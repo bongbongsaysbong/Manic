@@ -29,11 +29,14 @@
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "translate": "item.manic.corpsebulb_flesh.unscented",
-                  "color": "#A8C2A8",
-                  "italic": true
-                }
+                [
+                  " ",
+                  {
+                    "translate": "item.manic.corpsebulb_flesh.unscented",
+                    "color": "#A8C2A8",
+                    "italic": false
+                  }
+                ]
               ]
             },
             {

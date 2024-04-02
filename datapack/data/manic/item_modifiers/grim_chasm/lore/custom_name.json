@@ -7,7 +7,7 @@
         " ",
         {
         "nbt": "Item.tag.display.Name",
-        "color": "white",
+        "color": "#A8C2A8",
         "entity": "@s",
         "interpret": true
        }

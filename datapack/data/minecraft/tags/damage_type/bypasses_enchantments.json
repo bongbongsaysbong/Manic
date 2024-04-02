@@ -2,10 +2,17 @@
   "values": [
     "manic:dragged/bypasses_enchants",
     "manic:melted/bypasses_enchants",
+    "manic:melted/keeper",
     "manic:blown/bypasses_enchants",
     "manic:shaken",
     "manic:charged",
     "manic:darkness",
-    "manic:crushed"
+    "manic:crushed",
+    "manic:trap",
+    "manic:malefactor",
+    "manic:slaughter",
+    "manic:earthquake",
+    "manic:damned",
+    "manic:sliced"
   ]
 }

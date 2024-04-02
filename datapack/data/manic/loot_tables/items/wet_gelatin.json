@@ -37,15 +37,18 @@
                     "5"
                   ]
                 },
-                {
-                  "translate": "potion.withDuration",
-                  "color": "#A8C2A8",
-                  "italic": false,
-                  "with": [
-                    {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.dolphins_grace"},{"translate":"potion.potency.1"}]},
-                    {"text":"02:00"}
-                  ]
-                }
+                [
+                  " ",
+                  {
+                    "translate": "potion.withDuration",
+                    "color": "#A8C2A8",
+                    "italic": false,
+                    "with": [
+                      {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.dolphins_grace"},{"translate":"potion.potency.1"}]},
+                      {"text":"02:00"}
+                    ]
+                  }
+                ]
               ]
             },
             {

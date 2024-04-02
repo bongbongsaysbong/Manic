@@ -5,7 +5,27 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
+        "nbt": "{Invulnerable:1b}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
         "type": "minecraft:creeper"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:bee"
       }
     }
   },
@@ -21,6 +41,13 @@
         "entity": "this",
         "predicate": {
           "nbt": "{Tags:[\"manic.snareable\"]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"manic.zombee_target\"]}"
         }
       }
     ]

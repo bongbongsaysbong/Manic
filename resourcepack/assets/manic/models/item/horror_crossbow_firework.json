@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "manic:item/horror_crossbow_arrow"
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360002,manic:{id:\"spectral_gelatin\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.manic.when_eaten",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "potion.manic.sanity_down",
+                  "color": "#ebb5a9",
+                  "italic": false,
+                  "with": [
+                    "10"
+                  ]
+                },
+                [
+                  " ",
+                  {
+                    "translate": "potion.withDuration",
+                    "color": "#A8C2A8",
+                    "italic": false,
+                    "with": [
+                      {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.health_boost"},{"translate":"potion.potency.1"}]},
+                      {"text":"02:00"}
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.spectral_gelatin",
+                "italic": false,
+                "color": "white"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

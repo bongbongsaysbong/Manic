@@ -28,6 +28,16 @@
           "conditions": [
             {
               "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"manic.reinforcement\"]}"
+                }
+              }
             }
           ]
         }

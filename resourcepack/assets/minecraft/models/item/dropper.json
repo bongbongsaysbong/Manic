@@ -60,6 +60,48 @@
         "custom_model_data": 8360012
       },
       "model": "manic:block/grimstone_column/1_tall"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360013
+      },
+      "model": "manic:block/suspicious_soul_sand/base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360014
+      },
+      "model": "manic:block/traps/spike_trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360015
+      },
+      "model": "manic:block/traps/spike_trap_prepare"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360016
+      },
+      "model": "manic:block/traps/spike_trap_active"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360017
+      },
+      "model": "manic:block/traps/gate_trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360018
+      },
+      "model": "manic:block/traps/gate_trap_prepare"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360019
+      },
+      "model": "manic:block/traps/gate_trap_active"
     }
   ]
 }

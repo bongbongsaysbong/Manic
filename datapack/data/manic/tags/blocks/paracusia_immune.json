@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#nucleus:air",
+    "#nucleus:unbreakable",
+    "#minecraft:iron_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:diamond_ores",
+    "minecraft:diamond_block",
+    "minecraft:obsidian",
+    "minecraft:reinforced_deepslate",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_block",
+    "minecraft:iron_block",
+    "minecraft:gold_block",
+    "minecraft:sculk_catalyst",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_sensor",
+    "minecraft:calibrated_sculk_sensor",
+    "minecraft:budding_amethyst"
+  ]
+}

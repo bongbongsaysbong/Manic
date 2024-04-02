@@ -32,5 +32,10 @@
   },
   "rewards": {
     "function": "manic:entity/piglin_monk/interact/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

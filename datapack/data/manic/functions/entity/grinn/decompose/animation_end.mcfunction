@@ -1,5 +1,7 @@
-execute store result score #count manic.dummy if entity @e[type=zombie,tag=manic.revenant,tag=manic.despawns,distance=..24]
-execute unless score #count manic.dummy matches 4.. if predicate nucleus:chance/0.5 run function manic:commands/summon/revenant
+scoreboard players set #reduced_health manic.dummy 1
+scoreboard players set #reinforcement manic.dummy 1
+execute store result score #count manic.dummy if entity @e[type=minecraft:zombie,tag=manic.revenant,tag=manic.despawns,distance=..24]
+execute unless score #count manic.dummy matches 3.. if predicate nucleus:chance/0.5 run function manic:commands/summon/revenant
 
 tag @s remove manic.grinn.anim.decompose
 data remove storage manic:storage root.temp

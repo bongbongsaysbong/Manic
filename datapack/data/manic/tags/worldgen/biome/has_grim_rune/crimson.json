@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:crimson_forest",
-    "minecraft:nether_wastes"
+    "minecraft:nether_wastes",
+    {"id": "horizons:tundra", "required": false}
   ]
 }

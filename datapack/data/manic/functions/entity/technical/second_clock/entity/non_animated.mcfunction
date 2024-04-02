@@ -15,3 +15,5 @@ execute if entity @s[tag=manic.lockjaw] run function manic:entity/lockjaw/second
 execute if entity @s[tag=manic.despawns,tag=!manic.no_sanity_despawn,predicate=!nucleus:entity/in_vehicle] run function manic:entity/technical/spectre/despawn/second_clock
 execute if entity @s[tag=manic.despawns,tag=manic.no_sanity_despawn,predicate=!nucleus:entity/in_vehicle] run function manic:entity/technical/spectre/despawn/second_clock_b
 execute if entity @s[tag=manic.flagellant] run function manic:entity/flagellant/second_clock
+execute if entity @s[tag=manic.shadow_spook] run function manic:entity/shadow_spook/second_clock
+execute if entity @s[tag=manic.malefactor] run function manic:entity/malefactor/second_clock

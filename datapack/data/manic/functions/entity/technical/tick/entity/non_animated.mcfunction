@@ -14,3 +14,4 @@ execute if entity @s[tag=manic.lockjaw] run function manic:entity/lockjaw/tick/m
 # Misc
 execute if entity @s[tag=manic.flagellant] run function manic:entity/flagellant/tick/main
 execute if entity @s[tag=manic.shadow_spook] run function manic:entity/shadow_spook/tick
+execute if entity @s[tag=manic.malefactor] run function manic:entity/malefactor/tick

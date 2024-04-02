@@ -32,6 +32,11 @@
           "type": "minecraft:loot_table",
           "weight": 1,
           "name": "manic:items/charonite_ingot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "manic:items/music_disc_7"
         }
       ]
     },

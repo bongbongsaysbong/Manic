@@ -102,7 +102,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
       "block": {
-        "tag": "nucleus:air"
+        "tag": "manic:placement_valid/air_and_snow"
       }
     }
   },

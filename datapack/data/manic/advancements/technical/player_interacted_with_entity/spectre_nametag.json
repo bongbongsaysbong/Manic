@@ -35,5 +35,10 @@
   },
   "rewards": {
     "function": "manic:entity/technical/spectre/nametag/nametag"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

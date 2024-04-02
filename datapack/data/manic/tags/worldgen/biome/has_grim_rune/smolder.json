@@ -6,6 +6,8 @@
     "minecraft:windswept_savanna",
     "minecraft:savanna_plateau",
     "minecraft:beach",
-    "minecraft:basalt_deltas"
+    "minecraft:basalt_deltas",
+    {"id": "horizons:muddy_prairie", "required": false},
+    {"id": "blooming_biosphere:chaparral", "required": false}
   ]
 }

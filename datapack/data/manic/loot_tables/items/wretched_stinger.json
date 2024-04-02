@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8360064,manic:{id:\"wretched_stinger\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "manic.tooltip",
+                  "font": "manic:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.manic.wretched_stinger.description",
+                  "color": "#A8C2A8",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#7CC17C"},
+                    {"keybind":"key.use","color":"#7CC17C"}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.manic.wretched_stinger",
+                "italic": false,
+                "color": "#35cc3a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

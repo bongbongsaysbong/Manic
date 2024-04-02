@@ -16,6 +16,11 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "translate": "item.nucleus.soulbound",
+                  "color": "#ABCECC",
+                  "italic": true
+                },
+                {
                   "translate": "manic.tooltip",
                   "font": "manic:tooltip",
                   "color": "white",

@@ -7,9 +7,10 @@ execute if entity @s[gamemode=!creative] run data modify storage manic:storage r
 execute if entity @s[gamemode=creative] run data modify storage manic:storage root.temp.gamemode set value 1b
 
 # Actions
-execute anchored eyes run function manic:block/technical/raycast/raycast
+scoreboard players set #raycast manic.dummy 500
+execute anchored eyes run function manic:entity/piglin_monk/interact/raycast
 execute if data storage manic:storage root.temp{success:1b} run advancement grant @s only manic:manic/piglin_monk
-execute if data storage manic:storage root.temp{success:1b,reduce_count:1b,gamemode:0b} run item modify entity @s weapon.mainhand manic:reduce_count/1
+execute if data storage manic:storage root.temp{success:1b,reduce_count:1b,gamemode:0b} run item modify entity @s weapon.mainhand nucleus:reduce_count/1
 
 # Finish
 advancement revoke @s only manic:technical/player_interacted_with_entity/piglin_monk

@@ -20,6 +20,16 @@
     "minecraft:savanna_plateau",
     "minecraft:snowy_plains",
     "minecraft:snowy_taiga",
-    {"id": "terralith:highlands", "required": false}
+    {"id": "blooming_biosphere:oak_woodland", "required": false},
+    {"id": "blooming_biosphere:autumnal_forest", "required": false},
+    {"id": "blooming_biosphere:chaparral", "required": false},
+    {"id": "blooming_biosphere:marsh", "required": false},
+    {"id": "horizons:boreal_forest", "required": false},
+    {"id": "horizons:golden_woods", "required": false},
+    {"id": "horizons:muddy_prairie", "required": false},
+    {"id": "horizons:pumpkin_match", "required": false},
+    {"id": "horizons:rainforest", "required": false},
+    {"id": "horizons:tundra", "required": false},
+    {"id": "horizons:painted_savanna", "required": false}
   ]
 }

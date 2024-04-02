@@ -1,23 +1,19 @@
-{
-  "condition": "minecraft:any_of",
-  "terms": [
-    {
-      "condition": "minecraft:location_check",
-      "offsetY": 0,
-      "predicate": {
-        "block": {
-          "tag": "nucleus:underwater"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetY": 1,
-      "predicate": {
-        "block": {
-          "tag": "nucleus:underwater"
-        }
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "fluid": {
+        "tag": "minecraft:water"
       }
     }
-  ]
-}
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "fluid": {
+        "tag": "minecraft:water"
+      }
+    }
+  }
+]

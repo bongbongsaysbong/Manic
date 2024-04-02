@@ -224,7 +224,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/pages/nightmare_shackles.png",
+      "file": "manic:gui/grimoire/pages/nightmare_pendant.png",
       "ascent": 25,
       "height": 40,
       "chars": [
@@ -350,7 +350,7 @@
     },
     {
       "type": "bitmap",
-      "file": "manic:gui/grimoire/pages/grimstone_plinth.png",
+      "file": "manic:gui/grimoire/pages/occult_refuge.png",
       "ascent": 25,
       "height": 40,
       "chars": [
@@ -364,6 +364,60 @@
       "height": 40,
       "chars": [
         "\ua039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grimstone_weaver.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/grimstone_compass.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/horror_chunk.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/horror_seeker.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/horror_ward.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/pages/horror_crossbow.png",
+      "ascent": 25,
+      "height": 40,
+      "chars": [
+        "\ua045"
       ]
     }
   ]

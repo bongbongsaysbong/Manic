@@ -67,7 +67,7 @@ execute if data storage manic:storage root.temp.item[3].tag{manic:{id:"charonite
 execute if data storage manic:storage root.temp.item[3].tag{manic:{id:"charonite_helmet"}} unless data storage manic:storage root.temp.item[3].tag{Enchantments:[{id:"minecraft:unbreaking"}]} run scoreboard players add #damage_add manic.dummy 4
 
 # Finish
-scoreboard players operation #damage_add manic.dummy *= #2 manic.dummy
+scoreboard players operation #damage_add manic.dummy *= #2 nucleus.dummy
 scoreboard players operation @s manic.sanity -= #damage_add manic.dummy
 execute if score @s manic.sanity matches ..-1 run scoreboard players operation @s manic.lunacy -= @s manic.sanity
 execute if score @s manic.sanity matches ..-1 run scoreboard players set @s manic.sanity 0

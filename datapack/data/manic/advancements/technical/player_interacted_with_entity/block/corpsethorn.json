@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/corpsethorn/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

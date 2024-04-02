@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/corpsebulb/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

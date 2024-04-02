@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "manic:item/consume/gelatin/thick_gelatin"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

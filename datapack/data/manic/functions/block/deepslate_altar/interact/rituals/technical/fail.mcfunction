@@ -1,1 +1,0 @@
-playsound manic:block.deepslate_altar.reject block @a

@@ -23,6 +23,23 @@
                   "with": [
                     {"translate":"pack.manic","font":"minecraft:default","color":"#106050","italic":true}
                   ]
+                },
+                "",
+                {
+                  "translate": "ui.manic.while_insane",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "attribute.modifier.plus.0",
+                  "italic": false,
+                  "color": "#7CC17C",
+                  "with": [
+                    1,
+                    {
+                      "translate": "attribute.name.generic.attack_damage"
+                    }
+                  ]
                 }
               ]
             },

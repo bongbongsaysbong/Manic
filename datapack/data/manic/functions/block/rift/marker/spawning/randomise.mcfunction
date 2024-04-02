@@ -5,10 +5,10 @@ data modify storage manic:storage root.temp.target_pos[1] set from entity @s Pos
 execute store result score #pos_z manic.dummy run data get entity @s Pos[2]
 
 # RNG
-execute store result score #rng_x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_48
+execute store result score #rng_x manic.dummy run random value 1..48 manic:rng/1..48
 execute if score #rng_x manic.dummy matches 25.. run scoreboard players remove #rng_x manic.dummy 48
 
-execute store result score #rng_z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_48
+execute store result score #rng_z manic.dummy run random value 1..48 manic:rng/1..48
 execute if score #rng_z manic.dummy matches 25.. run scoreboard players remove #rng_z manic.dummy 48
 
 # Set Objectives and Storage

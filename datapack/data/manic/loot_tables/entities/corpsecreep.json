@@ -1,6 +1,5 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "manic:entities/corpsecreep",
   "pools": [
     {
       "rolls": 1,
@@ -13,7 +12,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "killer",
               "predicate": {
-                "type": "minecraft:skeleton"
+                "type": "#minecraft:skeletons"
               }
             }
           ]
@@ -65,6 +64,36 @@
           ]
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "manic:entities/corpsecreep"
 }

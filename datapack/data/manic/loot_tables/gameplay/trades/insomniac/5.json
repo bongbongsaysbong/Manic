@@ -50,7 +50,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "manic:technical/items/corpseflute"
+          "name": "manic:items/corpseflute"
         }
       ]
     }

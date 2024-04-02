@@ -30,5 +30,10 @@
   },
   "rewards": {
     "function": "manic:block/deepslate_altar/click"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

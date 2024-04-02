@@ -8,6 +8,14 @@
           "source_entity": {
             "type": "minecraft:zombie",
             "nbt": "{Tags:[\"manic.spook\"]}"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -15,5 +23,10 @@
   },
   "rewards": {
     "function": "manic:entity/technical/sounds/attack/spook"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

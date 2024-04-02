@@ -39,5 +39,10 @@
   },
   "rewards": {
     "function": "manic:entity/player/sanity/modify/entity_hurt_player/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,5 +1,5 @@
-data merge entity @s {Marker:1b,Invisible:1b,Tags:["nucleus.entity","manic.tick","manic.insanity_ray","manic.entity_component"],ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomModelData:8360032}}]}
-data modify entity @s CustomName set from storage manic:storage root.temp.custom_name
+data merge entity @s {Tags:["nucleus.entity","manic.tick","manic.insanity_ray","manic.entity_component"],item:{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:8360032,display:{color:16777215}}},teleport_duration:3}
+data modify entity @s item.tag.manic.damage.uuid set from storage manic:storage root.temp.uuid
 tag @s add manic.found
 execute if predicate nucleus:chance/0.5 run tag @s add manic.insanity_ray.inverse_cycle
 tp @s ~ ~ ~ facing entity @p[sort=nearest,limit=1,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0.0f}] feet

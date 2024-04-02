@@ -3,7 +3,7 @@
     "#minecraft:leaves",
     "#minecraft:crops",
     "#minecraft:flowers",
-    "minecraft:grass",
+    "minecraft:short_grass",
     "minecraft:tall_grass"
   ]
 }

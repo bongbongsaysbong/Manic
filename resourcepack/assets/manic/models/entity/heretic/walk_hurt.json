@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/heretic/walk",
-	"textures": {
-		"0": "manic:entity/heretic/walk_hurt"
-	}
-}

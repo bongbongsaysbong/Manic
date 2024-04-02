@@ -24,5 +24,10 @@
   },
   "rewards": {
     "function": "manic:entity/revenant/nametag/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

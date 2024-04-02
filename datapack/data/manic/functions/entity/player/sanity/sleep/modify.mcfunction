@@ -1,3 +1,6 @@
+execute if score @s manic.sleep_timer matches 1.. run return run function manic:entity/player/sanity/sleep/fail
+scoreboard players set @s manic.sleep_timer 600
+
 scoreboard players set #sleep_restore manic.dummy 2000
 execute if score @s manic.lunacy matches 1.. run scoreboard players set #sleep_restore manic.dummy 666
 

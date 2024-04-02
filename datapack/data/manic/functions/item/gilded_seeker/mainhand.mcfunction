@@ -6,5 +6,5 @@ data modify storage manic:storage root.temp.item set from entity @s SelectedItem
 function manic:item/gilded_seeker/set_data
 
 item modify entity @s[gamemode=!creative] weapon.mainhand manic:copy_nbt
-loot give @s[gamemode=creative] loot manic:technical/copy_nbt/compass
+loot give @s[gamemode=creative] loot manic:technical/items/copy_nbt/compass
 loot replace entity @s[gamemode=creative] weapon.mainhand loot manic:items/gilded_seeker

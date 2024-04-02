@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/corpsepitcher/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -84,8 +84,8 @@
     "term": {
       "condition": "minecraft:location_check",
       "predicate": {
-        "block": {
-          "tag": "nucleus:underwater"
+        "fluid": {
+          "tag": "minecraft:water"
         }
       }
     }

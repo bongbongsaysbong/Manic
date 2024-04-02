@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/zombee/idle",
-	"textures": {
-		"0": "manic:entity/zombee/sap/idle_hurt"
-	}
-}

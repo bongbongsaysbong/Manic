@@ -1,4 +1,5 @@
+tp @s ~ ~ ~
 scoreboard players add #vertical_attempts manic.dummy 1
-tp @s ~ ~-1 ~
+execute if score #vertical_attempts manic.dummy matches 14.. run return 0
 
-execute at @s unless predicate manic:entity/spectre/spawn_valid/reinforcement unless score #vertical_attempts manic.dummy matches 14.. run function manic:entity/lockjaw/spawning/as_marker/validate/raycast
+execute unless predicate manic:entity/spectre/spawn_valid/reinforcement positioned ~ ~-1 ~ run function manic:entity/lockjaw/spawning/as_marker/validate/raycast

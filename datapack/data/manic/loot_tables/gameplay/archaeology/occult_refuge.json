@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/archaeology/occult_refuge",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "manic:items/music_disc_7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "manic:items/grimstone_chunk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "manic:items/grim_rune"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "manic:items/eldritch_sigil"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "manic:items/necroplasm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "manic:items/reticulum"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "manic:items/moonstone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "manic:items/sunstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:raw_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:copper_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:soul_torch"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lightning_rod"
+        }
+      ]
+    }
+  ]
+}

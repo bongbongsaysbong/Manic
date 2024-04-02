@@ -1,0 +1,2 @@
+$summon item_display ~ ~ ~ {Rotation:[$(x)f,$(y)f],Tags:["nucleus.entity","manic.tick","manic.horror_crossbow_ray","smithed.strict","manic.entity_component"],item:{id:"minecraft:leather_boots",Count:1b,tag:{CustomModelData:8360032,display:{color:16777215}}},teleport_duration:3,brightness:{sky:15,block:15}}
+execute as @e[type=minecraft:item_display,tag=manic.horror_crossbow_ray,sort=nearest,limit=1] run function manic:item/horror_crossbow/projectile/initiate

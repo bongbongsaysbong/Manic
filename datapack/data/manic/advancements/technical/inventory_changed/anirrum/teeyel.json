@@ -1,0 +1,26 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "tag": "manic:ee_teeyel",
+              "nbt": "{manic:{tool:\"anirrum\"}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:item/anirrum/teeyel/main"
+  }
+}

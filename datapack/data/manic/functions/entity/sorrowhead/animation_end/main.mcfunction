@@ -1,7 +1,4 @@
-data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value 8360127
-scoreboard players set @s nucleus.frames 75
-function nucleus:entity/technical/animate
-scoreboard players set @s nucleus.frames 0
+data modify entity @s ArmorItems[3].tag.nucleus.damage_data.idle set value 0
 scoreboard players set @s manic.dummy 0
 
 execute if entity @s[tag=manic.sorrowhead.dash,tag=!manic.sorrowhead.second_dash] if predicate nucleus:chance/0.5 run tag @s add manic.sorrowhead.dash_again

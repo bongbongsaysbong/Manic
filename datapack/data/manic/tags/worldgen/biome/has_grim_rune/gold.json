@@ -3,6 +3,9 @@
   "values": [
     "minecraft:badlands",
     "minecraft:eroded_badlands",
-    "minecraft:wooded_badlands"
+    "minecraft:wooded_badlands",
+    {"id": "blooming_biosphere:autumnal_forest", "required": false},
+    {"id": "horizons:golden_woods", "required": false},
+    {"id": "horizons:pumpkin_patch", "required": false}
   ]
 }

@@ -13,5 +13,10 @@
   },
   "rewards": {
     "function": "manic:entity/flagellant/spawning/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

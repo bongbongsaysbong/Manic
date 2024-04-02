@@ -1,5 +1,5 @@
 {
-	"parent": "manic:entity/zombee/sting",
+	"parent": "manic:entity/zombee/idle",
 	"textures": {
 		"0": "manic:entity/zombee/sap/sting"
 	}

@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "manic:block/corpsepitcher/corpsepitcher",
-		"particle": "manic:block/corpsepitcher"
+		"0": "manic:block/corpsepitcher/corpsepitcher"
 	},
 	"elements": [
 		{

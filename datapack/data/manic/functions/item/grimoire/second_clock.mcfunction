@@ -1,5 +1,4 @@
-execute unless entity @s[tag=manic.grimoire.plinth] run function manic:item/grimoire/display/main
-execute if entity @s[tag=manic.grimoire.plinth] run function manic:item/grimoire/plinth/display
+function manic:item/grimoire/display/main
 playsound manic:item.grimoire.ambient player @s
 
 # Shaders

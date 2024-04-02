@@ -1,4 +1,4 @@
-playsound manic:item.anirrum_lantern.off player @a
+playsound manic:item.anirrum_lantern.off player @a[distance=..16]
 scoreboard players set @s[gamemode=!creative] manic.lantern_delay 10
 tag @s remove manic.player.rifting
 

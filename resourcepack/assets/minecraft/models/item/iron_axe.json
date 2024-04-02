@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+	  "layer0": "minecraft:item/iron_axe"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8360000
+		},
+		"model": "nucleus:item/null"
+	  }
+	]
+  }
+  

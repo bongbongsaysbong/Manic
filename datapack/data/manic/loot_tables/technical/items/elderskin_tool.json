@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_claymore",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_mattock",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_cleaver",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_spade",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 11
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_scythe",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/elderskin_greatbow",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "manic.dummy"
+              },
+              "range": 13
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

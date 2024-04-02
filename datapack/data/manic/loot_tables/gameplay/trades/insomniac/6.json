@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/nightmare_shackles"
+          "name": "manic:items/nightmare_pendant"
         }
       ]
     }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360022,HideFlags:37,Unbreakable:1b,RepairCost:999,manic:{id:\"gilded_seeker_unset\"},nucleus:{prevent_striders:1b}}"
+              "tag": "{CustomModelData:8360022,HideFlags:37,Unbreakable:1b,manic:{id:\"gilded_seeker_unset\"},nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",

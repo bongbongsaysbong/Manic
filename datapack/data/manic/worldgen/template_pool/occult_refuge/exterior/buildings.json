@@ -1,0 +1,95 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house0",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house1",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house2",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house3",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house4",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house5",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house6",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/house7",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/church",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/buildings/idol",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

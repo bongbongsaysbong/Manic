@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/hades/attack_plunge",
+	"textures": {
+		"0": "manic:entity/hades/attack_swing"
+	}
+}

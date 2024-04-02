@@ -88,7 +88,7 @@
 		},
 		"gui": {
 			"rotation": [-141.48, 32.79, -81.79],
-			"translation": [0.5, -2, -7.75],
+			"translation": [0.75, -1, -7.75],
 			"scale": [0.85, 0.85, 0.85]
 		},
 		"head": {
@@ -106,6 +106,7 @@
 			"name": "Book",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"nbt": "{}",
 			"children": [
 				0,
 				1,
@@ -113,12 +114,14 @@
 					"name": "EastSide",
 					"origin": [0, 0, 0],
 					"color": 0,
+					"nbt": "{}",
 					"children": [2, 3]
 				},
 				{
 					"name": "WestSide",
 					"origin": [0, 0, 0],
 					"color": 0,
+					"nbt": "{}",
 					"children": [4]
 				}
 			]

@@ -13,5 +13,10 @@
   },
   "rewards": {
     "function": "manic:entity/grinn/hurt_grinn"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

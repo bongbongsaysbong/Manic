@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.manic.grim_chasm.items",
+        "with": [
+          {
+            "score": {
+              "name": "#items",
+              "objective": "manic.dummy"
+            }
+          },
+          {
+            "score": {
+              "name": "#max_items",
+              "objective": "manic.dummy"
+            }
+          }
+        ],
+        "color": "#7CC17C",
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

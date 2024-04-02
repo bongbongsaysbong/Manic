@@ -1,6 +1,9 @@
 tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator]
-summon armor_stand ~ ~-0.5 ~ {Marker:1b,Invisible:1b,Tags:["nucleus.entity","manic.tick","manic.soundwave","manic.entity_component","manic.soundwave.cackler"],ArmorItems:[{},{},{},{id:"minecraft:potion",Count:1b,tag:{CustomModelData:8360168}}],CustomName:'{"translate":"entity.manic.paracusia"}'}
+data modify storage manic:storage root.temp.uuid set from entity @s item.tag.manic.damage.uuid
+data modify storage manic:storage root.temp.rotation set from entity @s Rotation
+
+scoreboard players reset #dir manic.dummy
+execute positioned ~ ~0.5 ~ rotated ~ ~-10 summon item_display run function manic:entity/paracusia/soundwave/init
 
 particle dust_color_transition 0.102 1.000 0.000 2 0.114 0.212 0.176 ~ ~0.5 ~ 0.35 0.35 0.35 2 8
-execute as @e[type=armor_stand,tag=manic.soundwave,tag=!manic.found] at @s run function manic:entity/paracusia/soundwave/init
-playsound manic:entity.paracusia.soundwave.create hostile @a
+playsound manic:entity.paracusia.soundwave.create hostile @a[distance=..16]

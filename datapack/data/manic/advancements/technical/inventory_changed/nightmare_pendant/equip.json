@@ -1,0 +1,36 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{manic:{id:\"nightmare_pendant\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{manic:{id:\"nightmare_pendant\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/nightmare_pendant/equip"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

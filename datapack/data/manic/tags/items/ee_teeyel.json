@@ -1,0 +1,13 @@
+{
+   "values": [
+      {"id": "endlessencore:teeyel_sword", "required": false},
+      {"id": "endlessencore:teeyel_pickaxe", "required": false},
+      {"id": "endlessencore:teeyel_axe", "required": false},
+      {"id": "endlessencore:teeyel_shovel", "required": false},
+      {"id": "endlessencore:teeyel_hoe", "required": false},
+      {"id": "endlessencore:teeyel_boots", "required": false},
+      {"id": "endlessencore:teeyel_leggings", "required": false},
+      {"id": "endlessencore:teeyel_chestplate", "required": false},
+      {"id": "endlessencore:teeyel_helmet", "required": false}
+   ]
+}

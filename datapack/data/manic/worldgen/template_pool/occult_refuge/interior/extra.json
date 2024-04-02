@@ -1,0 +1,95 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra0",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra1",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra2",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra3",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra4",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra5",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra6",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra7",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra8",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/interior/extra/extra9",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

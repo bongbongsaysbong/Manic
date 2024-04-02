@@ -44,7 +44,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/spectre_gelatin",
+          "name": "manic:items/spectral_gelatin",
           "conditions": [
             {
               "condition": "minecraft:entity_scores",

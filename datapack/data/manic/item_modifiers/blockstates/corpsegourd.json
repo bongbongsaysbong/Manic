@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8360906}",
+    "tag": "{Damage:0}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -19,7 +19,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8360907}",
+    "tag": "{Damage:7}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -37,7 +37,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8360908}",
+    "tag": "{Damage:13}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -55,7 +55,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8360909}",
+    "tag": "{Damage:20}",
     "conditions": [
       {
         "condition": "minecraft:value_check",

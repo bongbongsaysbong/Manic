@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/archaeology/occult_idol/desert",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "manic:items/music_disc_ad_nowise"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "manic:items/necroplasm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "manic:items/lysosome"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "manic:items/moonstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:honey_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+    }
+  ]
+}

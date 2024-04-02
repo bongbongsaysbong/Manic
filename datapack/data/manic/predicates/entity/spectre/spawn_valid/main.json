@@ -11,8 +11,8 @@
         "term": {
           "condition": "minecraft:location_check",
           "predicate": {
-            "block": {
-              "tag": "nucleus:underwater"
+            "fluid": {
+              "tag": "minecraft:water"
             }
           }
         }
@@ -61,21 +61,10 @@
       {
         "condition": "minecraft:location_check",
         "predicate": {
-          "dimension": "minecraft:the_nether",
-          "light": {
-            "light": {
-              "max": 7
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
           "dimension": "minecraft:the_end",
           "light": {
             "light": {
-              "max": 7
+              "max": 9
             }
           }
         }
@@ -85,7 +74,7 @@
         "predicate": {
           "light": {
             "light": {
-              "max": 5
+              "max": 7
             }
           }
         }

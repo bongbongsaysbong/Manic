@@ -35,7 +35,7 @@
 	"item.manic.necroplasm": "Некроплазма",
 	"item.manic.thick_gelatin": "Густой желатин",
 	"item.manic.reticulum": "Ретикулум",
-	"item.manic.spectre_gelatin": "Спектральный желатин",
+	"item.manic.spectral_gelatin": "Спектральный желатин",
 	"item.manic.lysosome": "Лизосома",
 	"item.manic.wet_gelatin": "Влажный желатин",
 	"item.manic.vacuuole": "Вакуоль",
@@ -284,9 +284,9 @@
 	"subtitles.entity.manic.insomniac.spawn": "Бессонный торговец появляется",
 	"subtitles.entity.manic.insomniac.despawn": "Бессонный торговец исчезает",
 
-	"item.manic.nightmare_shackles": "Кошмарные кандалы",
-	"subtitles.item.manic.nightmare_shackles.use": "Кошмарные кандалы шепчут",
-	"subtitles.item.manic.nightmare_shackles.equip": "Кошмарные кандалы звенят",
+	"item.manic.nightmare_pendant": "Кошмарные кандалы",
+	"subtitles.item.manic.nightmare_pendant.use": "Кошмарные кандалы шепчут",
+	"subtitles.item.manic.nightmare_pendant.equip": "Кошмарные кандалы звенят",
 
 	"entity.manic.piglin_monk": "Пиглин-монах",
 	"subtitles.entity.manic.piglin_monk.ambient": "Пиглин монах фыркает",

@@ -9,11 +9,16 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360046,manic:{id:\"eldritch_sigil\",bias:\"honed\"},nucleus:{soulbound:1b}}"
+              "tag": "{CustomModelData:8360045,manic:{id:\"eldritch_sigil\",bias:\"honed\"},nucleus:{soulbound:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
+                {
+                  "translate": "item.nucleus.soulbound",
+                  "color": "#ABCECC",
+                  "italic": true
+                },
                 {
                   "translate": "item.manic.eldritch_sigil.imbuement",
                   "color": "#A8C2A8",
@@ -34,31 +39,31 @@
                 "",
                 {
                   "translate": "item.manic.eldritch_sigil.enchantments",
-                  "color": "gray",
+                  "color": "#7CC17C",
                   "italic": false
                 },
                 [
                   " ",
                   {
                     "translate": "enchantment.minecraft.power",
-                    "color": "white",
-                    "italic": "false"
+                    "color": "#A8C2A8",
+                    "italic": false
                   }
                 ],
                 [
                   " ",
                   {
                     "translate": "enchantment.minecraft.sharpness",
-                    "color": "white",
-                    "italic": "false"
+                    "color": "#A8C2A8",
+                    "italic": false
                   }
                 ],
                 [
                   " ",
                   {
                     "translate": "enchantment.minecraft.sweeping",
-                    "color": "white",
-                    "italic": "false"
+                    "color": "#A8C2A8",
+                    "italic": false
                   }
                 ]
               ]

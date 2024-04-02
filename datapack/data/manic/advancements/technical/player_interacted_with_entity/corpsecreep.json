@@ -35,5 +35,10 @@
   },
   "rewards": {
     "function": "manic:entity/corpsecreep/interact/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

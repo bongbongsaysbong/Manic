@@ -35,15 +35,15 @@
                 "",
                 {
                   "translate": "item.manic.blight_mold.description.header",
-                  "color": "gray",
+                  "color": "#7CC17C",
                   "italic": false
                 },
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform","with":[{"translate":"item.manic.blight_mold.description.double_tall_flower"},{"translate":"block.manic.corpsebloom","color":"#7CC17C"}]}],
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform.2","with":[{"translate":"block.minecraft.pumpkin"},{"translate":"block.minecraft.melon"},{"translate":"block.manic.corpsegourd","color":"#7CC17C"}]}],
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform","with":[{"translate":"block.minecraft.cactus"},{"translate":"block.manic.corpsethorn","color":"#7CC17C"}]}],
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform","with":[{"translate":"item.manic.blight_mold.description.dripleaf"},{"translate":"block.manic.corpsepitcher","color":"#7CC17C"}]}],
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform","with":[{"translate":"block.minecraft.allium"},{"translate":"block.manic.corpsebulb","color":"#7CC17C"}]}],
-                [" ",{"color":"white","italic":"false","translate":"item.manic.blight_mold.description.transform.2","with":[{"translate":"block.minecraft.sugar_cane"},{"translate":"block.minecraft.bamboo"},{"translate":"item.manic.corpseflute","color":"#7CC17C"}]}]
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform","with":[{"translate":"item.manic.blight_mold.description.double_tall_flower"},{"translate":"block.manic.corpsebloom","color":"#7CC17C"}]}],
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform.2","with":[{"translate":"block.minecraft.pumpkin"},{"translate":"block.minecraft.melon"},{"translate":"block.manic.corpsegourd","color":"#7CC17C"}]}],
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform","with":[{"translate":"block.minecraft.cactus"},{"translate":"block.manic.corpsethorn","color":"#7CC17C"}]}],
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform.2","with":[{"translate":"item.manic.blight_mold.description.dripleaf"},{"translate":"block.minecraft.pitcher_plant"},{"translate":"block.manic.corpsepitcher","color":"#7CC17C"}]}],
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform","with":[{"translate":"block.minecraft.allium"},{"translate":"block.manic.corpsebulb","color":"#7CC17C"}]}],
+                [" ",{"color":"#A8C2A8","italic": false,"translate":"item.manic.blight_mold.description.transform.2","with":[{"translate":"block.minecraft.sugar_cane"},{"translate":"block.minecraft.bamboo"},{"translate":"item.manic.corpseflute","color":"#7CC17C"}]}]
               ]
             },
             {

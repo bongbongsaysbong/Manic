@@ -16,6 +16,11 @@
     "minecraft:jungle",
     "minecraft:bamboo_jungle",
     "minecraft:sparse_jungle",
-    "minecraft:lush_caves"
+    "minecraft:lush_caves",
+    {"id": "blooming_biosphere:marsh", "required": false},
+    {"id": "blooming_biosphere:oak_woodland", "required": false},
+    {"id": "blooming_biosphere:rainforest", "required": false},
+    {"id": "horizons:boreal_forest", "required": false},
+    {"id": "horizons:rainforest", "required": false}
   ]
 }

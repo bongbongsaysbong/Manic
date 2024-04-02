@@ -1,10 +1,10 @@
 {
    "pack":{
-      "pack_format": 15,
+      "pack_format": 22,
       "description": [
 		{"text":"Manic","color":"#106050"},
 		{"text":" | ","color":"#86a697"},
-		{"text":"v1.1.0","color":"#61c999"}
+		{"text":"v1.2.0","color":"#61c999"}
 	  ]
    }
 }

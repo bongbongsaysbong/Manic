@@ -1,4 +1,4 @@
-execute store result score #out manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_8
+execute store result score #out manic.dummy run random value 1..8 manic:rng/1..8
 
 execute if score #out manic.dummy matches 1 run playsound manic:ambient.insane.knock ambient @s ^5 ^5 ^5 2 1
 execute if score #out manic.dummy matches 2 run playsound manic:ambient.insane.knock ambient @s ^-5 ^5 ^5 2 1

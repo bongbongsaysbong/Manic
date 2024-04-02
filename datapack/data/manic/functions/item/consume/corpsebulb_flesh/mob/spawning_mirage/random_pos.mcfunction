@@ -5,10 +5,10 @@ data modify storage manic:storage root.temp.target_pos[1] set from entity @s Pos
 execute store result score #pos_z manic.dummy run data get entity @s Pos[2]
 
 # RNG
-execute store result score #rng_x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_16
+execute store result score #rng_x manic.dummy run random value 1..16 manic:rng/1..16
 execute if score #rng_x manic.dummy matches 9.. run scoreboard players remove #rng_x manic.dummy 16
 
-execute store result score #rng_z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_16
+execute store result score #rng_z manic.dummy run random value 1..16 manic:rng/1..16
 execute if score #rng_z manic.dummy matches 9.. run scoreboard players remove #rng_z manic.dummy 16
 
 # Set Objectives and Storage
@@ -17,4 +17,4 @@ execute store result storage manic:storage root.temp.target_pos[2] double 1 run 
 
 # Finalise
 data modify entity @s Pos set from storage manic:storage root.temp.target_pos
-execute at @s align xyz unless predicate manic:entity/spectre/spawn_valid/corpsebulb_flesh/mirage run function manic:item/consume/corpsebulb_flesh/mob/spawning_mirage/validate/initiate
+execute at @s align xyz unless predicate nucleus:block/waterlogged_double run function manic:item/consume/corpsebulb_flesh/mob/spawning_mirage/validate/initiate

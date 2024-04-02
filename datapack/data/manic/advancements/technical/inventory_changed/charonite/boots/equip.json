@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "manic:item/charonite/boots/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

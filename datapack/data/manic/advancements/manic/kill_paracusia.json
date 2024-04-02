@@ -32,6 +32,11 @@
       }
     }
   },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
   "rewards": {
     "experience": 15
   }

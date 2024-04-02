@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/cerberus/walk",
+	"textures": {
+		"0": "manic:entity/cerberus/death_loop"
+	}
+}

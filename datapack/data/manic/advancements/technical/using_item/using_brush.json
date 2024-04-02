@@ -14,5 +14,10 @@
   },
   "rewards": {
     "function": "manic:block/suspicious_soul_sand/raycast/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/shadow_spook/idle",
+	"textures": {
+		"0": "manic:entity/shadow_spook/taunt"
+	}
+}

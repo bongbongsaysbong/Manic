@@ -36,7 +36,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360016,HideFlags:4,manic:{id:\"music_disc_respite\"},nucleus:{music_disc:\"manic:respite\",prevent_striders:1b}}"
+              "tag": "{CustomModelData:8360016,HideFlags:4,manic:{id:\"music_disc_respite\"},nucleus:{music_disc:{sound:\"manic:record.respite\",string:'{\"color\":\"#0AB205\",\"translate\":\"record.nowPlaying\",\"with\":[{\"translate\":\"record.manic.respite\"}]}'},prevent_striders:1b}}"
             }
           ]
         }

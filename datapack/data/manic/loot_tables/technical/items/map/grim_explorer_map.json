@@ -17,11 +17,16 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360001,manic:{id:\"grim_explorer_map\"}}"
+              "tag": "{CustomModelData:8360001,manic:{id:\"grim_explorer_map\"},nucleus:{soulbound:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
+                {
+                  "translate": "item.nucleus.soulbound",
+                  "color": "#ABCECC",
+                  "italic": true
+                },
                 {
                   "translate": "manic.tooltip",
                   "font": "manic:tooltip",

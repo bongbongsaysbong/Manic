@@ -29,5 +29,10 @@
   },
   "rewards": {
     "function": "manic:entity/sorrowhead/shoot_sorrowhead"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

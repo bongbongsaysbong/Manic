@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_carrot",
+      "nbt": "{CustomModelData:8360000}"
+    },
+    "title": {
+      "translate": "advancements.manic.kill_malefactor"
+    },
+    "description": {
+      "translate": "advancements.manic.kill_malefactor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "manic:manic/occult_refuge",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "experience": 45
+  }
+}

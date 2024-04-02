@@ -1,12 +1,10 @@
-# Determine Sigil
-execute store result score #sigil_type manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_12
-execute if data storage manic:storage root.temp.item.tag.manic{bias:"heavy"} store result score #sigil_type manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_3
-execute if data storage manic:storage root.temp.item.tag.manic{bias:"honed"} store result score #sigil_type manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/4_6
-execute if data storage manic:storage root.temp.item.tag.manic{bias:"arcane"} store result score #sigil_type manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/7_10
-execute if data storage manic:storage root.temp.item.tag.manic{bias:"regal"} store result score #sigil_type manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/11_12
+# Determine sigil
+execute store result score #sigil_type manic.dummy run random value 1..12 manic:rng/1..12
+execute if data storage manic:storage root.temp.item.tag.manic{bias:"heavy"} store result score #sigil_type manic.dummy run random value 1..3 manic:rng/1..3
+execute if data storage manic:storage root.temp.item.tag.manic{bias:"honed"} store result score #sigil_type manic.dummy run random value 4..6 manic:rng/4..6
+execute if data storage manic:storage root.temp.item.tag.manic{bias:"arcane"} store result score #sigil_type manic.dummy run random value 7..10 manic:rng/7..10
+execute if data storage manic:storage root.temp.item.tag.manic{bias:"regal"} store result score #sigil_type manic.dummy run random value 11..12 manic:rng/11..12
 
-# Change Item
-item modify entity @s[gamemode=!creative] weapon.mainhand manic:reduce_count/1
-execute if predicate nucleus:entity/full_inventory if data entity @s SelectedItem run loot spawn ~ ~ ~ loot manic:technical/items/eldritch_sigil
-execute unless predicate nucleus:entity/full_inventory if data entity @s SelectedItem run loot give @s loot manic:technical/items/eldritch_sigil
-execute unless data entity @s SelectedItem run loot replace entity @s weapon.mainhand loot manic:technical/items/eldritch_sigil
+# Change item
+execute unless data storage manic:storage root.temp.item.tag.manic.bias run function nucleus:commands/macros/take_item {loot_table:"manic:technical/items/eldritch_sigil"}
+execute if data storage manic:storage root.temp.item.tag.manic.bias run function manic:block/rift/portal/interact/change_sigil/biased

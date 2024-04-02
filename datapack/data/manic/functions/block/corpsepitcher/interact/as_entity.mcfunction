@@ -1,8 +1,8 @@
 data remove entity @s interaction
 
 # Sap Bottling
-execute if data storage manic:storage root.temp.item{id:"minecraft:glass_bottle"} if entity @s[tag=manic.corpsepitcher.sappy] run function manic:block/corpsepitcher/interact/bottle_sap/main
-execute if data storage manic:storage root.temp.item{id:"minecraft:structure_block",tag:{manic:{id:"corpse_sap_bottle"}}} unless score @s manic.dummy matches 1.. run function manic:block/corpsepitcher/interact/fill_sap/main
+execute if data storage manic:storage root.temp.item{id:"minecraft:glass_bottle"} if entity @s[tag=manic.corpsepitcher.sappy] run function manic:block/corpsepitcher/interact/bottle_sap
+execute if data storage manic:storage root.temp.item{id:"minecraft:structure_block",tag:{manic:{id:"corpse_sap_bottle"}}} unless score @s manic.dummy matches 1.. run function manic:block/corpsepitcher/interact/fill_sap
 
 # Item Interactions
 execute if score @s manic.dummy matches 8 if data storage manic:storage root.temp.item run function manic:block/corpsepitcher/interact/anirrum/main

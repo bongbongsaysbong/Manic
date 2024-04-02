@@ -26,5 +26,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum_lantern/modify_inventory/on"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

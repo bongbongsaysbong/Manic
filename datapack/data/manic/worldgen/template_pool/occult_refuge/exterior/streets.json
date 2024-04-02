@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/streets/street0",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/streets/street1",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/streets/street2",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "manic:occult_refuge/exterior/streets/street3",
+        "processors": "manic:cracked_all",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

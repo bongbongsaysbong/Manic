@@ -1,0 +1,2 @@
+execute if data storage manic:storage root.temp.ritual.ingredients[{tag:{manic:{id:"lysosome"}}}] if data storage manic:storage root.temp.ritual.ingredients[{tag:{manic:{id:"grim_rune"}}}] unless data storage manic:storage root.temp.ritual.ingredients[{tag:{manic:{id:"grim_rune",rune:"unset"}}}] run return run function manic:rituals/recipes/craft/grim_rune
+execute if data storage manic:storage root.temp.ritual.ingredients[{tag:{manic:{id:"lysosome"}},Count:2b}] run function manic:rituals/recipes/craft/delete_rune

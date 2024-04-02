@@ -1,9 +1,9 @@
 data modify entity @s NoGravity set value 0b
 tag @s remove manic.scheduled_xp
 
-execute store result score #x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_6
-execute store result score #y manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_6
-execute store result score #z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_6
+execute store result score #x manic.dummy run random value 1..6 manic:rng/1..6
+execute store result score #y manic.dummy run random value 1..6 manic:rng/1..6
+execute store result score #z manic.dummy run random value 1..6 manic:rng/1..6
 
 execute if score #x manic.dummy matches 1 run data modify entity @s Motion[0] set value -0.3d
 execute if score #x manic.dummy matches 2 run data modify entity @s Motion[0] set value -0.2d

@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum/chestplate/unequip/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

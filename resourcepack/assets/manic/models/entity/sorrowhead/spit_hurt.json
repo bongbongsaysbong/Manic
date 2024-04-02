@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/sorrowhead/spit",
-	"textures": {
-		"0": "manic:entity/sorrowhead/spit_hurt"
-	}
-}

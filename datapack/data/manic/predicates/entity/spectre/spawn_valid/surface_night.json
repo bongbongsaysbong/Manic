@@ -1,5 +1,13 @@
 [
   {
+    "condition": "minecraft:time_check",
+    "value": {
+      "min": 13500,
+      "max": 23000
+    },
+    "period": 24000
+  },
+  {
     "condition": "minecraft:reference",
     "name": "nucleus:world/has_skylight"
   },
@@ -9,7 +17,7 @@
       "dimension": "minecraft:overworld",
       "light": {
         "light": {
-          "max": 6
+          "max": 7
         }
       }
     }

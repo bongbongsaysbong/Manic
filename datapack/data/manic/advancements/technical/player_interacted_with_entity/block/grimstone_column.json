@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/grimstone_column/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/keeper/phase2/summon",
-	"textures": {
-		"0": "manic:entity/keeper/phase2/summon_hurt"
-	}
-}

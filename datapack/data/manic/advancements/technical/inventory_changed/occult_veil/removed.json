@@ -35,5 +35,10 @@
   },
   "rewards": {
     "function": "manic:item/occult_veil/remove"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "manic:item/consume/gelatin/wispy_gelatin"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

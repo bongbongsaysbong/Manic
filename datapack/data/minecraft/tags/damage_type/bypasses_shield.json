@@ -5,6 +5,10 @@
     "manic:darkness",
     "manic:dragged",
     "manic:dragged/bypasses_enchants",
-    "manic:crushed"
+    "manic:crushed",
+    "manic:trap",
+    "manic:earthquake",
+    "manic:damned",
+    "manic:malefactor"
   ]
 }

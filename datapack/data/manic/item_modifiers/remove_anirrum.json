@@ -1,0 +1,4 @@
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{manic:{tool:\"none\",id:\"none\"},Unbreakable:0b,HideFlags:0,CustomModelData:0,display:{Name:'',Lore:''}}"
+}

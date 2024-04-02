@@ -1,6 +1,5 @@
-data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.idle set value 8360033
-data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data.moving set value 8360035
-data modify entity @s ArmorItems[3].tag.CustomPotionColor set value 0
+data modify entity @s ArmorItems[3].tag.nucleus.damage_data.idle set value 0
+data modify entity @s ArmorItems[3].tag.nucleus.damage_data.moving set value 7
 
 tag @s remove manic.necromorph.spit
 tag @s remove manic.necromorph.roar

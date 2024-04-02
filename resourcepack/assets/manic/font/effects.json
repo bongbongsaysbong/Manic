@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/effects.png",
+      "ascent": 12,
+      "height": 18,
+      "chars": [
+        "\ua000\ua001"
+      ]
+    }
+  ]
+}

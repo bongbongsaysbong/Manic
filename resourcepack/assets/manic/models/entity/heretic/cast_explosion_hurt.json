@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/heretic/cast_explosion",
-	"textures": {
-		"0": "manic:entity/heretic/cast_explosion_hurt"
-	}
-}

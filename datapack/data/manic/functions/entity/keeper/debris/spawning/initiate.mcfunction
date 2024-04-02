@@ -1,6 +1,6 @@
-execute store result score #x manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_7
+execute store result score #x manic.dummy run random value 1..7 manic:rng/1..7
 execute if predicate nucleus:chance/0.5 run tag @s add manic.negative_x
-execute store result score #z manic.dummy run loot spawn ~ ~ ~ loot manic:technical/rng/1_7
+execute store result score #z manic.dummy run random value 1..7 manic:rng/1..7
 execute if predicate nucleus:chance/0.5 run tag @s add manic.negative_z
 
 execute store result score #pos_x manic.dummy run data get entity @s Pos[0]

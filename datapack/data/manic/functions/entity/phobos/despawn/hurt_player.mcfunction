@@ -1,2 +1,2 @@
-playsound manic:entity.phobos.capture hostile @a ~ ~ ~ 2
+playsound manic:entity.phobos.capture hostile @a[distance=..32] ~ ~ ~ 2
 function manic:entity/phobos/despawn/start

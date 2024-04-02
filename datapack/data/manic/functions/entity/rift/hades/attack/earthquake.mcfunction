@@ -1,0 +1,10 @@
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main
+function manic:entity/rift/hades/earthquake/spawning/main

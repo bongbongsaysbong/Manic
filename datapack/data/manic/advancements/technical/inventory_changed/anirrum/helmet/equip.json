@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum/helmet/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

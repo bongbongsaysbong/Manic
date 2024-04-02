@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#manic:has_structure/sepulcher",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "manic:sepulcher/base",
+  "size": 1,
+  "start_height": {
+    "absolute": -30
+  },
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

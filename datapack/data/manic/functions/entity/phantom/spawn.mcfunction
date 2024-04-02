@@ -6,4 +6,4 @@ execute if entity @s[tag=manic.phantom_marker.no_capture] run scoreboard players
 data modify storage manic:storage root.temp.phantom_rotation set from entity @s Rotation
 execute summon phantom run function manic:entity/phantom/init_mob
 
-kill @s[type=armor_stand]
+kill @s[type=minecraft:item_display]

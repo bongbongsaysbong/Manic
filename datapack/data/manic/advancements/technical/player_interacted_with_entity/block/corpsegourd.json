@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/corpsegourd/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

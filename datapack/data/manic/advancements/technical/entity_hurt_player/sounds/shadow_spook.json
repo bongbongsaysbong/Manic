@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "manic:entity/technical/sounds/attack/shadow_spook"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

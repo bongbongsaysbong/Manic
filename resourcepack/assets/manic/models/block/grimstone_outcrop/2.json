@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "manic:block/grimstone_outcrop",
+		"particle": "manic:block/grimstone_outcrop"
+	},
+	"elements": [
+		{
+			"from": [5.25, -16, 5.25],
+			"to": [10.75, 0, 10.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.75, -16, 5.75]},
+			"faces": {
+				"north": {"uv": [11, 8, 13.75, 16], "texture": "#0"},
+				"east": {"uv": [11, 8, 13.75, 16], "texture": "#0"},
+				"south": {"uv": [11, 8, 13.75, 16], "texture": "#0"},
+				"west": {"uv": [11, 8, 13.75, 16], "texture": "#0"},
+				"up": {"uv": [13.25, 0, 16, 2.75], "texture": "#0"},
+				"down": {"uv": [13.25, 0, 16, 2.75], "texture": "#0"}
+			}
+		}
+	]
+}

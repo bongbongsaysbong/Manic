@@ -33,17 +33,16 @@
     "condition": "minecraft:location_check",
     "offsetY": 1,
     "predicate": {
-      "block": {
-        "tag": "nucleus:underwater"
+      "fluid": {
+        "tag": "minecraft:water"
       }
     }
   },
   {
     "condition": "minecraft:location_check",
-    "offsetY": 0,
     "predicate": {
-      "block": {
-        "tag": "nucleus:underwater"
+      "fluid": {
+        "tag": "minecraft:water"
       }
     }
   },
@@ -51,8 +50,8 @@
     "condition": "minecraft:location_check",
     "offsetY": -1,
     "predicate": {
-      "block": {
-        "tag": "nucleus:underwater"
+      "fluid": {
+        "tag": "minecraft:water"
       }
     }
   }

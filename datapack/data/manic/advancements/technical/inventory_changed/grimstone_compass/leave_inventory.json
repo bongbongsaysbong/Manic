@@ -1,0 +1,37 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"manic.player.has_grimstone_compass\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{id:\"minecraft:compass\",tag:{manic:{id:\"grimstone_compass\"}}}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:item/grimstone_compass/inventory/leave_inventory"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

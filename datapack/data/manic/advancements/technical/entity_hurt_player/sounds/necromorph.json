@@ -8,11 +8,24 @@
           "source_entity": {
             "type": "minecraft:vindicator",
             "nbt": "{Tags:[\"manic.necromorph\"]}"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              }
+            ]
           }
         }
       }
     }
   },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
   "rewards": {
     "function": "manic:entity/technical/sounds/attack/necromorph"
   }

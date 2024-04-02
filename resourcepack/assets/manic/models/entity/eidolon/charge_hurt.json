@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/eidolon/charge",
-	"textures": {
-		"0": "manic:entity/eidolon/charge_hurt"
-	}
-}

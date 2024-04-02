@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/necromorph/idle",
+	"textures": {
+		"0": "manic:entity/necromorph/emerge"
+	}
+}

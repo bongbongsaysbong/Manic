@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360018,manic:{id:\"grim_chasm\",prevent_grim_chasm:1b,stored_items:0},RepairCost:999,nucleus:{prevent_striders:1b}}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360018,manic:{id:\"grim_chasm\",prevent_grim_chasm:1b,stored_items:0,max_items:8,model_data:{empty:8360018,mid:8360019,full:8360023}},nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -40,10 +40,10 @@
                 "",
                 {
                   "translate": "item.manic.grim_chasm.items",
-                  "color": "gray",
+                  "color": "#7CC17C",
                   "italic": false,
                   "with": [
-                    "0"
+                    "0", "8"
                   ]
                 }
               ]

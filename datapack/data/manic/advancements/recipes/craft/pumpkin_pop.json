@@ -8,6 +8,11 @@
       }
     }
   },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ],
   "rewards": {
     "function": "manic:item/crafted_item",
     "loot": [

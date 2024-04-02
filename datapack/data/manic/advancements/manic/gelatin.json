@@ -57,7 +57,7 @@
           "items": [
             "minecraft:bread"
           ],
-          "nbt": "{manic:{id:\"spectre_gelatin\"}}"
+          "nbt": "{manic:{id:\"spectral_gelatin\"}}"
         }
       }
     },

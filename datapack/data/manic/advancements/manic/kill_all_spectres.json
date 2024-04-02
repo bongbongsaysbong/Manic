@@ -167,6 +167,21 @@
         ]
       }
     },
+    "flagellant": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:vindicator",
+              "nbt": "{Tags:[\"manic.flagellant\"]}"
+            }
+          }
+        ]
+      }
+    },
     "paracusia": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -177,6 +192,48 @@
             "predicate": {
               "type": "minecraft:vindicator",
               "nbt": "{Tags:[\"manic.paracusia\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "malefactor": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"manic.player.killed_malefactor\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "keeper": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"manic.player.killed_keeper\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "rifts": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"manic.player.killed_rifts\"]}"
             }
           }
         ]
@@ -215,7 +272,19 @@
       "lockjaw"
     ],
     [
+      "flagellant"
+    ],
+    [
       "paracusia"
+    ],
+    [
+      "malefactor"
+    ],
+    [
+      "keeper"
+    ],
+    [
+      "rifts"
     ]
   ],
   "rewards": {

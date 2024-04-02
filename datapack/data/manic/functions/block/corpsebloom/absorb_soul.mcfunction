@@ -1,4 +1,4 @@
-playsound manic:block.corpsebloom.fill block @a
+playsound manic:block.corpsebloom.fill block @a[distance=..16]
 scoreboard players add @s manic.dummy 1
 
 particle soul ~ ~1 ~ 0.5 0.75 0.5 0 1

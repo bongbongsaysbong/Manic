@@ -1,6 +1,5 @@
 scoreboard players reset @s nucleus.frames
-data modify entity @s item.tag.manic.keeper_frame set value 8360201
-data modify entity @s[tag=manic.keeper.phase2] item.tag.manic.keeper_frame set value 8360223
+data modify entity @s item.tag.Damage set value 0
 execute if entity @s[tag=manic.keeper.charge.start] run function manic:entity/keeper/animation_begin/charge
 
 tag @s remove manic.keeper.summon

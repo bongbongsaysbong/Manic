@@ -1,7 +1,8 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "manic:item/anirrum_boots",
-    "layer1": "minecraft:trims/items/boots_trim_anirrum_darker"
+    "layer0": "nucleus:item/null",
+    "layer1": "manic:item/anirrum_boots",
+    "layer2": "minecraft:trims/items/boots_trim_anirrum_darker"
   }
 }

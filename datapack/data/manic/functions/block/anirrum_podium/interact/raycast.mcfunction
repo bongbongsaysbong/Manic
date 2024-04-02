@@ -1,2 +1,0 @@
-execute if block ^ ^ ^0.01 minecraft:hopper{Lock:"§manic.anirrum_podium\\uF001"} positioned ^ ^ ^0.01 align xyz as @e[dx=0,type=item_display,tag=manic.anirrum_podium,limit=1] at @s run function manic:block/anirrum_podium/interact/as_entity
-execute if entity @s[distance=..5] unless block ^ ^ ^0.01 minecraft:hopper{Lock:"§manic.anirrum_podium\\uF001"} positioned ^ ^ ^0.01 run function manic:block/anirrum_podium/interact/raycast

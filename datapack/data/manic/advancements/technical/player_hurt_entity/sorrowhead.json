@@ -13,5 +13,10 @@
   },
   "rewards": {
     "function": "manic:entity/sorrowhead/attack_sorrowhead"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

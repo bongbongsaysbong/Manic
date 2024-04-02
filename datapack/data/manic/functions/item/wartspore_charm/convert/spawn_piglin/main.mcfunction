@@ -9,5 +9,5 @@ data modify storage manic:storage root.temp.piglin_data.CanPickUpLoot set from e
 data modify storage manic:storage root.temp.piglin_data.Rotation set from entity @s Rotation
 data modify storage manic:storage root.temp.piglin_data.Pos set from entity @s Pos
 
-summon piglin ~ ~ ~ {IsImmuneToZombification:1b,PersistenceRequired:1b,ActiveEffects:[{Id:9,Amplifier:0b,Duration:200}],Tags:["manic.has_wartspore_charm"]}
-execute as @e[type=piglin,tag=manic.has_wartspore_charm,sort=nearest,limit=1] run function manic:item/wartspore_charm/convert/spawn_piglin/as_entity
+summon piglin ~ ~ ~ {IsImmuneToZombification:1b,PersistenceRequired:1b,active_effects:[{Id:9,Amplifier:0b,Duration:200}],Tags:["manic.has_wartspore_charm"]}
+execute as @e[type=minecraft:piglin,tag=manic.has_wartspore_charm,sort=nearest,limit=1] run function manic:item/wartspore_charm/convert/spawn_piglin/as_entity

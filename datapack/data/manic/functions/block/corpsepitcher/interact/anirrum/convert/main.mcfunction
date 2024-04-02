@@ -18,6 +18,7 @@ execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"mine
 
 execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:iron_ingot"}} run scoreboard players set #anirrum_result manic.dummy 15
 execute if data storage nucleus:storage root.temp{vanilla_item:1b,item:{id:"minecraft:netherite_ingot"}} run scoreboard players set #anirrum_result manic.dummy 24
+execute if data storage nucleus:storage root.temp.item.tag.jolted{id:"iron_pistol"} run scoreboard players set #anirrum_result manic.dummy 26
 
 execute unless data storage nucleus:storage root.temp.item.tag{Trim:{material:"minecraft:iron"}} unless data storage nucleus:storage root.temp.item.tag{Trim:{material:"minecraft:netherite"}} run function manic:block/corpsepitcher/interact/anirrum/convert/check_armour
 

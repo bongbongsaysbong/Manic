@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/revenant/elbones/moving",
-	"textures": {
-		"0": "manic:entity/revenant/elbones/moving_hurt"
-	}
-}

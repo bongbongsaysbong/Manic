@@ -6,7 +6,7 @@
   "overrides": [
 	{ "predicate": { "custom_model_data": 8360000 }, "model": "manic:item/gelatin/thick_gelatin" },
 	{ "predicate": { "custom_model_data": 8360001 }, "model": "manic:item/gelatin/wispy_gelatin" },
-	{ "predicate": { "custom_model_data": 8360002 }, "model": "manic:item/gelatin/spectre_gelatin" },
+	{ "predicate": { "custom_model_data": 8360002 }, "model": "manic:item/gelatin/spectral_gelatin" },
 	{ "predicate": { "custom_model_data": 8360003 }, "model": "manic:item/gelatin/wet_gelatin" },
 	{ "predicate": { "custom_model_data": 8360004 }, "model": "manic:item/gelatin/gooey_gelatin" }
   ]

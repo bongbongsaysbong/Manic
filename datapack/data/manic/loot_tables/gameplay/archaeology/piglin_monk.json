@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:generic",
+  "random_sequence": "manic:gameplay/archaeology/piglin_monk",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "manic:items/music_disc_7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "manic:items/music_disc_ad_nowise"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "manic:items/grim_quill"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:fire_charge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bone_meal"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "manic:items/wartspore_charm"
+        }
+      ]
+    }
+  ]
+}

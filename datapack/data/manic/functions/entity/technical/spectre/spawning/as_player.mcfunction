@@ -10,4 +10,4 @@ execute if score @s manic.lunacy matches 1.. summon marker run function manic:en
 execute if score @s manic.lunacy matches 1.. if predicate nucleus:chance/0.33 summon marker run function manic:entity/technical/spectre/spawning/as_marker/initiate/lunacy
 
 tag @s remove manic.spawning_spectres
-execute if score #set_cooldown manic.dummy matches 1 as @a[distance=..64] unless score @s manic.spectre_cooldown matches 150.. run scoreboard players set @s manic.spectre_cooldown 150
+execute if score #set_cooldown manic.dummy matches 1 as @a[distance=..64,gamemode=!spectator] unless score @s manic.spectre_cooldown matches 300.. run scoreboard players set @s manic.spectre_cooldown 600

@@ -29,14 +29,17 @@
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "translate": "item.manic.corpsebulb_flesh.description",
-                  "color": "#A8C2A8",
-                  "italic": true,
-                  "with": [
-                    {"translate":"entity.manic.spook","color":"#7CC17C"}
-                  ]
-                }
+                [
+                  " ",
+                  {
+                    "translate": "item.manic.corpsebulb_flesh.description",
+                    "color": "#A8C2A8",
+                    "italic": false,
+                    "with": [
+                      {"translate":"entity.manic.spook","color":"#7CC17C"}
+                    ]
+                  }
+                ]
               ]
             },
             {

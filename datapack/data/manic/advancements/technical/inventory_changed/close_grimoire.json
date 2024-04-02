@@ -29,5 +29,10 @@
   },
   "rewards": {
     "function": "manic:item/grimoire/close"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/insomniac/idle",
-	"textures": {
-		"0": "manic:entity/insomniac/idle_hurt"
-	}
-}

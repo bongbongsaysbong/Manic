@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum/leggings/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

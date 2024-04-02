@@ -1,0 +1,2 @@
+data merge entity @s {item:{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:8360000}},Tags:["nucleus.entity","manic.tick","smithed.entity","smithed.strict","manic.heretic_tentacle","manic.entity_component"],transformation:{scale:[1.0,1.0,1.0],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0.0,0.45,0.0]}}
+data modify entity @s item.tag.manic.damage.uuid set from storage manic:storage root.temp.uuid

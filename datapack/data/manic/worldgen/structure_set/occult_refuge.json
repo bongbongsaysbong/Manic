@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "manic:occult_refuge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1631336641,
+    "spread_type": "triangular",
+    "spacing": 200,
+    "separation": 60
+  }
+}

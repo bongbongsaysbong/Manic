@@ -39,30 +39,6 @@
         "custom_model_data": 8360005
       },
       "model": "manic:block/anirrum_altar/active_3"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8360006
-      },
-      "model": "manic:block/grimstone_plinth/main"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8360007
-      },
-      "model": "manic:block/grimstone_plinth/eye"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8360008
-      },
-      "model": "manic:block/grimstone_plinth/wrapped"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8360009
-      },
-      "model": "manic:block/grimstone_plinth/wrapped_eye"
     }
   ]
 }

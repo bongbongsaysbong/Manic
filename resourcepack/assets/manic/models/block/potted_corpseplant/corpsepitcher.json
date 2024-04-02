@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "manic:block/potted_corpseplant/potted_corpsepitcher",
+		"particle": "manic:block/potted_corpseplant/potted_corpsepitcher"
+	},
+	"elements": [
+		{
+			"from": [8, 4, 4],
+			"to": [8, 13, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 4, 4.5], "texture": "#0"},
+				"west": {"uv": [4, 0, 0, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Lid",
+			"from": [4.5, 14, 0],
+			"to": [11.5, 16, 6],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 14, 6]},
+			"faces": {
+				"north": {"uv": [6, 7.5, 9.5, 8.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [3, 7.5, 6, 8.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [12.5, 7.5, 16, 8.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9.5, 7.5, 12.5, 8.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6, 4.5, 9.5, 7.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9.5, 4.5, 13, 7.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Cup",
+			"from": [5.5, 10, 1],
+			"to": [10.5, 14, 6],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 14, 6]},
+			"faces": {
+				"north": {"uv": [8.5, 2.5, 11, 4.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [6, 2.5, 8.5, 4.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [13.5, 2.5, 16, 4.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [11, 2.5, 13.5, 4.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8.5, 0, 11, 2.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11, 0, 13.5, 2.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Beard",
+			"from": [5.5, 7, 1],
+			"to": [10.5, 10, 1],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 14, 6]},
+			"faces": {
+				"north": {"uv": [13.5, 8.5, 16, 10], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [16, 8.5, 13.5, 10], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "stalk",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "Mouth",
+			"origin": [8, 11, 8],
+			"color": 0,
+			"children": [
+				1,
+				{
+					"name": "Jaw",
+					"origin": [8, 17, 8],
+					"color": 0,
+					"children": [2, 3]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "manic:sepulcher",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1346000881,
+    "exclusion_zone": {
+      "other_set": "minecraft:ancient_cities",
+      "chunk_count": 12
+    },
+    "spread_type": "triangular",
+    "spacing": 30,
+    "separation": 18
+  }
+}

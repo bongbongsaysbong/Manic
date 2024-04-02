@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "manic:entity/insomniac/obtain_item/vacuuole"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

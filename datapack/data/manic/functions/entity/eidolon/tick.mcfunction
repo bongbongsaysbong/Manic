@@ -1,7 +1,7 @@
-execute if score @s nucleus.frames matches 70 run function manic:entity/eidolon/cast_ray
-execute if score @s nucleus.frames matches 65 run function manic:entity/eidolon/cast_ray
-execute if score @s nucleus.frames matches 60 run function manic:entity/eidolon/cast_ray
-execute if score @s nucleus.frames matches 20 run function manic:entity/eidolon/set_state/idle
+execute if score @s nucleus.frames matches 48 run function manic:entity/eidolon/cast_ray
+execute if score @s nucleus.frames matches 43 run function manic:entity/eidolon/cast_ray
+execute if score @s nucleus.frames matches 38 run function manic:entity/eidolon/cast_ray
+execute if score @s nucleus.frames matches 5 run function manic:entity/eidolon/set_state/idle
 
 execute if entity @e[type=#nucleus:preset/projectiles,distance=..3,nbt={inGround:0b}] unless predicate nucleus:entity/in_vehicle run function manic:entity/eidolon/teleport/begin
 

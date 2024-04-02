@@ -25,12 +25,9 @@
     "terms": [
       {
         "condition": "minecraft:location_check",
-        "offsetX": 0,
-        "offsetY": 0,
-        "offsetZ": 0,
         "predicate": {
           "block": {
-            "tag": "nucleus:air"
+            "tag": "manic:placement_valid/air_and_snow"
           }
         }
       }
@@ -38,9 +35,7 @@
   },
   {
     "condition": "minecraft:location_check",
-    "offsetX": 0,
     "offsetY": -1,
-    "offsetZ": 0,
     "predicate": {
       "block": {
         "tag": "manic:placement_valid/corpsegourd"

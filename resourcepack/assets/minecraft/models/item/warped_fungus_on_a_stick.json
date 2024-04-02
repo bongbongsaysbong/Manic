@@ -86,7 +86,7 @@
       "predicate": {
         "custom_model_data": 8360013
       },
-      "model": "manic:item/nightmare_shackles"
+      "model": "manic:item/nightmare_pendant"
     },
     {
       "predicate": {
@@ -110,7 +110,7 @@
       "predicate": {
         "custom_model_data": 8360017
       },
-      "model": "manic:item/music_disc_7"
+      "model": "manic:item/music_disc_lull"
     },
     {
       "predicate": {
@@ -225,6 +225,36 @@
         "custom_model_data": 8360036
       },
       "model": "manic:item/eerie_idol"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360037
+      },
+      "model": "manic:item/horror_seeker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360038
+      },
+      "model": "manic:item/horror_ward"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360039
+      },
+      "model": "manic:item/music_disc_ad_nowise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360040
+      },
+      "model": "manic:item/music_disc_7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360041
+      },
+      "model": "manic:item/sanctuary_explorer_map/closed"
     }
   ]
 }

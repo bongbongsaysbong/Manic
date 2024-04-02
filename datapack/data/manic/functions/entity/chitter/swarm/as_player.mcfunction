@@ -6,4 +6,4 @@ execute if score @s manic.sanity matches 3001.. run data modify storage manic:st
 execute if score @s manic.sanity matches ..3000 run data modify storage manic:storage root.temp.chitter_variant set value 2
 execute if score @s manic.lunacy matches 1.. run data modify storage manic:storage root.temp.chitter_variant set value 3
 
-execute as @e[type=marker,tag=manic.chitter_swarm,tag=!manic.chitter_swarm.initiated] run function manic:entity/chitter/swarm/spawning/loop
+execute as @e[type=minecraft:marker,tag=manic.chitter_swarm,tag=!manic.chitter_swarm.initiated] run function manic:entity/chitter/swarm/spawning/loop

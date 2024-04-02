@@ -15,9 +15,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.manic.potion.effect.clairvoyance.description.enhanced",
+                  "translate": "potion.withAmplifier",
                   "color": "#A8C2A8",
-                  "italic": false
+                  "italic": false,
+                  "with": [
+                    {"translate": "item.manic.potion.effect.clairvoyance.description"},{"translate":"potion.potency.1"}
+                  ]
                 },
                 {
                   "translate": "manic.tooltip",

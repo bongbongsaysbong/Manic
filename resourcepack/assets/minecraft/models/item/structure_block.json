@@ -46,18 +46,6 @@
 	  },
 	  {
 		"predicate": {
-		  "custom_model_data": 8360007
-		},
-		"model": "manic:item/anima_shackles"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 8360008
-		},
-		"model": "manic:item/bound_anima_shackles"
-	  },
-	  {
-		"predicate": {
 		  "custom_model_data": 8360009
 		},
 		"model": "manic:item/mad_eye"
@@ -73,12 +61,6 @@
 		  "custom_model_data": 8360011
 		},
 		"model": "manic:entity/wormhole/large"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 8360012
-		},
-		"model": "manic:item/voidstone"
 	  },
 	  {
 		"predicate": {
@@ -108,7 +90,7 @@
 		"predicate": {
 		  "custom_model_data": 8360017
 		},
-		"model": "manic:item/disc_fragment_7"
+		"model": "manic:item/disc_fragment_lull"
 	  },
 	  {
 		"predicate": {
@@ -276,25 +258,19 @@
 		"predicate": {
 		  "custom_model_data": 8360045
 		},
-		"model": "manic:item/eldritch_sigil/heavy"
+		"model": "manic:item/eldritch_sigil/imbued"
 	  },
 	  {
 		"predicate": {
 		  "custom_model_data": 8360046
 		},
-		"model": "manic:item/eldritch_sigil/honed"
+		"model": "manic:item/apply_sigil"
 	  },
 	  {
 		"predicate": {
 		  "custom_model_data": 8360047
 		},
-		"model": "manic:item/eldritch_sigil/regal"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 8360048
-		},
-		"model": "manic:item/eldritch_sigil/arcane"
+		"model": "manic:item/upgrade_charonite"
 	  },
 	  {
 		"predicate": {
@@ -307,12 +283,6 @@
 		  "custom_model_data": 8360050
 		},
 		"model": "manic:item/grimstone_chunk"
-	  },
-	  {
-		"predicate": {
-		  "custom_model_data": 8360051
-		},
-		"model": "manic:item/eldritch_sigil/blank_sigil"
 	  },
 	  {
 		"predicate": {
@@ -349,6 +319,66 @@
 		  "custom_model_data": 8360057
 		},
 		"model": "manic:entity/wormhole/rune/blossom"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360058
+		},
+		"model": "manic:block/potted_corpseplant/corpsebloom"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360059
+		},
+		"model": "manic:block/potted_corpseplant/corpsegourd"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360060
+		},
+		"model": "manic:block/potted_corpseplant/corpsethorn"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360061
+		},
+		"model": "manic:block/potted_corpseplant/corpsebulb"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360062
+		},
+		"model": "manic:block/potted_corpseplant/corpsepitcher"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360063
+		},
+		"model": "manic:block/potted_corpseplant/corpseflute"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360064
+		},
+		"model": "manic:item/wretched_stinger"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360065
+		},
+		"model": "manic:item/horror_chunk"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360067
+		},
+		"model": "manic:entity/spook/acid"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8360068
+		},
+		"model": "manic:block/potted_corpseplant/corpsethorn_f"
 	  }
 	]
 }

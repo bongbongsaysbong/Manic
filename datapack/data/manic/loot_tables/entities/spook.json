@@ -1,6 +1,5 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "manic:entities/spook",
   "pools": [
     {
       "rolls": 1,
@@ -28,6 +27,16 @@
           "conditions": [
             {
               "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"manic.reinforcement\"]}"
+                }
+              }
             }
           ]
         }
@@ -63,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "manic:entities/spook"
 }

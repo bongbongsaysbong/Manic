@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "nucleus:entity/sneaking_with_item"
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "manic:item/holding/placement/pottable_item"
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:flower_pot"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "manic:block/potted_corpseplant/place/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

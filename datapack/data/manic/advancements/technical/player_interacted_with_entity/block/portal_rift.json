@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "manic:block/rift/portal/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

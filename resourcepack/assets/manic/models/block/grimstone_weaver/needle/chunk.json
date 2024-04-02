@@ -1,0 +1,6 @@
+{
+	"parent": "manic:block/grimstone_weaver/chunk",
+	"textures": {
+		"1": "manic:block/grimstone_weaver/needles_moving"
+	}
+}

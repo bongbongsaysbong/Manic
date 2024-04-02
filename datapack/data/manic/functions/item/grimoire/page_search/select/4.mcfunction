@@ -3,7 +3,8 @@ execute if score @s manic.grimoire.page matches 1 run scoreboard players set @s 
 execute if score @s manic.grimoire.page matches 2 run scoreboard players set @s manic.grimoire.display 23
 execute if score @s manic.grimoire.page matches 3 run scoreboard players set @s manic.grimoire.display 24
 execute if score @s manic.grimoire.page matches 4 run scoreboard players set @s manic.grimoire.display 33
-execute if score @s manic.grimoire.page matches 5 run function manic:item/grimoire/page_search/return_to_menu
+execute if score @s manic.grimoire.page matches 5 run scoreboard players set @s manic.grimoire.display 34
+execute if score @s manic.grimoire.page matches 6 run function manic:item/grimoire/page_search/return_to_menu
 
 scoreboard players set @s[tag=!manic.grimoire.return] manic.grimoire.chapter -1
 scoreboard players set @s[tag=!manic.grimoire.return] manic.grimoire.page 0

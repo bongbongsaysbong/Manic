@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/keeper/spawn",
+	"textures": {
+		"0": "manic:entity/keeper/phase_2/death"
+	}
+}

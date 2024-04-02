@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8360000,nucleus:{brewing_ingredient:1b},manic:{id:\"writhing_eye\",sanity:\"very_good\"}}"
+              "tag": "{CustomModelData:8360000,nucleus:{brewing_ingredient:1b},manic:{id:\"writhing_eye\"}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -30,14 +30,25 @@
                   "italic": false
                 },
                 {
-                  "translate": "potion.withDuration",
+                  "translate": "potion.manic.sanity_down",
                   "color": "#ebb5a9",
                   "italic": false,
                   "with": [
-                    {"translate":"effect.minecraft.nausea"},
-                    {"text":"00:10"}
+                    "5"
                   ]
-                }
+                },
+                [
+                  " ",
+                  {
+                    "translate": "potion.withDuration",
+                    "color": "#ebb5a9",
+                    "italic": false,
+                    "with": [
+                      {"translate":"effect.minecraft.nausea"},
+                      {"text":"00:10"}
+                    ]
+                  }
+                ]
               ]
             },
             {

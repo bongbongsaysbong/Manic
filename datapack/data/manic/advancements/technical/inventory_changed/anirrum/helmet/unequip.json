@@ -17,5 +17,10 @@
   },
   "rewards": {
     "function": "manic:item/anirrum/helmet/unequip/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

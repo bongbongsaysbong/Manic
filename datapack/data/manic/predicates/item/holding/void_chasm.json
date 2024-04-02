@@ -10,7 +10,7 @@
             "count": {
               "min": 1
             },
-            "nbt": "{manic:{id:\"void_chasm\"}}"
+            "nbt": "{manic:{void_chasm:1b}}"
           }
         }
       }
@@ -24,7 +24,7 @@
             "count": {
               "min": 1
             },
-            "nbt": "{manic:{id:\"void_chasm\"}}"
+            "nbt": "{manic:{void_chasm:1b}}"
           }
         }
       }

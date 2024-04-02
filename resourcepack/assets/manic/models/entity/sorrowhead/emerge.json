@@ -1,0 +1,6 @@
+{
+	"parent": "manic:entity/sorrowhead/idle",
+	"textures": {
+		"0": "manic:entity/sorrowhead/emerge"
+	}
+}

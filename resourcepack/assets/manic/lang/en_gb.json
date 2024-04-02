@@ -1,5 +1,7 @@
 {
 	"subtitles.item.manic.armor.equip_anirrum": "Anirrum armour clangs",
 	"subtitles.item.manic.armor.equip_charonite": "Charonite armour clanks",
-	"advancements.manic.elderskin_scythe": "No Judgement"
+	"advancements.manic.elderskin_scythe": "No Judgement",
+	"subtitles.manic.entity.malefactor.appear": "Malefactor materialises",
+	"structure.manic.sepulcher": "Sepulchre"
 }

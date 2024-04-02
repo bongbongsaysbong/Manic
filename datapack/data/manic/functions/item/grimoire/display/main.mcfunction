@@ -1,4 +1,4 @@
-execute unless score @s manic.effect.prevent_effects matches 1.. run effect give @s blindness 3 255 true
+execute unless score @s manic.effect.prevent_effects matches 1.. run effect give @s blindness 3 0 true
 
 execute if score @s manic.grimoire.chapter matches 0 run function manic:item/grimoire/display/chapter/0/main
 execute if score @s manic.grimoire.chapter matches 1 run function manic:item/grimoire/display/chapter/1
@@ -7,6 +7,7 @@ execute if score @s manic.grimoire.chapter matches 3 run function manic:item/gri
 execute if score @s manic.grimoire.chapter matches 4 run function manic:item/grimoire/display/chapter/4
 execute if score @s manic.grimoire.chapter matches 5 run function manic:item/grimoire/display/chapter/5
 execute if score @s manic.grimoire.chapter matches 7 run function manic:item/grimoire/display/chapter/corpseplants
+execute if score @s manic.grimoire.chapter matches 8 run function manic:item/grimoire/display/chapter/horror
 
 execute if score @s manic.grimoire.display matches 1.. run function manic:item/grimoire/display/menu
 execute if score @s manic.grimoire.display matches 9999 run title @s title {"text":"\ua000","font":"manic:grimoire/locked","color":"#4404f9"}
@@ -61,8 +62,15 @@ execute if score @s manic.grimoire.display matches 34 run title @s title {"text"
 execute if score @s manic.grimoire.display matches 35 run title @s title {"text":"\ua035","font":"manic:grimoire/pages","color":"#4404f9"}
 execute if score @s manic.grimoire.display matches 36 run title @s title {"text":"\ua036","font":"manic:grimoire/pages","color":"#4404f9"}
 execute if score @s manic.grimoire.display matches 37 run title @s title {"text":"\ua037","font":"manic:grimoire/pages","color":"#4404f9"}
-execute if score @s manic.grimoire.display matches 38 run title @s title {"text":"\ua038","font":"manic:grimoire/pages","color":"#4404f9"}
 execute if score @s manic.grimoire.display matches 39 run title @s title {"text":"\ua039","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 40 run title @s title {"text":"\ua038","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 41 run title @s title {"text":"\ua040","font":"manic:grimoire/pages","color":"#4404f9"}
+# Horror Index
+execute if score @s manic.grimoire.display matches 200 run title @s title {"text":"\ua041","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 201 run title @s title {"text":"\ua042","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 202 run title @s title {"text":"\ua043","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 203 run title @s title {"text":"\ua044","font":"manic:grimoire/pages","color":"#4404f9"}
+execute if score @s manic.grimoire.display matches 204 run title @s title {"text":"\ua045","font":"manic:grimoire/pages","color":"#4404f9"}
 
 # Chapter 6
 execute if score @s manic.grimoire.display matches 8 run title @s title {"text":"\ua005","font":"manic:grimoire/locked","color":"#4404f9"}

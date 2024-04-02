@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/grimstone_compass.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "aA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/horror_chunk.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "bB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/horror_seeker.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "cC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/horror_ward.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "dD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/icons/horror_crossbow.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "eE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "manic:gui/grimoire/return.png",
+      "ascent": -8,
+      "height": 13,
+      "chars": [
+        "zZ"
+      ]
+    }
+  ]
+}

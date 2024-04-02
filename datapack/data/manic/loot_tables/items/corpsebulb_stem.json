@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360014,manic:{id:\"corpsebulb_stem\"},RepairCost:999,nucleus:{prevent_striders:1b}}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8360014,manic:{id:\"corpsebulb_stem\",dead:0b},RepairCost:999,nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",

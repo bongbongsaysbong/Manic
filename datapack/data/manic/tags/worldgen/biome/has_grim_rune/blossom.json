@@ -3,6 +3,7 @@
   "values": [
     "minecraft:cherry_grove",
     "minecraft:flower_forest",
-    "minecraft:meadow"
+    "minecraft:meadow",
+    {"id": "blooming_biosphere:snowy_cherry_grove", "required": false}
   ]
 }

@@ -1,2 +1,5 @@
-execute as @p[gamemode=!creative,gamemode=!spectator,distance=..24] at @s anchored eyes positioned ^ ^ ^6 run summon marker ~ ~2 ~ {Tags:["manic.cackler_spawn"]}
-execute as @e[type=marker,tag=manic.cackler_spawn] at @s run function manic:entity/paracusia/cackler/spawning/as_marker
+scoreboard players add @s manic.dummy 1
+function manic:entity/paracusia/cackler/spawning/spread
+execute at @s if block ~ ~ ~ #nucleus:passthrough run function manic:entity/paracusia/cackler/summon/spawn
+execute at @s unless block ~ ~ ~ #nucleus:passthrough unless score @s manic.dummy matches 10.. if entity @s[tag=manic.cackler_spawn] run function manic:entity/paracusia/cackler/spawning/as_marker
+execute if score @s manic.dummy matches 10.. run kill @s

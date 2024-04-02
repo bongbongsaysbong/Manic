@@ -95,7 +95,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/nightmare_shackles"
+          "name": "manic:items/nightmare_pendant"
         },
         {
           "type": "minecraft:loot_table",
@@ -224,7 +224,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "manic:items/spectre_gelatin",
+          "name": "manic:items/spectral_gelatin",
           "functions": [
             {
               "function": "minecraft:set_count",

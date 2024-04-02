@@ -10,5 +10,10 @@
   },
   "rewards": {
     "function": "manic:entity/flagellant/spawning/open_chest"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

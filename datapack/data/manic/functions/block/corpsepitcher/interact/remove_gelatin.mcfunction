@@ -1,3 +1,4 @@
+data modify storage manic:storage root.temp.advancement set value 1b
 loot spawn ~ ~1 ~ loot manic:technical/items/corpsepitcher/gelatin
 scoreboard players set @s manic.dummy 0
 

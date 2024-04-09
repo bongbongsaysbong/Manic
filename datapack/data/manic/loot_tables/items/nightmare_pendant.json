@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,manic:{id:\"nightmare_pendant\"},sanguine:{allow_pus_repair:1b},nucleus:{durability:[16,16],repaired:1b,prevent_striders:1b},CustomModelData:8360002}"
+              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,manic:{id:\"nightmare_pendant\"},sanguine:{allow_pus_repair:1b},nucleus:{durability:[256,256],repaired:1b,prevent_striders:1b},CustomModelData:8360002}"
             },
             {
               "function": "minecraft:set_name",
@@ -25,8 +25,8 @@
                 {
                   "translate": "item.durability",
                   "with": [
-                    16,
-                    16
+                    256,
+                    256
                   ],
                   "color": "gray",
                   "italic": false

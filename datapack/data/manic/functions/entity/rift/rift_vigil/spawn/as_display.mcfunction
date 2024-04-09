@@ -17,5 +17,8 @@ function manic:block/grimstone_outcrop/spawning/main
 function manic:block/grimstone_outcrop/spawning/main
 function manic:block/grimstone_outcrop/spawning/main
 
+scoreboard players operation #manic.rift_id.temp manic.dummy = #manic.rift_id manic.dummy
 function manic:commands/summon/hades
 function manic:commands/summon/cerberus
+
+execute store result entity @s item.tag.manic.rift_id int 1 run scoreboard players get #manic.rift_id manic.dummy

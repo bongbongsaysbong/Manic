@@ -1,43 +1,5 @@
 [
   {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type": "#nucleus:preset/can_take_damage/include_players"
-    }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:enderman"
-      }
-    }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type": "minecraft:wandering_trader",
-        "nbt": "{Tags:[\"manic.eidolon\"]}"
-      }
-    }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Invulnerable:1b}"
-      }
-    }
-  },
-  {
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:entity_properties",
@@ -48,29 +10,7 @@
     }
   },
   {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "gamemode": "creative"
-        }
-      }
-    }
-  },
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "type_specific": {
-          "type": "player",
-          "gamemode": "spectator"
-        }
-      }
-    }
+    "condition": "minecraft:reference",
+    "name": "manic:entity/horror_target/normal"
   }
 ]

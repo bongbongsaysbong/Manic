@@ -1,0 +1,41 @@
+{
+  "parent": "manic:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "nbt": "{manic:{id:\"nightmare_pendant\"}}"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "manic:item/nightmare_pendant/damage"
+  }
+}

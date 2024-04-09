@@ -18,15 +18,11 @@
   "parent": "manic:manic/kill_spectre",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "entity": [
+        "items": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"manic.mirage\"]}"
-            }
+            "nbt": "{manic:{id:\"lysosome\"}}"
           }
         ]
       }

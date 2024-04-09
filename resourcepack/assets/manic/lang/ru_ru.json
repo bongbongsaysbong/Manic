@@ -350,7 +350,7 @@
 
 	"death.manic.darkness": "%s поддался темноте",
 
-	"gamerules.manic.title": "Игровые правила Manic",
+	"settings.nucleus.gamerules": "Игровые правила Manic",
 	"gamerules.manic.legacy_sanity": "Пассивное понижение рассудка: %s %s",
 	"gamerules.manic.legacy_sanity.desc": "Рассудок понижается в темноте, но может быть восстановлен сном.",
 	"gamerules.manic.legacy_sanity.warning": "Выключение пассивного понижения рассудка - экспериметнальная функция. Она может функционировать некорректно, дайте нам знать!",
@@ -370,11 +370,11 @@
 	"gamerules.manic.death_restores.desc": "Рассудок полностью восстанавливается после смерти. Рекоммендуем не включать ради сохранения баланса.",
 	"gamerules.manic.darkness_kills": "Темнота убивает: %s",
 	"gamerules.manic.darkness_kills.desc": "Темнота убивает вас на большой глубине.",
-	"gamerules.manic.true": "Вкл",
-	"gamerules.manic.false": "Выкл",
-	"gamerules.manic.reset": "Сбросить игровые правила",
+	"settings.nucleus.true": "Вкл",
+	"settings.nucleus.false": "Выкл",
+	"settings.nucleus.reset": "Сбросить игровые правила",
 
-	"settings.manic.title": "Персональные настройки Manic",
+	"settings.nucleus.title": "Персональные настройки Manic",
 	"settings.manic.wave": "Волнистоть экрана: %s",
 	"settings.manic.wave.desc": "Экран имеет лёгкий эффект волнистости при низком рассудке.",
 	"settings.manic.tentacle": "Щупальца: %s",

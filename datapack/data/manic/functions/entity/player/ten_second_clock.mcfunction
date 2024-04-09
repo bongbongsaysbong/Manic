@@ -19,4 +19,3 @@ execute if entity @s[tag=manic.marked_event.chase] if predicate manic:entity/mar
 execute if entity @s[tag=manic.player.has_grimstone_compass] run function manic:item/grimstone_compass/distance/main
 execute if entity @s[tag=manic.malefactor_maze,gamemode=!creative,gamemode=!spectator] run function manic:block/malefactor_nest/player/softlock/main
 
-execute unless score #manic.spawning.rift_vigil manic.dummy matches 1.. if entity @s[gamemode=!spectator,gamemode=!creative] if entity @s[tag=manic.player.killed_keeper] if predicate nucleus:chance/0.01 run function manic:entity/rift/rift_vigil/placement/main

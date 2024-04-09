@@ -5,3 +5,5 @@ playsound manic:block.horror_ward.ignite block @a[distance=..16]
 data modify storage manic:storage root.temp.result set value "durability"
 execute on vehicle run data modify entity @s item.tag.Damage set value 7
 tag @s add manic.horror_ward.enabled
+
+execute if data storage manic:storage root.gamerules{horror_ward_forceloading:1b} run forceload add ~ ~

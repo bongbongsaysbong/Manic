@@ -87,4 +87,4 @@ team modify manic.dropped_boss_item color green
 
 # Initialise
 scoreboard players set #manic.installed manic.dummy 1
-execute unless data storage manic:storage root.version{major:1,release:2,semiver:0} run function manic:technical/first_load
+execute unless data storage manic:storage root.version{major:1,release:2,semiver:1} run function manic:technical/first_load

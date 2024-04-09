@@ -1,5 +1,5 @@
-damage @e[predicate=nucleus:entity/hostile,nbt=!{Invulnerable:1b},limit=1,dx=0] 15 manic:flayed/variant by @s
-damage @e[predicate=nucleus:entity/hostile,nbt=!{Invulnerable:1b},limit=1,distance=..2] 15 manic:flayed/variant by @s
+damage @e[predicate=manic:entity/horror_seeker_target,nbt=!{Invulnerable:1b},limit=1,dx=0] 15 manic:flayed/variant by @s
+damage @e[predicate=manic:entity/horror_seeker_target,nbt=!{Invulnerable:1b},limit=1,distance=..2] 15 manic:flayed/variant by @s
 
 kill @s
 playsound manic:block.horror_seeker.acid hostile @a[distance=..16]

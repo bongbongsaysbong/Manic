@@ -1,3 +1,6 @@
+# Elderskin inlay
+execute if data storage manic:storage root.temp.ritual.ingredients[{tag:{manic:{id:"elderskin"}},Count:2b}] if data storage manic:storage root.temp.ritual.ingredients[{id:"minecraft:netherite_ingot"}] run return run function manic:rituals/recipes/craft/elderskin_inlay
+
 ## Anirrum altar recipes
 execute if entity @s[tag=manic.deepslate_altar] run return 0
 

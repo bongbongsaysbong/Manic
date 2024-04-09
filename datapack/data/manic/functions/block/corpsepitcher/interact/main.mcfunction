@@ -14,5 +14,6 @@ execute if data storage manic:storage root.temp{result:"dip_charonite_ingot"} ru
 execute if data storage manic:storage root.temp{result:"convert_anirrum"} run function manic:block/corpsepitcher/interact/anirrum/convert/as_player
 execute if data storage manic:storage root.temp{result:"anirrum_trim"} run function manic:block/corpsepitcher/interact/anirrum/trim/as_player
 
-# Revoke Advancement
+# Advancement
 advancement revoke @s only manic:technical/player_interacted_with_entity/block/corpsepitcher
+execute if data storage manic:storage root.temp{advancement:1b} run advancement grant @s only manic:manic/corpsepitcher

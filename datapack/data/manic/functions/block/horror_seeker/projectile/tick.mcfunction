@@ -4,6 +4,6 @@ tp @s ^ ^ ^1
 scoreboard players add @s manic.dummy 1
 execute at @s if score @s manic.dummy matches 30.. run return run function manic:block/horror_seeker/projectile/damage
 
-execute at @s if entity @e[predicate=nucleus:entity/hostile,nbt=!{Invulnerable:1b},dx=0] run return run function manic:block/horror_seeker/projectile/damage
-execute at @s if entity @e[predicate=nucleus:entity/hostile,nbt=!{Invulnerable:1b},distance=..2] run return run function manic:block/horror_seeker/projectile/damage
+execute at @s if entity @e[predicate=manic:entity/horror_seeker_target,nbt=!{Invulnerable:1b},dx=0] run return run function manic:block/horror_seeker/projectile/damage
+execute at @s if entity @e[predicate=manic:entity/horror_seeker_target,nbt=!{Invulnerable:1b},distance=..2] run return run function manic:block/horror_seeker/projectile/damage
 execute at @s if entity @s unless block ~ ~ ~ #nucleus:passthrough run function manic:block/horror_seeker/projectile/damage

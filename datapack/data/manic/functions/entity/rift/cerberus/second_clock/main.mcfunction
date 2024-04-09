@@ -1,5 +1,5 @@
 execute if score @s nucleus.frames matches 1.. run return 0
-execute if entity @s[tag=manic.cerberus.fallen] run return run function manic:entity/rift/cerberus/second_clock/fallen
+execute if entity @s[tag=manic.cerberus.fallen] run return run function manic:entity/rift/cerberus/second_clock/fallen with entity @s ArmorItems[3].tag.manic
 execute if entity @a[gamemode=!creative,gamemode=!spectator,distance=..24] unless entity @e[type=minecraft:vindicator,tag=manic.hades.base,distance=..48] run function nucleus:entity/trader/ai/track_nearest_player_survival
 execute unless entity @e[type=minecraft:vindicator,tag=manic.hades.base,distance=..48] run function nucleus:entity/cerberus/track_hades
 

@@ -1,1 +1,0 @@
-execute unless entity @e[type=minecraft:item_display,tag=manic.rift_vigil,distance=..128] unless entity @s[distance=..60] unless entity @e[type=minecraft:interaction,tag=manic.horror_ward.enabled,distance=..128] if loaded ~ ~ ~ run function manic:entity/rift/rift_vigil/placement/raycast/raycast

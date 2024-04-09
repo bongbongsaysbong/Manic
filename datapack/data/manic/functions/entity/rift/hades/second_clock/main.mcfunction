@@ -1,4 +1,4 @@
-execute if entity @s[tag=manic.hades.fallen] run return run function manic:entity/rift/hades/second_clock/fallen
+execute if entity @s[tag=manic.hades.fallen] run return run function manic:entity/rift/hades/second_clock/fallen with entity @s ArmorItems[3].tag.manic
 execute if entity @s[tag=manic.hades.dead] run return 0
 
 execute if predicate nucleus:chance/0.05 run playsound manic:entity.hades.ambient hostile @a[distance=..16]

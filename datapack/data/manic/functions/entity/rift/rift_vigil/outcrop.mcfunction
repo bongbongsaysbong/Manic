@@ -8,6 +8,3 @@ execute unless score #outcrop manic.dummy matches 3.. run function manic:block/g
 execute unless score #outcrop manic.dummy matches 4.. run function manic:block/grimstone_outcrop/spawning/main
 execute unless score #outcrop manic.dummy matches 5.. run function manic:block/grimstone_outcrop/spawning/main
 execute unless score #outcrop manic.dummy matches 6.. run function manic:block/grimstone_outcrop/spawning/main
-
-execute unless entity @e[type=minecraft:vindicator,tag=manic.hades.base] run function manic:commands/summon/hades
-execute unless entity @e[type=minecraft:wandering_trader,tag=manic.cerberus] run function manic:commands/summon/cerberus

@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "manic:items/music_disc_ad_nowise",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_pickaxe",
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.5,
+                    "max": 0.8
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 5,
+                    "max": 8
+                  },
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_axe",
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.5,
+                    "max": 0.8
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 5,
+                    "max": 8
+                  },
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_sword",
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.5,
+                    "max": 0.8
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 5,
+                    "max": 8
+                  },
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_shovel",
+              "functions": [
+                {
+                  "function": "minecraft:set_damage",
+                  "damage": {
+                    "min": 0.5,
+                    "max": 0.8
+                  }
+                },
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 5,
+                    "max": 8
+                  },
+                  "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "manic:gameplay/archaeology/occult_idol/snowy"
+}

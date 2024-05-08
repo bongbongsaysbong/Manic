@@ -108,6 +108,24 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "manic:occult_idol/grassy/archaeology1",
+        "processors": "manic:stone_and_cobblestone_moss",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "manic:occult_idol/grassy/archaeology2",
+        "processors": "manic:stone_and_cobblestone_moss",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }

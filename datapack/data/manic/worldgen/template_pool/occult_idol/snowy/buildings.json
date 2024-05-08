@@ -81,6 +81,15 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "manic:occult_idol/snowy/archaeology1",
+        "processors": "manic:stone_bricks_cracked",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
